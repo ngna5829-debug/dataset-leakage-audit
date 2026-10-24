@@ -1,0 +1,81 @@
+{
+  "origin": "self_drawn_construction_truth_not_model_or_human",
+  "known_source_positive_pairs": 252,
+  "retrieved_known_pairs": 244,
+  "known_hard_negative_pairs": 153,
+  "hard_negative_candidates": 153,
+  "by_transform": {
+    "original+renamed": {
+      "known_pairs": 24,
+      "retrieved_pairs": 24,
+      "media_candidate_pairs": 24
+    },
+    "jpeg+original": {
+      "known_pairs": 24,
+      "retrieved_pairs": 24,
+      "media_candidate_pairs": 24
+    },
+    "original+resize": {
+      "known_pairs": 24,
+      "retrieved_pairs": 24,
+      "media_candidate_pairs": 24
+    },
+    "crop+original": {
+      "known_pairs": 24,
+      "retrieved_pairs": 24,
+      "media_candidate_pairs": 2
+    },
+    "jpeg+renamed": {
+      "known_pairs": 24,
+      "retrieved_pairs": 24,
+      "media_candidate_pairs": 24
+    },
+    "renamed+resize": {
+      "known_pairs": 24,
+      "retrieved_pairs": 24,
+      "media_candidate_pairs": 24
+    },
+    "crop+renamed": {
+      "known_pairs": 24,
+      "retrieved_pairs": 24,
+      "media_candidate_pairs": 2
+    },
+    "jpeg+resize": {
+      "known_pairs": 24,
+      "retrieved_pairs": 24,
+      "media_candidate_pairs": 24
+    },
+    "crop+jpeg": {
+      "known_pairs": 24,
+      "retrieved_pairs": 24,
+      "media_candidate_pairs": 2
+    },
+    "crop+resize": {
+      "known_pairs": 24,
+      "retrieved_pairs": 24,
+      "media_candidate_pairs": 2
+    },
+    "original+reencoded": {
+      "known_pairs": 4,
+      "retrieved_pairs": 4,
+      "media_candidate_pairs": 4
+    },
+    "original+reversed": {
+      "known_pairs": 4,
+      "retrieved_pairs": 0,
+      "media_candidate_pairs": 0
+    },
+    "reencoded+reversed": {
+      "known_pairs": 4,
+      "retrieved_pairs": 0,
+      "media_candidate_pairs": 0
+    }
+  },
+  "not_estimated": [
+    "natural-data recall",
+    "human precision",
+    "copyright",
+    "training membership"
+  ],
+  "interpretation": "所有已知同源 pair（包括未检索到的反序视频）均计分母。文本与声明命中可能掩盖媒体漏检，故另列 media_candidate_pairs。"
+}

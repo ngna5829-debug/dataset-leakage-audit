@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="同一份素材改名、压缩或缩放后，是否跨进了不同数据集？ 保留同字节证据、来源声明与相似候选，查看双图并填写复核，再提出不拆散来源组的划分建议。">
+<title>数据来源泄漏审计 · AIGC 评测学习作品集</title>
+<style>*{box-sizing:border-box}html{color-scheme:light}body{margin:0;font:17px/1.75 system-ui,-apple-system,"PingFang SC",sans-serif;color:#17313d;background:#f2f6f5;overflow-wrap:anywhere}main{max-width:1020px;margin:auto;padding:32px 22px 60px}a{color:#09645e;text-underline-offset:4px}a:hover{color:#053c38}a:focus-visible{outline:3px solid #b45309;outline-offset:4px}.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:8px;background:white;padding:8px}.eyebrow{font-size:14px;letter-spacing:.06em;color:#48616b}h1{font-size:clamp(1.7rem,5vw,2.7rem);line-height:1.3;margin:14px 0}h2{font-size:1.35rem;margin-top:0}.intro{max-width:820px;font-size:1.12rem}.status{padding:12px 16px;border-left:4px solid #a05b16;background:#fff5e5;font-size:.92rem;margin:24px 0}.links{display:flex;flex-wrap:wrap;gap:12px 20px}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:16px;margin:18px 0 28px}.card,section{background:#fff;border:1px solid #d8e2df;border-radius:12px;padding:22px}.card p{font-size:.94rem;margin-bottom:0;color:#48616b}section{margin:18px 0}footer{font-size:.9rem;color:#48616b}code{font-size:.92em;background:#edf2f1;padding:2px 5px;border-radius:4px}ul{padding-left:22px}@media(max-width:480px){main{padding:24px 16px 40px}.card,section{padding:18px}}</style>
+</head>
+<body>
+<a class="skip" href="#main">跳到主要内容</a>
+<main id="main">
+<header><p class="eyebrow">AIGC 评测学习作品集 · 项目 04 / 05</p><h1>同一份素材改名、压缩或缩放后，是否跨进了不同数据集？</h1><p class="intro">保留同字节证据、来源声明与相似候选，查看双图并填写复核，再提出不拆散来源组的划分建议。</p></header>
+<nav aria-label="项目与学习入口" class="links"><a href="https://github.com/ngna5829-debug/dataset-leakage-audit">源代码与 README</a><a href="https://github.com/ngna5829-debug/dataset-leakage-audit/blob/main/docs/TUTORIAL.zh-CN.md">中文教材专章</a><a href="https://github.com/ngna5829-debug/edit-regression-lab/releases/download/v2.0.0/aigc-evaluation-textbook-v2.pdf">统一教材 PDF（v2.0.0）</a><a href="https://github.com/ngna5829-debug/dataset-leakage-audit/actions/workflows/test.yml">查看 CI 运行</a></nav>
+<h2>从一个已保存的案例开始</h2>
+<div class="cards"><article class="card"><a href="examples/demo_v2/review.html">打开中文候选复核台</a><p>查看跨集合、命中原因与双图证据。</p></article><article class="card"><a href="examples/reviewed_v2/review.html">查看构造标签回灌示例</a><p>两条 construction_truth_fixture 不是真人评分。</p></article><article class="card"><a href="examples/demo_v2/construction_metrics.json">查看构造诊断数字</a><p>这些分母只适用于附带夹具。</p></article></div>
+<section aria-labelledby="case"><h2 id="case">实际案例</h2><p>150 项构造素材产生 397 对候选，其中 304 对跨集合；153 对困难负例全部进入候选。候选必须结合来源和画面复核。</p><a href="https://github.com/ngna5829-debug/dataset-leakage-audit/blob/main/docs/CASE_STUDY.zh-CN.md">阅读案例与失败原因</a></section>
+<section aria-labelledby="scope"><h2 id="scope">当前模拟与真实范围</h2><p>138 张自绘图片与 12 段受控视频，不是自然数据基准。已知同源的 252 对中检索到 244 对，8 个反序视频关系漏检。未运行模型推理，公开复核仅有构造标签示例。</p><p>网页展示保存的审计结果并管理本机草稿。扫描、正式复核导入及划分建议需要本机 Python；建议不会自动移动或删除素材。</p></section>
+<section aria-labelledby="learn"><h2 id="learn">在自己的电脑上继续学习</h2><ul><li><a href="https://github.com/ngna5829-debug/dataset-leakage-audit/blob/main/docs/GETTING_STARTED.zh-CN.md">从零安装与第一次运行</a>：按教程创建独立环境，先复现固定案例。</li><li><a href="https://github.com/ngna5829-debug/dataset-leakage-audit/blob/main/docs/TUTORIAL.zh-CN.md">中文教材专章</a>：理解输入、分母、失败与验证方法。</li><li><a href="https://github.com/ngna5829-debug/dataset-leakage-audit/blob/main/MY_WORK.md">个人增量挑战</a>：记录自己理解、修改与验证的贡献。</li></ul><p>安装仓库包后，可用 <code>leakage-audit --help</code> 查看命令。具体环境与运行路径以入门教程为准。</p></section>
+<footer><p>本项目是 AI 辅助实现与审查的学习起点。页面展示现有证据，不将模拟结果、模型返回成功或程序完成写成质量保证。</p><p><a href="https://github.com/ngna5829-debug/dataset-leakage-audit">dataset-leakage-audit</a> · <a href="https://github.com/ngna5829-debug/edit-regression-lab/releases/download/v2.0.0/aigc-evaluation-textbook-v2.pdf">同一版完整教材 PDF（v2.0.0）</a></p></footer>
+</main>
+</body>
+</html>

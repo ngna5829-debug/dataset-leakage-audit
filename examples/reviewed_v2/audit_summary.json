@@ -1,0 +1,48 @@
+{
+  "planned_assets": 150,
+  "audited_assets": 150,
+  "decode_failures": 0,
+  "coverage": 1.0,
+  "planned_split_counts": {
+    "train": 50,
+    "calibration": 46,
+    "test": 54
+  },
+  "eligible_split_counts": {
+    "train": 50,
+    "calibration": 46,
+    "test": 54
+  },
+  "all_pair_universe": 11175,
+  "decoded_pair_universe": 11175,
+  "cross_split_pair_universe": {
+    "calibration__test": 2484,
+    "calibration__train": 2300,
+    "test__train": 2700
+  },
+  "eligible_cross_split_pair_universe": {
+    "calibration__test": 2484,
+    "calibration__train": 2300,
+    "test__train": 2700
+  },
+  "text_eligible_assets": 138,
+  "candidate_pairs": 397,
+  "cross_split_candidate_pairs": 304,
+  "reviewed_pairs": 2,
+  "unresolved_candidate_pairs": 395,
+  "precision_on_adjudicated_candidates": 0.5,
+  "precision_denominator": 2,
+  "review_origin_counts": {
+    "construction_truth_fixture": 2
+  },
+  "distinct_reviews_conflicting_with_bytes_or_declaration": 0,
+  "confirmed_or_declared_edges": 132,
+  "confirmed_cross_split_edges": 108,
+  "confirmed_train_linked_test_assets": 24,
+  "eligible_test_assets": 54,
+  "test_asset_leakage_lower_bound": 0.4444444444444444,
+  "confirmed_components": 90,
+  "cross_split_components": 24,
+  "max_component_size": 5,
+  "possible_components": 33
+}

@@ -1,0 +1,22 @@
+
+test_asset_change_changes_input_binding (test_audit.LeakageTests.test_asset_change_changes_input_binding) ... ok
+test_bytes_confirm_but_visual_candidate_does_not_union (test_audit.LeakageTests.test_bytes_confirm_but_visual_candidate_does_not_union) ... ok
+test_chain_never_invents_pair_confirmation (test_audit.LeakageTests.test_chain_never_invents_pair_confirmation) ... ok
+test_chinese_ngram_normalization (test_audit.LeakageTests.test_chinese_ngram_normalization) ... ok
+test_duplicate_ids_rejected_before_output (test_audit.LeakageTests.test_duplicate_ids_rejected_before_output) ... ok
+test_failed_decode_keeps_denominator_and_no_clean (test_audit.LeakageTests.test_failed_decode_keeps_denominator_and_no_clean) ... ok
+test_invalid_cli_writes_blocked_envelope (test_audit.LeakageTests.test_invalid_cli_writes_blocked_envelope) ... 未完成：DUPLICATE_ID：第 3 行 asset_id 为空或重复：a
+请修正该项后使用新的输出目录重试。
+ok
+test_manual_pair_can_record_algorithm_miss (test_audit.LeakageTests.test_manual_pair_can_record_algorithm_miss) ... ok
+test_one_test_asset_twenty_train_edges_count_once (test_audit.LeakageTests.test_one_test_asset_twenty_train_edges_count_once) ... ok
+test_review_binding_is_atomic_and_valid_review_splits (test_audit.LeakageTests.test_review_binding_is_atomic_and_valid_review_splits) ... ok
+test_tampered_artifact_refuses_review_and_split (test_audit.LeakageTests.test_tampered_artifact_refuses_review_and_split) ... ok
+test_unknown_source_not_one_group (test_audit.LeakageTests.test_unknown_source_not_one_group) ... ok
+test_valid_manual_pair_is_added_with_review (test_audit.LeakageTests.test_valid_manual_pair_is_added_with_review) ... ok
+test_video_requires_order_and_multiple_frames (test_audit.LeakageTests.test_video_requires_order_and_multiple_frames) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.532s
+
+OK

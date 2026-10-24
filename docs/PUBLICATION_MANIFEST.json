@@ -1,0 +1,9 @@
+{
+  "schema_version": "publication-transform-v1",
+  "changed": [],
+  "removed": [],
+  "raw_private_distributed": false,
+  "preserved_algorithm_source": true,
+  "book_chapters_edited": false,
+  "scope": "Public derivative transformations; original numerical outcomes/timings retained, no new experiment claim."
+}

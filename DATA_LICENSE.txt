@@ -1,0 +1,9 @@
+The original program-drawn images, generated videos and constructed relation
+annotations in examples/demo_v2/input/ are offered under CC0-1.0, as already
+declared in DATA_CARD.md:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+This covers only the repository's own build_demo() fixtures. It is not a grant
+for user-imported files, third-party datasets, models, or provenance assertions
+made by users. Source code and documentation are under the software LICENSE.
+Constructed fixture reviews are not human participant data.

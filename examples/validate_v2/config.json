@@ -1,0 +1,21 @@
+{
+  "schema_version": "2.0",
+  "declared_splits": [
+    "train",
+    "calibration",
+    "test"
+  ],
+  "dhash_bits": 64,
+  "image_hamming_max": 6,
+  "text_ngram": 3,
+  "text_jaccard_min": 0.8,
+  "text_min_chars": 8,
+  "video_sample_interval_s": 0.5,
+  "video_max_frames": 900,
+  "video_hamming_max": 6,
+  "video_min_consecutive": 3,
+  "video_min_match_fraction": 0.75,
+  "video_min_duration_ratio": 0.8,
+  "max_assets": 1000,
+  "policy": "exact_bytes_or_declared_source_or_confirmed_duplicate_related"
+}

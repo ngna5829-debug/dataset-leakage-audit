@@ -1,0 +1,6486 @@
+{
+  "schema_version": "2.0",
+  "evaluator_version": "2.0.0",
+  "pair_scan_completed": false,
+  "manifest_digest": "9b85b2a66afbd8edf371aafc222a0fcaf24b3cad33c7fc9874d78177f90ca363",
+  "input_digest": "3ccd857b78c3a7fe0e591b2ae48703c77d83fc4cad057ef3b700723eebf6fc6f",
+  "config_digest": "7d6dab0a1dab91047b501cc2a4c392cdca28f80df3799613d774e58d232318a7",
+  "config": {
+    "schema_version": "2.0",
+    "declared_splits": [
+      "train",
+      "calibration",
+      "test"
+    ],
+    "dhash_bits": 64,
+    "image_hamming_max": 6,
+    "text_ngram": 3,
+    "text_jaccard_min": 0.8,
+    "text_min_chars": 8,
+    "video_sample_interval_s": 0.5,
+    "video_max_frames": 900,
+    "video_hamming_max": 6,
+    "video_min_consecutive": 3,
+    "video_min_match_fraction": 0.75,
+    "video_min_duration_ratio": 0.8,
+    "max_assets": 1000,
+    "policy": "exact_bytes_or_declared_source_or_confirmed_duplicate_related"
+  },
+  "assets": [
+    {
+      "asset_id": "f00_original",
+      "path": "media/f00_original.png",
+      "split": "train",
+      "source_group": "f00",
+      "media_type": "image",
+      "text": "红色纸鸟停在旧车站的木椅上",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "红色纸鸟停在旧车站的木椅上",
+      "normalized_text_sha256": "b90b485988e53623c3f55540a7d916ca5969ce8c2e2d2d78e54cd5bbef4e10ed",
+      "text_ngrams": [
+        "停在旧",
+        "在旧车",
+        "旧车站",
+        "木椅上",
+        "的木椅",
+        "站的木",
+        "红色纸",
+        "纸鸟停",
+        "色纸鸟",
+        "车站的",
+        "鸟停在"
+      ],
+      "sha256": "0325b30f8723c7af7c99111bb954236798a3faabde3dc5b6c6a164e42f4e4ea0",
+      "decode_status": "ok",
+      "byte_size": 2209,
+      "width": 192,
+      "height": 144,
+      "dhash": "9e6c4bb0b493926c",
+      "canonical_pixel_sha256": "82efd69c75d538c9bb16746e3b315529c83f4b1a29476821e4eb51c98ca02aa2",
+      "thumbnail": "evidence/cce5ecc387981bc65345faa5.jpg"
+    },
+    {
+      "asset_id": "f00_renamed",
+      "path": "media/f00_renamed.png",
+      "split": "calibration",
+      "source_group": "f00",
+      "media_type": "image",
+      "text": "红色纸鸟停在旧车站的木椅上",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "红色纸鸟停在旧车站的木椅上",
+      "normalized_text_sha256": "b90b485988e53623c3f55540a7d916ca5969ce8c2e2d2d78e54cd5bbef4e10ed",
+      "text_ngrams": [
+        "停在旧",
+        "在旧车",
+        "旧车站",
+        "木椅上",
+        "的木椅",
+        "站的木",
+        "红色纸",
+        "纸鸟停",
+        "色纸鸟",
+        "车站的",
+        "鸟停在"
+      ],
+      "sha256": "0325b30f8723c7af7c99111bb954236798a3faabde3dc5b6c6a164e42f4e4ea0",
+      "decode_status": "ok",
+      "byte_size": 2209,
+      "width": 192,
+      "height": 144,
+      "dhash": "9e6c4bb0b493926c",
+      "canonical_pixel_sha256": "82efd69c75d538c9bb16746e3b315529c83f4b1a29476821e4eb51c98ca02aa2",
+      "thumbnail": "evidence/0f386be7809cd299e7fb3c20.jpg"
+    },
+    {
+      "asset_id": "f00_jpeg",
+      "path": "media/f00_jpeg.jpg",
+      "split": "test",
+      "source_group": "f00",
+      "media_type": "image",
+      "text": "红色纸鸟停在旧车站的木椅上",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "红色纸鸟停在旧车站的木椅上",
+      "normalized_text_sha256": "b90b485988e53623c3f55540a7d916ca5969ce8c2e2d2d78e54cd5bbef4e10ed",
+      "text_ngrams": [
+        "停在旧",
+        "在旧车",
+        "旧车站",
+        "木椅上",
+        "的木椅",
+        "站的木",
+        "红色纸",
+        "纸鸟停",
+        "色纸鸟",
+        "车站的",
+        "鸟停在"
+      ],
+      "sha256": "da76be768d6e24cdc863ae5bbb6550d756d94e78faaad63aaaf9c1670bffb6f0",
+      "decode_status": "ok",
+      "byte_size": 3056,
+      "width": 192,
+      "height": 144,
+      "dhash": "9e6c4bb0b493926c",
+      "canonical_pixel_sha256": "e04acdf34db283ed765b9602fd5937c3e2855283b12e8ef719ddfe6b0eb9349a",
+      "thumbnail": "evidence/e68a1c536372a4d61fc3c5c4.jpg"
+    },
+    {
+      "asset_id": "f00_resize",
+      "path": "media/f00_resize.png",
+      "split": "train",
+      "source_group": "f00",
+      "media_type": "image",
+      "text": "红色纸鸟停在旧车站的木椅上",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "红色纸鸟停在旧车站的木椅上",
+      "normalized_text_sha256": "b90b485988e53623c3f55540a7d916ca5969ce8c2e2d2d78e54cd5bbef4e10ed",
+      "text_ngrams": [
+        "停在旧",
+        "在旧车",
+        "旧车站",
+        "木椅上",
+        "的木椅",
+        "站的木",
+        "红色纸",
+        "纸鸟停",
+        "色纸鸟",
+        "车站的",
+        "鸟停在"
+      ],
+      "sha256": "507c2b398186d09d59ceff3bf3e11bd0c9a9771926a4a9d833a91788260b702b",
+      "decode_status": "ok",
+      "byte_size": 3969,
+      "width": 96,
+      "height": 72,
+      "dhash": "9e6c4bb0b493926c",
+      "canonical_pixel_sha256": "2a8413b8e3fbfe2d1774e83e78390f7b18f626dcb07809a6832bba8e502bb1fd",
+      "thumbnail": "evidence/ff8ce5661f5186461a8a929a.jpg"
+    },
+    {
+      "asset_id": "f00_crop",
+      "path": "media/f00_crop.png",
+      "split": "calibration",
+      "source_group": "f00",
+      "media_type": "image",
+      "text": "红色纸鸟停在旧车站的木椅上",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "红色纸鸟停在旧车站的木椅上",
+      "normalized_text_sha256": "b90b485988e53623c3f55540a7d916ca5969ce8c2e2d2d78e54cd5bbef4e10ed",
+      "text_ngrams": [
+        "停在旧",
+        "在旧车",
+        "旧车站",
+        "木椅上",
+        "的木椅",
+        "站的木",
+        "红色纸",
+        "纸鸟停",
+        "色纸鸟",
+        "车站的",
+        "鸟停在"
+      ],
+      "sha256": "9e5aa27752a38c3637f1232d78dd2159ffbfe94d88b16f05ff6fe8655787b91c",
+      "decode_status": "ok",
+      "byte_size": 2071,
+      "width": 168,
+      "height": 128,
+      "dhash": "1fc8db35b5929272",
+      "canonical_pixel_sha256": "9e7025af0590e98bd3a46b218a6dd652b32528e8f81a7f539d31629f0114e78c",
+      "thumbnail": "evidence/12e81549dc60e96dbaf41e78.jpg"
+    },
+    {
+      "asset_id": "f01_original",
+      "path": "media/f01_original.png",
+      "split": "calibration",
+      "source_group": "f01",
+      "media_type": "image",
+      "text": "蓝色玻璃花瓶装着三支黄色郁金香",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "蓝色玻璃花瓶装着三支黄色郁金香",
+      "normalized_text_sha256": "802cad8e690afee4c7b083905ae359a9b455a1e92bd18724dbb1529aeb88b05b",
+      "text_ngrams": [
+        "三支黄",
+        "支黄色",
+        "玻璃花",
+        "璃花瓶",
+        "瓶装着",
+        "着三支",
+        "色玻璃",
+        "色郁金",
+        "花瓶装",
+        "蓝色玻",
+        "装着三",
+        "郁金香",
+        "黄色郁"
+      ],
+      "sha256": "87779e282b7054bf9c562f45bb153c1420f2aca1a2bf08e011237da895cadac2",
+      "decode_status": "ok",
+      "byte_size": 2286,
+      "width": 192,
+      "height": 144,
+      "dhash": "4cbc34a6a97c36b6",
+      "canonical_pixel_sha256": "bbac915727952be309a05ed04f5a9c23e30a3c87e4f2f6e94c4b210aa29750eb",
+      "thumbnail": "evidence/c013dd7e18737b90f29a7dca.jpg"
+    },
+    {
+      "asset_id": "f01_renamed",
+      "path": "media/f01_renamed.png",
+      "split": "test",
+      "source_group": "f01",
+      "media_type": "image",
+      "text": "蓝色玻璃花瓶装着三支黄色郁金香",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "蓝色玻璃花瓶装着三支黄色郁金香",
+      "normalized_text_sha256": "802cad8e690afee4c7b083905ae359a9b455a1e92bd18724dbb1529aeb88b05b",
+      "text_ngrams": [
+        "三支黄",
+        "支黄色",
+        "玻璃花",
+        "璃花瓶",
+        "瓶装着",
+        "着三支",
+        "色玻璃",
+        "色郁金",
+        "花瓶装",
+        "蓝色玻",
+        "装着三",
+        "郁金香",
+        "黄色郁"
+      ],
+      "sha256": "87779e282b7054bf9c562f45bb153c1420f2aca1a2bf08e011237da895cadac2",
+      "decode_status": "ok",
+      "byte_size": 2286,
+      "width": 192,
+      "height": 144,
+      "dhash": "4cbc34a6a97c36b6",
+      "canonical_pixel_sha256": "bbac915727952be309a05ed04f5a9c23e30a3c87e4f2f6e94c4b210aa29750eb",
+      "thumbnail": "evidence/873bf103d746eacac0997838.jpg"
+    },
+    {
+      "asset_id": "f01_jpeg",
+      "path": "media/f01_jpeg.jpg",
+      "split": "train",
+      "source_group": "f01",
+      "media_type": "image",
+      "text": "蓝色玻璃花瓶装着三支黄色郁金香",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "蓝色玻璃花瓶装着三支黄色郁金香",
+      "normalized_text_sha256": "802cad8e690afee4c7b083905ae359a9b455a1e92bd18724dbb1529aeb88b05b",
+      "text_ngrams": [
+        "三支黄",
+        "支黄色",
+        "玻璃花",
+        "璃花瓶",
+        "瓶装着",
+        "着三支",
+        "色玻璃",
+        "色郁金",
+        "花瓶装",
+        "蓝色玻",
+        "装着三",
+        "郁金香",
+        "黄色郁"
+      ],
+      "sha256": "ee9bdf868b5508e429e613a6b38eddd331de66a4a977415625d0a329ae105e82",
+      "decode_status": "ok",
+      "byte_size": 3418,
+      "width": 192,
+      "height": 144,
+      "dhash": "4cbc34a6a97c36b6",
+      "canonical_pixel_sha256": "82d52e8279243174a24faa23d527cfbdf1ccbab20ed9bcccc2440a48973dd16a",
+      "thumbnail": "evidence/3f65ff2a3f067747890bc51c.jpg"
+    },
+    {
+      "asset_id": "f01_resize",
+      "path": "media/f01_resize.png",
+      "split": "calibration",
+      "source_group": "f01",
+      "media_type": "image",
+      "text": "蓝色玻璃花瓶装着三支黄色郁金香",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "蓝色玻璃花瓶装着三支黄色郁金香",
+      "normalized_text_sha256": "802cad8e690afee4c7b083905ae359a9b455a1e92bd18724dbb1529aeb88b05b",
+      "text_ngrams": [
+        "三支黄",
+        "支黄色",
+        "玻璃花",
+        "璃花瓶",
+        "瓶装着",
+        "着三支",
+        "色玻璃",
+        "色郁金",
+        "花瓶装",
+        "蓝色玻",
+        "装着三",
+        "郁金香",
+        "黄色郁"
+      ],
+      "sha256": "bbbf56218b2394875f273e92229f47ee30c4f3d7bccf86ec8c546b78ac57ec42",
+      "decode_status": "ok",
+      "byte_size": 4368,
+      "width": 96,
+      "height": 72,
+      "dhash": "4cbc34a6a97c36b6",
+      "canonical_pixel_sha256": "7de863fd589ee5509db8c0e2820e501780656cb7eaa3fc9b836920fd58c1e39d",
+      "thumbnail": "evidence/ec0b3b6659dcc8206819ceda.jpg"
+    },
+    {
+      "asset_id": "f01_crop",
+      "path": "media/f01_crop.png",
+      "split": "test",
+      "source_group": "f01",
+      "media_type": "image",
+      "text": "蓝色玻璃花瓶装着三支黄色郁金香",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "蓝色玻璃花瓶装着三支黄色郁金香",
+      "normalized_text_sha256": "802cad8e690afee4c7b083905ae359a9b455a1e92bd18724dbb1529aeb88b05b",
+      "text_ngrams": [
+        "三支黄",
+        "支黄色",
+        "玻璃花",
+        "璃花瓶",
+        "瓶装着",
+        "着三支",
+        "色玻璃",
+        "色郁金",
+        "花瓶装",
+        "蓝色玻",
+        "装着三",
+        "郁金香",
+        "黄色郁"
+      ],
+      "sha256": "cf3e190766f22ad46aff840a10accb8546a8e31ed08c390e9929ee322d0f21b4",
+      "decode_status": "ok",
+      "byte_size": 2136,
+      "width": 168,
+      "height": 128,
+      "dhash": "4cb434a7a9f81eb6",
+      "canonical_pixel_sha256": "691a5027b7ab32e9c8fe1ac11ddb63117388010d2f75de2224768dfbe9ca9ea9",
+      "thumbnail": "evidence/4989f6f71505e27f44efcce7.jpg"
+    },
+    {
+      "asset_id": "f02_original",
+      "path": "media/f02_original.png",
+      "split": "test",
+      "source_group": "f02",
+      "media_type": "image",
+      "text": "圆形茶杯放在绿色书本旁边",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "圆形茶杯放在绿色书本旁边",
+      "normalized_text_sha256": "a1ac7358246702b3b633752179b3fc5190deb9f6c3a283d84f10a55179669396",
+      "text_ngrams": [
+        "书本旁",
+        "圆形茶",
+        "在绿色",
+        "形茶杯",
+        "放在绿",
+        "本旁边",
+        "杯放在",
+        "绿色书",
+        "色书本",
+        "茶杯放"
+      ],
+      "sha256": "22f055d9362e4dea51a59d7944ece184d8c267ed7ce8d2c689bf959feb8bd6d7",
+      "decode_status": "ok",
+      "byte_size": 2347,
+      "width": 192,
+      "height": 144,
+      "dhash": "0eb036d6f2661616",
+      "canonical_pixel_sha256": "cbd99823b483d607df60ffb18d7e585c928038f1d930e3be54f262297283e000",
+      "thumbnail": "evidence/f304055341425a0dcb443f3e.jpg"
+    },
+    {
+      "asset_id": "f02_renamed",
+      "path": "media/f02_renamed.png",
+      "split": "train",
+      "source_group": "f02",
+      "media_type": "image",
+      "text": "圆形茶杯放在绿色书本旁边",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "圆形茶杯放在绿色书本旁边",
+      "normalized_text_sha256": "a1ac7358246702b3b633752179b3fc5190deb9f6c3a283d84f10a55179669396",
+      "text_ngrams": [
+        "书本旁",
+        "圆形茶",
+        "在绿色",
+        "形茶杯",
+        "放在绿",
+        "本旁边",
+        "杯放在",
+        "绿色书",
+        "色书本",
+        "茶杯放"
+      ],
+      "sha256": "22f055d9362e4dea51a59d7944ece184d8c267ed7ce8d2c689bf959feb8bd6d7",
+      "decode_status": "ok",
+      "byte_size": 2347,
+      "width": 192,
+      "height": 144,
+      "dhash": "0eb036d6f2661616",
+      "canonical_pixel_sha256": "cbd99823b483d607df60ffb18d7e585c928038f1d930e3be54f262297283e000",
+      "thumbnail": "evidence/17624cfeb9bc891fb660868e.jpg"
+    },
+    {
+      "asset_id": "f02_jpeg",
+      "path": "media/f02_jpeg.jpg",
+      "split": "calibration",
+      "source_group": "f02",
+      "media_type": "image",
+      "text": "圆形茶杯放在绿色书本旁边",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "圆形茶杯放在绿色书本旁边",
+      "normalized_text_sha256": "a1ac7358246702b3b633752179b3fc5190deb9f6c3a283d84f10a55179669396",
+      "text_ngrams": [
+        "书本旁",
+        "圆形茶",
+        "在绿色",
+        "形茶杯",
+        "放在绿",
+        "本旁边",
+        "杯放在",
+        "绿色书",
+        "色书本",
+        "茶杯放"
+      ],
+      "sha256": "d5146668dde510014c730d739987b9c5becf6ce179eb7c0351e4a6a005fa9d69",
+      "decode_status": "ok",
+      "byte_size": 3077,
+      "width": 192,
+      "height": 144,
+      "dhash": "0eb036f6f2661616",
+      "canonical_pixel_sha256": "243dd60446bdd46248048fa4545415d741a055e8006cbee79d6ff6f0642a43cb",
+      "thumbnail": "evidence/c150188586948c0443f571b2.jpg"
+    },
+    {
+      "asset_id": "f02_resize",
+      "path": "media/f02_resize.png",
+      "split": "test",
+      "source_group": "f02",
+      "media_type": "image",
+      "text": "圆形茶杯放在绿色书本旁边",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "圆形茶杯放在绿色书本旁边",
+      "normalized_text_sha256": "a1ac7358246702b3b633752179b3fc5190deb9f6c3a283d84f10a55179669396",
+      "text_ngrams": [
+        "书本旁",
+        "圆形茶",
+        "在绿色",
+        "形茶杯",
+        "放在绿",
+        "本旁边",
+        "杯放在",
+        "绿色书",
+        "色书本",
+        "茶杯放"
+      ],
+      "sha256": "637f100558c65c0df8171d315a3c6f17cf741a113d9a85a9d0fc80a08342821c",
+      "decode_status": "ok",
+      "byte_size": 4046,
+      "width": 96,
+      "height": 72,
+      "dhash": "0eb036f6f2661616",
+      "canonical_pixel_sha256": "e605de5d6944e54cfb6ccb553bd467b2b22bcbfb98d2fafc348c50ffb572c6e4",
+      "thumbnail": "evidence/63866be7fa4f5016892db5a1.jpg"
+    },
+    {
+      "asset_id": "f02_crop",
+      "path": "media/f02_crop.png",
+      "split": "train",
+      "source_group": "f02",
+      "media_type": "image",
+      "text": "圆形茶杯放在绿色书本旁边",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "圆形茶杯放在绿色书本旁边",
+      "normalized_text_sha256": "a1ac7358246702b3b633752179b3fc5190deb9f6c3a283d84f10a55179669396",
+      "text_ngrams": [
+        "书本旁",
+        "圆形茶",
+        "在绿色",
+        "形茶杯",
+        "放在绿",
+        "本旁边",
+        "杯放在",
+        "绿色书",
+        "色书本",
+        "茶杯放"
+      ],
+      "sha256": "5129280a854b0e4abda7861ba58391f29c357126016104f6919cf72885194a56",
+      "decode_status": "ok",
+      "byte_size": 2203,
+      "width": 168,
+      "height": 128,
+      "dhash": "0fb033b3f3666696",
+      "canonical_pixel_sha256": "143ea3bcffba752dc1265423f429b5e1fcb2d7f0e38c5dfc1997de8e3d45c0a4",
+      "thumbnail": "evidence/5572d5ace33ac7c6b4cf7aee.jpg"
+    },
+    {
+      "asset_id": "f03_original",
+      "path": "media/f03_original.png",
+      "split": "train",
+      "source_group": "f03",
+      "media_type": "image",
+      "text": "白色台灯照亮紫色折纸船",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "白色台灯照亮紫色折纸船",
+      "normalized_text_sha256": "1835197fd9be2a59d8d482b339d4476677ab4323383ba63c8d967ee6497eb204",
+      "text_ngrams": [
+        "亮紫色",
+        "台灯照",
+        "折纸船",
+        "灯照亮",
+        "照亮紫",
+        "白色台",
+        "紫色折",
+        "色台灯",
+        "色折纸"
+      ],
+      "sha256": "70f38eefaac9b7381e6f96cfe1ff2a02aa7888a9b6eb7a9cded0e860a95342ae",
+      "decode_status": "ok",
+      "byte_size": 2266,
+      "width": 192,
+      "height": 144,
+      "dhash": "3eeece73134cc5e4",
+      "canonical_pixel_sha256": "f9cad7ce911bd0ef0cc4521c197c83ea0e6e374d785c31a5ab0871195f4d29a7",
+      "thumbnail": "evidence/19b3327dd91e44fa9eae8a1b.jpg"
+    },
+    {
+      "asset_id": "f03_renamed",
+      "path": "media/f03_renamed.png",
+      "split": "calibration",
+      "source_group": "f03",
+      "media_type": "image",
+      "text": "白色台灯照亮紫色折纸船",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "白色台灯照亮紫色折纸船",
+      "normalized_text_sha256": "1835197fd9be2a59d8d482b339d4476677ab4323383ba63c8d967ee6497eb204",
+      "text_ngrams": [
+        "亮紫色",
+        "台灯照",
+        "折纸船",
+        "灯照亮",
+        "照亮紫",
+        "白色台",
+        "紫色折",
+        "色台灯",
+        "色折纸"
+      ],
+      "sha256": "70f38eefaac9b7381e6f96cfe1ff2a02aa7888a9b6eb7a9cded0e860a95342ae",
+      "decode_status": "ok",
+      "byte_size": 2266,
+      "width": 192,
+      "height": 144,
+      "dhash": "3eeece73134cc5e4",
+      "canonical_pixel_sha256": "f9cad7ce911bd0ef0cc4521c197c83ea0e6e374d785c31a5ab0871195f4d29a7",
+      "thumbnail": "evidence/8453655187a885623c0c0ad6.jpg"
+    },
+    {
+      "asset_id": "f03_jpeg",
+      "path": "media/f03_jpeg.jpg",
+      "split": "test",
+      "source_group": "f03",
+      "media_type": "image",
+      "text": "白色台灯照亮紫色折纸船",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "白色台灯照亮紫色折纸船",
+      "normalized_text_sha256": "1835197fd9be2a59d8d482b339d4476677ab4323383ba63c8d967ee6497eb204",
+      "text_ngrams": [
+        "亮紫色",
+        "台灯照",
+        "折纸船",
+        "灯照亮",
+        "照亮紫",
+        "白色台",
+        "紫色折",
+        "色台灯",
+        "色折纸"
+      ],
+      "sha256": "cff9c6be18bbf9687d21ed4bf2321e78a05473b751a301e7eb9b899101a185a8",
+      "decode_status": "ok",
+      "byte_size": 3008,
+      "width": 192,
+      "height": 144,
+      "dhash": "3eeece73134cc5e4",
+      "canonical_pixel_sha256": "96db5192b1ad69b1e6c12a37f735bcaaae2e29e0423fdd7608b29f241b4ce338",
+      "thumbnail": "evidence/033acb452da52de39d6439cd.jpg"
+    },
+    {
+      "asset_id": "f03_resize",
+      "path": "media/f03_resize.png",
+      "split": "train",
+      "source_group": "f03",
+      "media_type": "image",
+      "text": "白色台灯照亮紫色折纸船",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "白色台灯照亮紫色折纸船",
+      "normalized_text_sha256": "1835197fd9be2a59d8d482b339d4476677ab4323383ba63c8d967ee6497eb204",
+      "text_ngrams": [
+        "亮紫色",
+        "台灯照",
+        "折纸船",
+        "灯照亮",
+        "照亮紫",
+        "白色台",
+        "紫色折",
+        "色台灯",
+        "色折纸"
+      ],
+      "sha256": "b088974b36b37d92d6bcaca6b09c42280552c1a6d0bd6baa29785b8db0765a65",
+      "decode_status": "ok",
+      "byte_size": 4087,
+      "width": 96,
+      "height": 72,
+      "dhash": "3eeece73134cc5e4",
+      "canonical_pixel_sha256": "497a2f1fa6ffccc54037fdadd1c8730013c9f64d5156a849ad5b5d70ff9072e7",
+      "thumbnail": "evidence/49960948e4da4697750ad16a.jpg"
+    },
+    {
+      "asset_id": "f03_crop",
+      "path": "media/f03_crop.png",
+      "split": "calibration",
+      "source_group": "f03",
+      "media_type": "image",
+      "text": "白色台灯照亮紫色折纸船",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "白色台灯照亮紫色折纸船",
+      "normalized_text_sha256": "1835197fd9be2a59d8d482b339d4476677ab4323383ba63c8d967ee6497eb204",
+      "text_ngrams": [
+        "亮紫色",
+        "台灯照",
+        "折纸船",
+        "灯照亮",
+        "照亮紫",
+        "白色台",
+        "紫色折",
+        "色台灯",
+        "色折纸"
+      ],
+      "sha256": "a5fff36b30c5838305de8a1bfe47a39de52d2f44d65dff1bf29c5ddae1be4b6e",
+      "decode_status": "ok",
+      "byte_size": 2090,
+      "width": 168,
+      "height": 128,
+      "dhash": "6ececf73934dc4c4",
+      "canonical_pixel_sha256": "d4c074e87b80e3886f4c7d217f36ac6a00559ad32f3349cafa06fbe1cba3cb48",
+      "thumbnail": "evidence/b9ec758c445416f8e905593e.jpg"
+    },
+    {
+      "asset_id": "f04_original",
+      "path": "media/f04_original.png",
+      "split": "calibration",
+      "source_group": "f04",
+      "media_type": "image",
+      "text": "小猫坐在窗台看雨水落下",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "小猫坐在窗台看雨水落下",
+      "normalized_text_sha256": "0f2d798a55013525d85c629103f3e4ff16a64f0fff13a8c9fe99ad511204c123",
+      "text_ngrams": [
+        "台看雨",
+        "在窗台",
+        "坐在窗",
+        "小猫坐",
+        "水落下",
+        "猫坐在",
+        "看雨水",
+        "窗台看",
+        "雨水落"
+      ],
+      "sha256": "ddf71d22ae5170641faabb62c2df25d0b525598c80327e623ebd253e73cded1f",
+      "decode_status": "ok",
+      "byte_size": 2283,
+      "width": 192,
+      "height": 144,
+      "dhash": "1e6474304c484948",
+      "canonical_pixel_sha256": "d4a332fa1580d1953932de4d326e52818fb031ef12e3fce18f5a649c093a3533",
+      "thumbnail": "evidence/ae0e01b49735751936558318.jpg"
+    },
+    {
+      "asset_id": "f04_renamed",
+      "path": "media/f04_renamed.png",
+      "split": "test",
+      "source_group": "f04",
+      "media_type": "image",
+      "text": "小猫坐在窗台看雨水落下",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "小猫坐在窗台看雨水落下",
+      "normalized_text_sha256": "0f2d798a55013525d85c629103f3e4ff16a64f0fff13a8c9fe99ad511204c123",
+      "text_ngrams": [
+        "台看雨",
+        "在窗台",
+        "坐在窗",
+        "小猫坐",
+        "水落下",
+        "猫坐在",
+        "看雨水",
+        "窗台看",
+        "雨水落"
+      ],
+      "sha256": "ddf71d22ae5170641faabb62c2df25d0b525598c80327e623ebd253e73cded1f",
+      "decode_status": "ok",
+      "byte_size": 2283,
+      "width": 192,
+      "height": 144,
+      "dhash": "1e6474304c484948",
+      "canonical_pixel_sha256": "d4a332fa1580d1953932de4d326e52818fb031ef12e3fce18f5a649c093a3533",
+      "thumbnail": "evidence/fa85d8fb8a2c90e94c4700d5.jpg"
+    },
+    {
+      "asset_id": "f04_jpeg",
+      "path": "media/f04_jpeg.jpg",
+      "split": "train",
+      "source_group": "f04",
+      "media_type": "image",
+      "text": "小猫坐在窗台看雨水落下",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "小猫坐在窗台看雨水落下",
+      "normalized_text_sha256": "0f2d798a55013525d85c629103f3e4ff16a64f0fff13a8c9fe99ad511204c123",
+      "text_ngrams": [
+        "台看雨",
+        "在窗台",
+        "坐在窗",
+        "小猫坐",
+        "水落下",
+        "猫坐在",
+        "看雨水",
+        "窗台看",
+        "雨水落"
+      ],
+      "sha256": "45c93f8e4b9548626e454cad886cc8bb29772b969ceae4c42b801611f9b504b9",
+      "decode_status": "ok",
+      "byte_size": 3054,
+      "width": 192,
+      "height": 144,
+      "dhash": "1e6474304c484948",
+      "canonical_pixel_sha256": "f8d7d4f64b181b5ed4517494d0fb3f7057f3c4f68a3fe7dc2985512097d5bf30",
+      "thumbnail": "evidence/b0d9473d81ad220f00442d0e.jpg"
+    },
+    {
+      "asset_id": "f04_resize",
+      "path": "media/f04_resize.png",
+      "split": "calibration",
+      "source_group": "f04",
+      "media_type": "image",
+      "text": "小猫坐在窗台看雨水落下",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "小猫坐在窗台看雨水落下",
+      "normalized_text_sha256": "0f2d798a55013525d85c629103f3e4ff16a64f0fff13a8c9fe99ad511204c123",
+      "text_ngrams": [
+        "台看雨",
+        "在窗台",
+        "坐在窗",
+        "小猫坐",
+        "水落下",
+        "猫坐在",
+        "看雨水",
+        "窗台看",
+        "雨水落"
+      ],
+      "sha256": "ebb9be3e045931530b16cca1a125eb8505e98905b3b44fbf4d8b245068462e90",
+      "decode_status": "ok",
+      "byte_size": 4012,
+      "width": 96,
+      "height": 72,
+      "dhash": "1e6474304c484948",
+      "canonical_pixel_sha256": "2c79f58ad226691311934eb64e3662179bc636a91604bfd370454a4eb2a9b4fb",
+      "thumbnail": "evidence/4911ac70f09630cfbb5ed490.jpg"
+    },
+    {
+      "asset_id": "f04_crop",
+      "path": "media/f04_crop.png",
+      "split": "test",
+      "source_group": "f04",
+      "media_type": "image",
+      "text": "小猫坐在窗台看雨水落下",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "小猫坐在窗台看雨水落下",
+      "normalized_text_sha256": "0f2d798a55013525d85c629103f3e4ff16a64f0fff13a8c9fe99ad511204c123",
+      "text_ngrams": [
+        "台看雨",
+        "在窗台",
+        "坐在窗",
+        "小猫坐",
+        "水落下",
+        "猫坐在",
+        "看雨水",
+        "窗台看",
+        "雨水落"
+      ],
+      "sha256": "bfd9444fb03b724a4b7b97126ba1bbf4154d98f124a66101d5baadde7d7a2087",
+      "decode_status": "ok",
+      "byte_size": 2129,
+      "width": 168,
+      "height": 128,
+      "dhash": "676474734cccc9c9",
+      "canonical_pixel_sha256": "b08b68bb1223f898fd0bf927714fd5ddd2d2c6b7c382dcacb2c0c7a1bbd79411",
+      "thumbnail": "evidence/73ce53a12a05be3cdd04a1bb.jpg"
+    },
+    {
+      "asset_id": "f05_original",
+      "path": "media/f05_original.png",
+      "split": "test",
+      "source_group": "f05",
+      "media_type": "image",
+      "text": "两个人撑伞走过夜晚石桥",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "两个人撑伞走过夜晚石桥",
+      "normalized_text_sha256": "f7f75b309f0f97d419041c15a0600ed2a901c03ece858edbeba744e3812fd2c7",
+      "text_ngrams": [
+        "两个人",
+        "个人撑",
+        "人撑伞",
+        "伞走过",
+        "夜晚石",
+        "撑伞走",
+        "晚石桥",
+        "走过夜",
+        "过夜晚"
+      ],
+      "sha256": "9f1c881f5c30eca1889d4adb77e1122bc6d4159f05f7b635c6af14a60aa4608b",
+      "decode_status": "ok",
+      "byte_size": 2159,
+      "width": 192,
+      "height": 144,
+      "dhash": "4c2c64c66666694a",
+      "canonical_pixel_sha256": "5db652c183b5c467c847ff2d544c41d5d97dd074e7dcdac891fd0395f01400cd",
+      "thumbnail": "evidence/597bd94a01c82171b5599c87.jpg"
+    },
+    {
+      "asset_id": "f05_renamed",
+      "path": "media/f05_renamed.png",
+      "split": "train",
+      "source_group": "f05",
+      "media_type": "image",
+      "text": "两个人撑伞走过夜晚石桥",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "两个人撑伞走过夜晚石桥",
+      "normalized_text_sha256": "f7f75b309f0f97d419041c15a0600ed2a901c03ece858edbeba744e3812fd2c7",
+      "text_ngrams": [
+        "两个人",
+        "个人撑",
+        "人撑伞",
+        "伞走过",
+        "夜晚石",
+        "撑伞走",
+        "晚石桥",
+        "走过夜",
+        "过夜晚"
+      ],
+      "sha256": "9f1c881f5c30eca1889d4adb77e1122bc6d4159f05f7b635c6af14a60aa4608b",
+      "decode_status": "ok",
+      "byte_size": 2159,
+      "width": 192,
+      "height": 144,
+      "dhash": "4c2c64c66666694a",
+      "canonical_pixel_sha256": "5db652c183b5c467c847ff2d544c41d5d97dd074e7dcdac891fd0395f01400cd",
+      "thumbnail": "evidence/cdb741e8a11b1ea2649a1bd0.jpg"
+    },
+    {
+      "asset_id": "f05_jpeg",
+      "path": "media/f05_jpeg.jpg",
+      "split": "calibration",
+      "source_group": "f05",
+      "media_type": "image",
+      "text": "两个人撑伞走过夜晚石桥",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "两个人撑伞走过夜晚石桥",
+      "normalized_text_sha256": "f7f75b309f0f97d419041c15a0600ed2a901c03ece858edbeba744e3812fd2c7",
+      "text_ngrams": [
+        "两个人",
+        "个人撑",
+        "人撑伞",
+        "伞走过",
+        "夜晚石",
+        "撑伞走",
+        "晚石桥",
+        "走过夜",
+        "过夜晚"
+      ],
+      "sha256": "735c6d901e4c999369f4ce8e9a6b72d036574576e77869c9f9fa6ea2faf04a1c",
+      "decode_status": "ok",
+      "byte_size": 2988,
+      "width": 192,
+      "height": 144,
+      "dhash": "4c2c64c66666694a",
+      "canonical_pixel_sha256": "6a94c62e949e9830213016b879470d72455023319ea0154733212d0ba3c90c11",
+      "thumbnail": "evidence/2948de1978733065f29a4982.jpg"
+    },
+    {
+      "asset_id": "f05_resize",
+      "path": "media/f05_resize.png",
+      "split": "test",
+      "source_group": "f05",
+      "media_type": "image",
+      "text": "两个人撑伞走过夜晚石桥",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "两个人撑伞走过夜晚石桥",
+      "normalized_text_sha256": "f7f75b309f0f97d419041c15a0600ed2a901c03ece858edbeba744e3812fd2c7",
+      "text_ngrams": [
+        "两个人",
+        "个人撑",
+        "人撑伞",
+        "伞走过",
+        "夜晚石",
+        "撑伞走",
+        "晚石桥",
+        "走过夜",
+        "过夜晚"
+      ],
+      "sha256": "fb8625510947b336bd2f45d1f4bf4867e553d502d35fd3e515cef4a71fdcfb75",
+      "decode_status": "ok",
+      "byte_size": 3695,
+      "width": 96,
+      "height": 72,
+      "dhash": "4c2c64c66666694a",
+      "canonical_pixel_sha256": "139ae99bf970e8e392858643d595eb298ad89770b70017e56cb2202736bb39a0",
+      "thumbnail": "evidence/61c31542695af4c1473abe09.jpg"
+    },
+    {
+      "asset_id": "f05_crop",
+      "path": "media/f05_crop.png",
+      "split": "train",
+      "source_group": "f05",
+      "media_type": "image",
+      "text": "两个人撑伞走过夜晚石桥",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "两个人撑伞走过夜晚石桥",
+      "normalized_text_sha256": "f7f75b309f0f97d419041c15a0600ed2a901c03ece858edbeba744e3812fd2c7",
+      "text_ngrams": [
+        "两个人",
+        "个人撑",
+        "人撑伞",
+        "伞走过",
+        "夜晚石",
+        "撑伞走",
+        "晚石桥",
+        "走过夜",
+        "过夜晚"
+      ],
+      "sha256": "4d7efa074125f63d8afca6e772534d4708fbaf0d62117dafc07cee83caec27ac",
+      "decode_status": "ok",
+      "byte_size": 1966,
+      "width": 168,
+      "height": 128,
+      "dhash": "8c6ce4c2e6e6cdca",
+      "canonical_pixel_sha256": "10c553879a2a597f247dee7e9722388d6051f281915957a970584dc920bc9ffe",
+      "thumbnail": "evidence/f56036a8d2e93b9c019cc414.jpg"
+    },
+    {
+      "asset_id": "f06_original",
+      "path": "media/f06_original.png",
+      "split": "train",
+      "source_group": "f06",
+      "media_type": "image",
+      "text": "橙色机械手臂搬起木头箱子",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "橙色机械手臂搬起木头箱子",
+      "normalized_text_sha256": "ff1a3c2b0cf3dfdf2164d09f7f189186063db019d46ac1865db4035a6fedf13f",
+      "text_ngrams": [
+        "头箱子",
+        "手臂搬",
+        "搬起木",
+        "木头箱",
+        "机械手",
+        "械手臂",
+        "橙色机",
+        "臂搬起",
+        "色机械",
+        "起木头"
+      ],
+      "sha256": "5af22b8311751112844a4d3fa4acb33738bc6c1803ad2060188225fa394d48e3",
+      "decode_status": "ok",
+      "byte_size": 2349,
+      "width": 192,
+      "height": 144,
+      "dhash": "36f2f298986e920d",
+      "canonical_pixel_sha256": "745288a79d89a9007c037c81481f9b10a731f0fed0057a3fc19ef1dea7a48561",
+      "thumbnail": "evidence/4c4f068a80a72f1402ef544a.jpg"
+    },
+    {
+      "asset_id": "f06_renamed",
+      "path": "media/f06_renamed.png",
+      "split": "calibration",
+      "source_group": "f06",
+      "media_type": "image",
+      "text": "橙色机械手臂搬起木头箱子",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "橙色机械手臂搬起木头箱子",
+      "normalized_text_sha256": "ff1a3c2b0cf3dfdf2164d09f7f189186063db019d46ac1865db4035a6fedf13f",
+      "text_ngrams": [
+        "头箱子",
+        "手臂搬",
+        "搬起木",
+        "木头箱",
+        "机械手",
+        "械手臂",
+        "橙色机",
+        "臂搬起",
+        "色机械",
+        "起木头"
+      ],
+      "sha256": "5af22b8311751112844a4d3fa4acb33738bc6c1803ad2060188225fa394d48e3",
+      "decode_status": "ok",
+      "byte_size": 2349,
+      "width": 192,
+      "height": 144,
+      "dhash": "36f2f298986e920d",
+      "canonical_pixel_sha256": "745288a79d89a9007c037c81481f9b10a731f0fed0057a3fc19ef1dea7a48561",
+      "thumbnail": "evidence/6e4b0c1dbeb06103fc058185.jpg"
+    },
+    {
+      "asset_id": "f06_jpeg",
+      "path": "media/f06_jpeg.jpg",
+      "split": "test",
+      "source_group": "f06",
+      "media_type": "image",
+      "text": "橙色机械手臂搬起木头箱子",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "橙色机械手臂搬起木头箱子",
+      "normalized_text_sha256": "ff1a3c2b0cf3dfdf2164d09f7f189186063db019d46ac1865db4035a6fedf13f",
+      "text_ngrams": [
+        "头箱子",
+        "手臂搬",
+        "搬起木",
+        "木头箱",
+        "机械手",
+        "械手臂",
+        "橙色机",
+        "臂搬起",
+        "色机械",
+        "起木头"
+      ],
+      "sha256": "d78caddb67cbd69a007516f14152f5227728031641720a00f3de4e9ad0938776",
+      "decode_status": "ok",
+      "byte_size": 3410,
+      "width": 192,
+      "height": 144,
+      "dhash": "36f2f298986e920d",
+      "canonical_pixel_sha256": "24376196331e05ef91d63d9d35bb7da3320f2f84aab7300f7e6dd21bc31dcde5",
+      "thumbnail": "evidence/8439c8dea1f033ebb492e763.jpg"
+    },
+    {
+      "asset_id": "f06_resize",
+      "path": "media/f06_resize.png",
+      "split": "train",
+      "source_group": "f06",
+      "media_type": "image",
+      "text": "橙色机械手臂搬起木头箱子",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "橙色机械手臂搬起木头箱子",
+      "normalized_text_sha256": "ff1a3c2b0cf3dfdf2164d09f7f189186063db019d46ac1865db4035a6fedf13f",
+      "text_ngrams": [
+        "头箱子",
+        "手臂搬",
+        "搬起木",
+        "木头箱",
+        "机械手",
+        "械手臂",
+        "橙色机",
+        "臂搬起",
+        "色机械",
+        "起木头"
+      ],
+      "sha256": "7b4d5d7f14f246c304b4eda830c4ce9d6ae9d8e3cac414edae307bf14cb4a999",
+      "decode_status": "ok",
+      "byte_size": 4355,
+      "width": 96,
+      "height": 72,
+      "dhash": "36f2f298986e920d",
+      "canonical_pixel_sha256": "21503a2e9f2c70837ee11b2beee5d98f2992ae507779d2ae6de3da4e31ef4d64",
+      "thumbnail": "evidence/a740d58520624edd1a2f2c80.jpg"
+    },
+    {
+      "asset_id": "f06_crop",
+      "path": "media/f06_crop.png",
+      "split": "calibration",
+      "source_group": "f06",
+      "media_type": "image",
+      "text": "橙色机械手臂搬起木头箱子",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "橙色机械手臂搬起木头箱子",
+      "normalized_text_sha256": "ff1a3c2b0cf3dfdf2164d09f7f189186063db019d46ac1865db4035a6fedf13f",
+      "text_ngrams": [
+        "头箱子",
+        "手臂搬",
+        "搬起木",
+        "木头箱",
+        "机械手",
+        "械手臂",
+        "橙色机",
+        "臂搬起",
+        "色机械",
+        "起木头"
+      ],
+      "sha256": "bb3e6bc0fb0da75a841c691e50f71655fbe7079891ef6de5839e63acaca38272",
+      "decode_status": "ok",
+      "byte_size": 2181,
+      "width": 168,
+      "height": 128,
+      "dhash": "33f3f31818ef130c",
+      "canonical_pixel_sha256": "b4f3f3e50c495b6776c1733257ccab212b6887115ec98fcefaf33fc856ef63a5",
+      "thumbnail": "evidence/938bda970d0f35e24a822135.jpg"
+    },
+    {
+      "asset_id": "f07_original",
+      "path": "media/f07_original.png",
+      "split": "calibration",
+      "source_group": "f07",
+      "media_type": "image",
+      "text": "银色电车穿过有树荫的街道",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "银色电车穿过有树荫的街道",
+      "normalized_text_sha256": "b0a58fd4af471f967b657d1b328101dd41759ea670034be38ba3524f4aa4bfc1",
+      "text_ngrams": [
+        "有树荫",
+        "树荫的",
+        "电车穿",
+        "的街道",
+        "穿过有",
+        "色电车",
+        "荫的街",
+        "车穿过",
+        "过有树",
+        "银色电"
+      ],
+      "sha256": "f5d00372ca907e99df2f3499265d0a94b647034ced8f5d8731681bab6505221c",
+      "decode_status": "ok",
+      "byte_size": 2342,
+      "width": 192,
+      "height": 144,
+      "dhash": "2e0ee166c6ce9c91",
+      "canonical_pixel_sha256": "9c4549cb96e6d4f6067b9ee72849d9d3a577fc5d1f2109002659989b91df1e89",
+      "thumbnail": "evidence/1cbeb191f61a3d0d24d75742.jpg"
+    },
+    {
+      "asset_id": "f07_renamed",
+      "path": "media/f07_renamed.png",
+      "split": "test",
+      "source_group": "f07",
+      "media_type": "image",
+      "text": "银色电车穿过有树荫的街道",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "银色电车穿过有树荫的街道",
+      "normalized_text_sha256": "b0a58fd4af471f967b657d1b328101dd41759ea670034be38ba3524f4aa4bfc1",
+      "text_ngrams": [
+        "有树荫",
+        "树荫的",
+        "电车穿",
+        "的街道",
+        "穿过有",
+        "色电车",
+        "荫的街",
+        "车穿过",
+        "过有树",
+        "银色电"
+      ],
+      "sha256": "f5d00372ca907e99df2f3499265d0a94b647034ced8f5d8731681bab6505221c",
+      "decode_status": "ok",
+      "byte_size": 2342,
+      "width": 192,
+      "height": 144,
+      "dhash": "2e0ee166c6ce9c91",
+      "canonical_pixel_sha256": "9c4549cb96e6d4f6067b9ee72849d9d3a577fc5d1f2109002659989b91df1e89",
+      "thumbnail": "evidence/0c27c9bba300df07321a10e4.jpg"
+    },
+    {
+      "asset_id": "f07_jpeg",
+      "path": "media/f07_jpeg.jpg",
+      "split": "train",
+      "source_group": "f07",
+      "media_type": "image",
+      "text": "银色电车穿过有树荫的街道",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "银色电车穿过有树荫的街道",
+      "normalized_text_sha256": "b0a58fd4af471f967b657d1b328101dd41759ea670034be38ba3524f4aa4bfc1",
+      "text_ngrams": [
+        "有树荫",
+        "树荫的",
+        "电车穿",
+        "的街道",
+        "穿过有",
+        "色电车",
+        "荫的街",
+        "车穿过",
+        "过有树",
+        "银色电"
+      ],
+      "sha256": "754e3f4ce0211b838e2094cbc2a8a0a379fd492d2e03b96ec0fae5a1deb43227",
+      "decode_status": "ok",
+      "byte_size": 3069,
+      "width": 192,
+      "height": 144,
+      "dhash": "2e0ee166c6ce9c91",
+      "canonical_pixel_sha256": "7b9ea0433a8dde0b122f285d9f75da29f8c6cc2e4cc2d9a63c1cee8b406e3207",
+      "thumbnail": "evidence/564d1921df4053d17695415d.jpg"
+    },
+    {
+      "asset_id": "f07_resize",
+      "path": "media/f07_resize.png",
+      "split": "calibration",
+      "source_group": "f07",
+      "media_type": "image",
+      "text": "银色电车穿过有树荫的街道",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "银色电车穿过有树荫的街道",
+      "normalized_text_sha256": "b0a58fd4af471f967b657d1b328101dd41759ea670034be38ba3524f4aa4bfc1",
+      "text_ngrams": [
+        "有树荫",
+        "树荫的",
+        "电车穿",
+        "的街道",
+        "穿过有",
+        "色电车",
+        "荫的街",
+        "车穿过",
+        "过有树",
+        "银色电"
+      ],
+      "sha256": "82d6b347a461c4ea1a4fda3d1079a711ecbfb40929427be2c35561a0db2cef88",
+      "decode_status": "ok",
+      "byte_size": 4148,
+      "width": 96,
+      "height": 72,
+      "dhash": "2e0ee166c6ce9c91",
+      "canonical_pixel_sha256": "44daaf3cde929a4f06da82c56503e43fca1dae86557c4e31d06629942a131952",
+      "thumbnail": "evidence/6c9fbb7c81a435abb0bef627.jpg"
+    },
+    {
+      "asset_id": "f07_crop",
+      "path": "media/f07_crop.png",
+      "split": "test",
+      "source_group": "f07",
+      "media_type": "image",
+      "text": "银色电车穿过有树荫的街道",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "银色电车穿过有树荫的街道",
+      "normalized_text_sha256": "b0a58fd4af471f967b657d1b328101dd41759ea670034be38ba3524f4aa4bfc1",
+      "text_ngrams": [
+        "有树荫",
+        "树荫的",
+        "电车穿",
+        "的街道",
+        "穿过有",
+        "色电车",
+        "荫的街",
+        "车穿过",
+        "过有树",
+        "银色电"
+      ],
+      "sha256": "f5fd11a4a7fe32ea05f58d9cb94df74ff49f2fd0029660c152efe6fb935845ac",
+      "decode_status": "ok",
+      "byte_size": 2201,
+      "width": 168,
+      "height": 128,
+      "dhash": "2f186166e6cd9c94",
+      "canonical_pixel_sha256": "1bcf95ebdde3bf4cfd0c6392d15385b10ebc63375a8e7e3fbc47c3b20801d586",
+      "thumbnail": "evidence/5bdce1892528f4cea824112a.jpg"
+    },
+    {
+      "asset_id": "f08_original",
+      "path": "media/f08_original.png",
+      "split": "test",
+      "source_group": "f08",
+      "media_type": "image",
+      "text": "一名画家在花园描绘喷泉",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "一名画家在花园描绘喷泉",
+      "normalized_text_sha256": "c627094c0ee91f4157bb7faf2214941b094ae87506e67e96b01ef8dd26a4e1ee",
+      "text_ngrams": [
+        "一名画",
+        "名画家",
+        "园描绘",
+        "在花园",
+        "家在花",
+        "描绘喷",
+        "画家在",
+        "绘喷泉",
+        "花园描"
+      ],
+      "sha256": "27af557b7098df5418e31c4c90890bd2254283dc8e909c71b0f9cc37fbc2907f",
+      "decode_status": "ok",
+      "byte_size": 2258,
+      "width": 192,
+      "height": 144,
+      "dhash": "6e9a949c58b91809",
+      "canonical_pixel_sha256": "9c865127f7708d6addaa502c479d8fb653d767ba862b94e66fd70cae7e15b813",
+      "thumbnail": "evidence/597144c65ae9772b1e5642ee.jpg"
+    },
+    {
+      "asset_id": "f08_renamed",
+      "path": "media/f08_renamed.png",
+      "split": "train",
+      "source_group": "f08",
+      "media_type": "image",
+      "text": "一名画家在花园描绘喷泉",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "一名画家在花园描绘喷泉",
+      "normalized_text_sha256": "c627094c0ee91f4157bb7faf2214941b094ae87506e67e96b01ef8dd26a4e1ee",
+      "text_ngrams": [
+        "一名画",
+        "名画家",
+        "园描绘",
+        "在花园",
+        "家在花",
+        "描绘喷",
+        "画家在",
+        "绘喷泉",
+        "花园描"
+      ],
+      "sha256": "27af557b7098df5418e31c4c90890bd2254283dc8e909c71b0f9cc37fbc2907f",
+      "decode_status": "ok",
+      "byte_size": 2258,
+      "width": 192,
+      "height": 144,
+      "dhash": "6e9a949c58b91809",
+      "canonical_pixel_sha256": "9c865127f7708d6addaa502c479d8fb653d767ba862b94e66fd70cae7e15b813",
+      "thumbnail": "evidence/cfad35535061b3abe055e22f.jpg"
+    },
+    {
+      "asset_id": "f08_jpeg",
+      "path": "media/f08_jpeg.jpg",
+      "split": "calibration",
+      "source_group": "f08",
+      "media_type": "image",
+      "text": "一名画家在花园描绘喷泉",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "一名画家在花园描绘喷泉",
+      "normalized_text_sha256": "c627094c0ee91f4157bb7faf2214941b094ae87506e67e96b01ef8dd26a4e1ee",
+      "text_ngrams": [
+        "一名画",
+        "名画家",
+        "园描绘",
+        "在花园",
+        "家在花",
+        "描绘喷",
+        "画家在",
+        "绘喷泉",
+        "花园描"
+      ],
+      "sha256": "a8611299fed40904cf2c9ae240d3cdf235a7834c45967ed47af34ae0871008c7",
+      "decode_status": "ok",
+      "byte_size": 2857,
+      "width": 192,
+      "height": 144,
+      "dhash": "6e9a949c58b91809",
+      "canonical_pixel_sha256": "8e4bc0c1b006eadc7613e2abd80d75dd6d4a6c82355f7ad02c376d355a44bfe4",
+      "thumbnail": "evidence/93791682ad79e5781e45c2b9.jpg"
+    },
+    {
+      "asset_id": "f08_resize",
+      "path": "media/f08_resize.png",
+      "split": "test",
+      "source_group": "f08",
+      "media_type": "image",
+      "text": "一名画家在花园描绘喷泉",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "一名画家在花园描绘喷泉",
+      "normalized_text_sha256": "c627094c0ee91f4157bb7faf2214941b094ae87506e67e96b01ef8dd26a4e1ee",
+      "text_ngrams": [
+        "一名画",
+        "名画家",
+        "园描绘",
+        "在花园",
+        "家在花",
+        "描绘喷",
+        "画家在",
+        "绘喷泉",
+        "花园描"
+      ],
+      "sha256": "8508b9cf64793211073fb7aa99a61198c4af43398445cbdef6cd5e9ef05dd3bd",
+      "decode_status": "ok",
+      "byte_size": 3817,
+      "width": 96,
+      "height": 72,
+      "dhash": "6e9a949c58b91809",
+      "canonical_pixel_sha256": "6c879c12744a10788ca73308383247a195f2afe48dbbd3b7aa76e2d3f0544747",
+      "thumbnail": "evidence/1581097a1a7e9c4714c0f480.jpg"
+    },
+    {
+      "asset_id": "f08_crop",
+      "path": "media/f08_crop.png",
+      "split": "train",
+      "source_group": "f08",
+      "media_type": "image",
+      "text": "一名画家在花园描绘喷泉",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "一名画家在花园描绘喷泉",
+      "normalized_text_sha256": "c627094c0ee91f4157bb7faf2214941b094ae87506e67e96b01ef8dd26a4e1ee",
+      "text_ngrams": [
+        "一名画",
+        "名画家",
+        "园描绘",
+        "在花园",
+        "家在花",
+        "描绘喷",
+        "画家在",
+        "绘喷泉",
+        "花园描"
+      ],
+      "sha256": "a8a3f425885b1a0f55e02b1859ade586ba6d06a891ffe50166e840b3b4a8f5f2",
+      "decode_status": "ok",
+      "byte_size": 2098,
+      "width": 168,
+      "height": 128,
+      "dhash": "6eb3849c58b83808",
+      "canonical_pixel_sha256": "95936e1aa4aaeb5e8e9f9d2cb6b1bdaa010f1fdc12d048985ec3efcad9143cd5",
+      "thumbnail": "evidence/f5ef63976f8323fc3fbe77ad.jpg"
+    },
+    {
+      "asset_id": "f09_original",
+      "path": "media/f09_original.png",
+      "split": "train",
+      "source_group": "f09",
+      "media_type": "image",
+      "text": "紫色热气球飞过棕色山谷",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "紫色热气球飞过棕色山谷",
+      "normalized_text_sha256": "4a37cff75a70ecb95f31635c58d4d8beb093280428fc6105f5c1ceab998bdb32",
+      "text_ngrams": [
+        "棕色山",
+        "气球飞",
+        "热气球",
+        "球飞过",
+        "紫色热",
+        "色山谷",
+        "色热气",
+        "过棕色",
+        "飞过棕"
+      ],
+      "sha256": "6cae78de159c6efb09e02515218ab0d914f4c2e599a6e118d111111857302854",
+      "decode_status": "ok",
+      "byte_size": 2371,
+      "width": 192,
+      "height": 144,
+      "dhash": "4e35b66660987062",
+      "canonical_pixel_sha256": "e10d1e60919704cca2f23f6417e8ce4e381fe3a53083f7db07f6c2b8f63a8287",
+      "thumbnail": "evidence/f59ade8a63bc3258c9088dd6.jpg"
+    },
+    {
+      "asset_id": "f09_renamed",
+      "path": "media/f09_renamed.png",
+      "split": "calibration",
+      "source_group": "f09",
+      "media_type": "image",
+      "text": "紫色热气球飞过棕色山谷",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "紫色热气球飞过棕色山谷",
+      "normalized_text_sha256": "4a37cff75a70ecb95f31635c58d4d8beb093280428fc6105f5c1ceab998bdb32",
+      "text_ngrams": [
+        "棕色山",
+        "气球飞",
+        "热气球",
+        "球飞过",
+        "紫色热",
+        "色山谷",
+        "色热气",
+        "过棕色",
+        "飞过棕"
+      ],
+      "sha256": "6cae78de159c6efb09e02515218ab0d914f4c2e599a6e118d111111857302854",
+      "decode_status": "ok",
+      "byte_size": 2371,
+      "width": 192,
+      "height": 144,
+      "dhash": "4e35b66660987062",
+      "canonical_pixel_sha256": "e10d1e60919704cca2f23f6417e8ce4e381fe3a53083f7db07f6c2b8f63a8287",
+      "thumbnail": "evidence/1290cda2ff581d6e6f0bb01b.jpg"
+    },
+    {
+      "asset_id": "f09_jpeg",
+      "path": "media/f09_jpeg.jpg",
+      "split": "test",
+      "source_group": "f09",
+      "media_type": "image",
+      "text": "紫色热气球飞过棕色山谷",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "紫色热气球飞过棕色山谷",
+      "normalized_text_sha256": "4a37cff75a70ecb95f31635c58d4d8beb093280428fc6105f5c1ceab998bdb32",
+      "text_ngrams": [
+        "棕色山",
+        "气球飞",
+        "热气球",
+        "球飞过",
+        "紫色热",
+        "色山谷",
+        "色热气",
+        "过棕色",
+        "飞过棕"
+      ],
+      "sha256": "eb13a86f314f96bc0931a452772bc52e2d164cff75cd4f09d487e24a9e5420ad",
+      "decode_status": "ok",
+      "byte_size": 3166,
+      "width": 192,
+      "height": 144,
+      "dhash": "4e35b66660987062",
+      "canonical_pixel_sha256": "7d4c7fe9247e6ae2f429dc2efb06aa7da6d31a95104872c6fba6df913270c8a2",
+      "thumbnail": "evidence/bb4e4cee84bf553a3ef46840.jpg"
+    },
+    {
+      "asset_id": "f09_resize",
+      "path": "media/f09_resize.png",
+      "split": "train",
+      "source_group": "f09",
+      "media_type": "image",
+      "text": "紫色热气球飞过棕色山谷",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "紫色热气球飞过棕色山谷",
+      "normalized_text_sha256": "4a37cff75a70ecb95f31635c58d4d8beb093280428fc6105f5c1ceab998bdb32",
+      "text_ngrams": [
+        "棕色山",
+        "气球飞",
+        "热气球",
+        "球飞过",
+        "紫色热",
+        "色山谷",
+        "色热气",
+        "过棕色",
+        "飞过棕"
+      ],
+      "sha256": "d291e9665ac976ba31ef4b4e746435871d249e6bd45d72beb23f00aa127b8656",
+      "decode_status": "ok",
+      "byte_size": 4360,
+      "width": 96,
+      "height": 72,
+      "dhash": "4e35b66660987062",
+      "canonical_pixel_sha256": "44e8c489d5335d72e4dc34469c6240d226bee5fca58087da5a57c5c00eb6452d",
+      "thumbnail": "evidence/46acb22f80c7c7003ec1ce12.jpg"
+    },
+    {
+      "asset_id": "f09_crop",
+      "path": "media/f09_crop.png",
+      "split": "calibration",
+      "source_group": "f09",
+      "media_type": "image",
+      "text": "紫色热气球飞过棕色山谷",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "紫色热气球飞过棕色山谷",
+      "normalized_text_sha256": "4a37cff75a70ecb95f31635c58d4d8beb093280428fc6105f5c1ceab998bdb32",
+      "text_ngrams": [
+        "棕色山",
+        "气球飞",
+        "热气球",
+        "球飞过",
+        "紫色热",
+        "色山谷",
+        "色热气",
+        "过棕色",
+        "飞过棕"
+      ],
+      "sha256": "ae37b801eac69ab4a9d5e286c4198eb3b2bc04a14004c6d97ac35bd21486c9d6",
+      "decode_status": "ok",
+      "byte_size": 2220,
+      "width": 168,
+      "height": 128,
+      "dhash": "0e31726664987463",
+      "canonical_pixel_sha256": "f4d3aaa67c681b6a12d5a1a82a90db2b837227535bbb90ea70e2b2178734cd35",
+      "thumbnail": "evidence/21bf2e654c478319db7a190f.jpg"
+    },
+    {
+      "asset_id": "f10_original",
+      "path": "media/f10_original.png",
+      "split": "calibration",
+      "source_group": "f10",
+      "media_type": "image",
+      "text": "夕阳下的风车转动白色叶片",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "夕阳下的风车转动白色叶片",
+      "normalized_text_sha256": "081f86f4ce86350a0b51af7dc2a9823b6d0027ed342037d5c47879b28cab520e",
+      "text_ngrams": [
+        "下的风",
+        "动白色",
+        "夕阳下",
+        "白色叶",
+        "的风车",
+        "色叶片",
+        "车转动",
+        "转动白",
+        "阳下的",
+        "风车转"
+      ],
+      "sha256": "608b7476ffa1fd7ad50f1d4f22d525521b161ee971d0c925400a47a8ee50e7d4",
+      "decode_status": "ok",
+      "byte_size": 2234,
+      "width": 192,
+      "height": 144,
+      "dhash": "5ec4de5879701859",
+      "canonical_pixel_sha256": "71dfd4040f14a3641298fa7e391ee038feaaff3641dffad98ea6ec5f84892115",
+      "thumbnail": "evidence/3a88dc1646cf36d02e94fd48.jpg"
+    },
+    {
+      "asset_id": "f10_renamed",
+      "path": "media/f10_renamed.png",
+      "split": "test",
+      "source_group": "f10",
+      "media_type": "image",
+      "text": "夕阳下的风车转动白色叶片",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "夕阳下的风车转动白色叶片",
+      "normalized_text_sha256": "081f86f4ce86350a0b51af7dc2a9823b6d0027ed342037d5c47879b28cab520e",
+      "text_ngrams": [
+        "下的风",
+        "动白色",
+        "夕阳下",
+        "白色叶",
+        "的风车",
+        "色叶片",
+        "车转动",
+        "转动白",
+        "阳下的",
+        "风车转"
+      ],
+      "sha256": "608b7476ffa1fd7ad50f1d4f22d525521b161ee971d0c925400a47a8ee50e7d4",
+      "decode_status": "ok",
+      "byte_size": 2234,
+      "width": 192,
+      "height": 144,
+      "dhash": "5ec4de5879701859",
+      "canonical_pixel_sha256": "71dfd4040f14a3641298fa7e391ee038feaaff3641dffad98ea6ec5f84892115",
+      "thumbnail": "evidence/2a617d9efd256d2dbd418d12.jpg"
+    },
+    {
+      "asset_id": "f10_jpeg",
+      "path": "media/f10_jpeg.jpg",
+      "split": "train",
+      "source_group": "f10",
+      "media_type": "image",
+      "text": "夕阳下的风车转动白色叶片",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "夕阳下的风车转动白色叶片",
+      "normalized_text_sha256": "081f86f4ce86350a0b51af7dc2a9823b6d0027ed342037d5c47879b28cab520e",
+      "text_ngrams": [
+        "下的风",
+        "动白色",
+        "夕阳下",
+        "白色叶",
+        "的风车",
+        "色叶片",
+        "车转动",
+        "转动白",
+        "阳下的",
+        "风车转"
+      ],
+      "sha256": "cfce29adbccf8456e903ad15349d0315afb555ded3e479c8823890cbf0aad2e3",
+      "decode_status": "ok",
+      "byte_size": 3313,
+      "width": 192,
+      "height": 144,
+      "dhash": "5ec4de5879701859",
+      "canonical_pixel_sha256": "6e4984899c398b83e193f3db67c3eaa4cca9816f46ec9a9a9e81c4e6761db089",
+      "thumbnail": "evidence/dbbdeadb2c5db1b9d1e8d3ea.jpg"
+    },
+    {
+      "asset_id": "f10_resize",
+      "path": "media/f10_resize.png",
+      "split": "calibration",
+      "source_group": "f10",
+      "media_type": "image",
+      "text": "夕阳下的风车转动白色叶片",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "夕阳下的风车转动白色叶片",
+      "normalized_text_sha256": "081f86f4ce86350a0b51af7dc2a9823b6d0027ed342037d5c47879b28cab520e",
+      "text_ngrams": [
+        "下的风",
+        "动白色",
+        "夕阳下",
+        "白色叶",
+        "的风车",
+        "色叶片",
+        "车转动",
+        "转动白",
+        "阳下的",
+        "风车转"
+      ],
+      "sha256": "0a701c0df608a00e726f36d3de6edc738859cf5d6d4d6fbd518084a8737cd587",
+      "decode_status": "ok",
+      "byte_size": 4169,
+      "width": 96,
+      "height": 72,
+      "dhash": "5ec4de5879701859",
+      "canonical_pixel_sha256": "243834eb79eaf37691fe88267a08e55a46685b56f913e9da36c8c2ba7610cc86",
+      "thumbnail": "evidence/b487df22cf35fd5cdf71ac3b.jpg"
+    },
+    {
+      "asset_id": "f10_crop",
+      "path": "media/f10_crop.png",
+      "split": "test",
+      "source_group": "f10",
+      "media_type": "image",
+      "text": "夕阳下的风车转动白色叶片",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "夕阳下的风车转动白色叶片",
+      "normalized_text_sha256": "081f86f4ce86350a0b51af7dc2a9823b6d0027ed342037d5c47879b28cab520e",
+      "text_ngrams": [
+        "下的风",
+        "动白色",
+        "夕阳下",
+        "白色叶",
+        "的风车",
+        "色叶片",
+        "车转动",
+        "转动白",
+        "阳下的",
+        "风车转"
+      ],
+      "sha256": "f8f6668adfef9c96083188a42ce76364ff56c021cd5a1bce0950f555011a3950",
+      "decode_status": "ok",
+      "byte_size": 2060,
+      "width": 168,
+      "height": 128,
+      "dhash": "dec6de5878606c19",
+      "canonical_pixel_sha256": "a8577548783609b61e98ed0e5b939cf31a32a708e66ba99892ed07b832ebb6e0",
+      "thumbnail": "evidence/afbe9ec4d2ce34b329c64ef2.jpg"
+    },
+    {
+      "asset_id": "f11_original",
+      "path": "media/f11_original.png",
+      "split": "test",
+      "source_group": "f11",
+      "media_type": "image",
+      "text": "游泳池边摆放粉色沙滩椅",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "游泳池边摆放粉色沙滩椅",
+      "normalized_text_sha256": "a10834f7617a9322a1cf00ab5ac97faebd9d93246800c7f86ad533913598ab29",
+      "text_ngrams": [
+        "摆放粉",
+        "放粉色",
+        "池边摆",
+        "沙滩椅",
+        "泳池边",
+        "游泳池",
+        "粉色沙",
+        "色沙滩",
+        "边摆放"
+      ],
+      "sha256": "62cc5296c781c7f09f2f11fa41b4d4734d11e60d31554d0395ae083090f20ed8",
+      "decode_status": "ok",
+      "byte_size": 2173,
+      "width": 192,
+      "height": 144,
+      "dhash": "b648494bb6b662a7",
+      "canonical_pixel_sha256": "e8dc233a37754a59ab4fedfd913236f6fc9dc82af9d10faed81651e2648ad50a",
+      "thumbnail": "evidence/ef7db364c70814fb8ff80201.jpg"
+    },
+    {
+      "asset_id": "f11_renamed",
+      "path": "media/f11_renamed.png",
+      "split": "train",
+      "source_group": "f11",
+      "media_type": "image",
+      "text": "游泳池边摆放粉色沙滩椅",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "游泳池边摆放粉色沙滩椅",
+      "normalized_text_sha256": "a10834f7617a9322a1cf00ab5ac97faebd9d93246800c7f86ad533913598ab29",
+      "text_ngrams": [
+        "摆放粉",
+        "放粉色",
+        "池边摆",
+        "沙滩椅",
+        "泳池边",
+        "游泳池",
+        "粉色沙",
+        "色沙滩",
+        "边摆放"
+      ],
+      "sha256": "62cc5296c781c7f09f2f11fa41b4d4734d11e60d31554d0395ae083090f20ed8",
+      "decode_status": "ok",
+      "byte_size": 2173,
+      "width": 192,
+      "height": 144,
+      "dhash": "b648494bb6b662a7",
+      "canonical_pixel_sha256": "e8dc233a37754a59ab4fedfd913236f6fc9dc82af9d10faed81651e2648ad50a",
+      "thumbnail": "evidence/2666f791c0fb60d45aeafab8.jpg"
+    },
+    {
+      "asset_id": "f11_jpeg",
+      "path": "media/f11_jpeg.jpg",
+      "split": "calibration",
+      "source_group": "f11",
+      "media_type": "image",
+      "text": "游泳池边摆放粉色沙滩椅",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "游泳池边摆放粉色沙滩椅",
+      "normalized_text_sha256": "a10834f7617a9322a1cf00ab5ac97faebd9d93246800c7f86ad533913598ab29",
+      "text_ngrams": [
+        "摆放粉",
+        "放粉色",
+        "池边摆",
+        "沙滩椅",
+        "泳池边",
+        "游泳池",
+        "粉色沙",
+        "色沙滩",
+        "边摆放"
+      ],
+      "sha256": "4a219e23a5ac1ae21db9d5c5d6cfe483035a8e661297da489284a86a53a6af37",
+      "decode_status": "ok",
+      "byte_size": 3672,
+      "width": 192,
+      "height": 144,
+      "dhash": "b648494bb6b662a7",
+      "canonical_pixel_sha256": "a0d344a0fa276334c50de29cfc800b692c89310d737740e2741334f193ce2301",
+      "thumbnail": "evidence/805c594f3bacf44049f6cfaf.jpg"
+    },
+    {
+      "asset_id": "f11_resize",
+      "path": "media/f11_resize.png",
+      "split": "test",
+      "source_group": "f11",
+      "media_type": "image",
+      "text": "游泳池边摆放粉色沙滩椅",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "游泳池边摆放粉色沙滩椅",
+      "normalized_text_sha256": "a10834f7617a9322a1cf00ab5ac97faebd9d93246800c7f86ad533913598ab29",
+      "text_ngrams": [
+        "摆放粉",
+        "放粉色",
+        "池边摆",
+        "沙滩椅",
+        "泳池边",
+        "游泳池",
+        "粉色沙",
+        "色沙滩",
+        "边摆放"
+      ],
+      "sha256": "a9efdc58af328822bff8b11470310294e2f03e5fc8ebd0f860fa555cc14c57bb",
+      "decode_status": "ok",
+      "byte_size": 4388,
+      "width": 96,
+      "height": 72,
+      "dhash": "b648494bb6b662a7",
+      "canonical_pixel_sha256": "89d814079a2346eaed62138e8412c3356b0c17013d1d2d4d57751d3248cf45bd",
+      "thumbnail": "evidence/d2610b91aa768502f7b78f42.jpg"
+    },
+    {
+      "asset_id": "f11_crop",
+      "path": "media/f11_crop.png",
+      "split": "train",
+      "source_group": "f11",
+      "media_type": "image",
+      "text": "游泳池边摆放粉色沙滩椅",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "游泳池边摆放粉色沙滩椅",
+      "normalized_text_sha256": "a10834f7617a9322a1cf00ab5ac97faebd9d93246800c7f86ad533913598ab29",
+      "text_ngrams": [
+        "摆放粉",
+        "放粉色",
+        "池边摆",
+        "沙滩椅",
+        "泳池边",
+        "游泳池",
+        "粉色沙",
+        "色沙滩",
+        "边摆放"
+      ],
+      "sha256": "2359a8611db540e2f29047690efa757590d54c7593aa74119c1b8b4c6d233d5c",
+      "decode_status": "ok",
+      "byte_size": 1975,
+      "width": 168,
+      "height": 128,
+      "dhash": "37cccd4332266367",
+      "canonical_pixel_sha256": "c1a168692fcbfb6a026d4a05618837252c27190fbfb328b4c3720af0422e472d",
+      "thumbnail": "evidence/12ea72bea1fc081bd6951857.jpg"
+    },
+    {
+      "asset_id": "f12_original",
+      "path": "media/f12_original.png",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "机器人把绿色苹果放进篮子",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "机器人把绿色苹果放进篮子",
+      "normalized_text_sha256": "e052f43a1c0f22ed1b839789ff86d14e5fb861994dbf2d3c967454979021cdaf",
+      "text_ngrams": [
+        "人把绿",
+        "器人把",
+        "把绿色",
+        "放进篮",
+        "机器人",
+        "果放进",
+        "绿色苹",
+        "色苹果",
+        "苹果放",
+        "进篮子"
+      ],
+      "sha256": "884f02d4041b7a000348d5ce1b201795a9171675fd9537c2ecce21e5bbcc38de",
+      "decode_status": "ok",
+      "byte_size": 2293,
+      "width": 192,
+      "height": 144,
+      "dhash": "36c9e969cec1e616",
+      "canonical_pixel_sha256": "5e8562cab414775c92c0d48745c6c952cdc032e332a4598435c5621d7f12e6a5",
+      "thumbnail": "evidence/10030d8c844b42513366e63d.jpg"
+    },
+    {
+      "asset_id": "f12_renamed",
+      "path": "media/f12_renamed.png",
+      "split": "calibration",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "机器人把绿色苹果放进篮子",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "机器人把绿色苹果放进篮子",
+      "normalized_text_sha256": "e052f43a1c0f22ed1b839789ff86d14e5fb861994dbf2d3c967454979021cdaf",
+      "text_ngrams": [
+        "人把绿",
+        "器人把",
+        "把绿色",
+        "放进篮",
+        "机器人",
+        "果放进",
+        "绿色苹",
+        "色苹果",
+        "苹果放",
+        "进篮子"
+      ],
+      "sha256": "884f02d4041b7a000348d5ce1b201795a9171675fd9537c2ecce21e5bbcc38de",
+      "decode_status": "ok",
+      "byte_size": 2293,
+      "width": 192,
+      "height": 144,
+      "dhash": "36c9e969cec1e616",
+      "canonical_pixel_sha256": "5e8562cab414775c92c0d48745c6c952cdc032e332a4598435c5621d7f12e6a5",
+      "thumbnail": "evidence/4ebb61b40ad3aedf9c6ab213.jpg"
+    },
+    {
+      "asset_id": "f12_jpeg",
+      "path": "media/f12_jpeg.jpg",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "机器人把绿色苹果放进篮子",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "机器人把绿色苹果放进篮子",
+      "normalized_text_sha256": "e052f43a1c0f22ed1b839789ff86d14e5fb861994dbf2d3c967454979021cdaf",
+      "text_ngrams": [
+        "人把绿",
+        "器人把",
+        "把绿色",
+        "放进篮",
+        "机器人",
+        "果放进",
+        "绿色苹",
+        "色苹果",
+        "苹果放",
+        "进篮子"
+      ],
+      "sha256": "89bb3e9b47394016c97a71df5377838104549bd4f52686082b087e1dc7c8c6d9",
+      "decode_status": "ok",
+      "byte_size": 3173,
+      "width": 192,
+      "height": 144,
+      "dhash": "36c9e969cec1e616",
+      "canonical_pixel_sha256": "8dc2d6124b327096b34b015628af7e3d0babd32883b954bce31ec4fa698ec71f",
+      "thumbnail": "evidence/637f2639c51dda2560dbaf46.jpg"
+    },
+    {
+      "asset_id": "f12_resize",
+      "path": "media/f12_resize.png",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "机器人把绿色苹果放进篮子",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "机器人把绿色苹果放进篮子",
+      "normalized_text_sha256": "e052f43a1c0f22ed1b839789ff86d14e5fb861994dbf2d3c967454979021cdaf",
+      "text_ngrams": [
+        "人把绿",
+        "器人把",
+        "把绿色",
+        "放进篮",
+        "机器人",
+        "果放进",
+        "绿色苹",
+        "色苹果",
+        "苹果放",
+        "进篮子"
+      ],
+      "sha256": "9a0143d2208ee80bd9c2a3d8b056a5b41946a6a7d96bfda82f927c91f3d3519f",
+      "decode_status": "ok",
+      "byte_size": 4147,
+      "width": 96,
+      "height": 72,
+      "dhash": "36c9e969cec1e616",
+      "canonical_pixel_sha256": "a032a5ea7ee6dd1426ee7fddd5ff78cb6be053385fab89df73aea20d06ebe9e0",
+      "thumbnail": "evidence/f6d36951bc6ad5491a57431f.jpg"
+    },
+    {
+      "asset_id": "f12_crop",
+      "path": "media/f12_crop.png",
+      "split": "calibration",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "机器人把绿色苹果放进篮子",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "机器人把绿色苹果放进篮子",
+      "normalized_text_sha256": "e052f43a1c0f22ed1b839789ff86d14e5fb861994dbf2d3c967454979021cdaf",
+      "text_ngrams": [
+        "人把绿",
+        "器人把",
+        "把绿色",
+        "放进篮",
+        "机器人",
+        "果放进",
+        "绿色苹",
+        "色苹果",
+        "苹果放",
+        "进篮子"
+      ],
+      "sha256": "1ebb2cec04891001d74bc986bd821f8b551619fc58f520769345650a6c0619f6",
+      "decode_status": "ok",
+      "byte_size": 2160,
+      "width": 168,
+      "height": 128,
+      "dhash": "5ec9e9e9da85a616",
+      "canonical_pixel_sha256": "271f9639c004c30c8ae1da0f5eaf0391c86259aa2ecbdd16553e3e1e28d4c814",
+      "thumbnail": "evidence/7771401db8756c0a0e0c81cf.jpg"
+    },
+    {
+      "asset_id": "f13_original",
+      "path": "media/f13_original.png",
+      "split": "calibration",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "蓝帽厨师正在厨房揉面团",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "蓝帽厨师正在厨房揉面团",
+      "normalized_text_sha256": "31c4a6cc037a9aae7e07de55dd3d6cbed6d847ee2b5207cf1fcea35660416fcf",
+      "text_ngrams": [
+        "厨师正",
+        "厨房揉",
+        "在厨房",
+        "师正在",
+        "帽厨师",
+        "房揉面",
+        "揉面团",
+        "正在厨",
+        "蓝帽厨"
+      ],
+      "sha256": "1e5dfc249f4b12745f4c0c8d5ec8e8f77a704ed6db5ddb5ee808e3990adf1567",
+      "decode_status": "ok",
+      "byte_size": 2299,
+      "width": 192,
+      "height": 144,
+      "dhash": "6e9a9632b1b3360e",
+      "canonical_pixel_sha256": "e7eeaafa30836ca7c61ca0cf1cbb4b51b6fa0f06e3b489ebf4fadc4309b3025a",
+      "thumbnail": "evidence/733d670ed71c4fa04026b5e2.jpg"
+    },
+    {
+      "asset_id": "f13_renamed",
+      "path": "media/f13_renamed.png",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "蓝帽厨师正在厨房揉面团",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "蓝帽厨师正在厨房揉面团",
+      "normalized_text_sha256": "31c4a6cc037a9aae7e07de55dd3d6cbed6d847ee2b5207cf1fcea35660416fcf",
+      "text_ngrams": [
+        "厨师正",
+        "厨房揉",
+        "在厨房",
+        "师正在",
+        "帽厨师",
+        "房揉面",
+        "揉面团",
+        "正在厨",
+        "蓝帽厨"
+      ],
+      "sha256": "1e5dfc249f4b12745f4c0c8d5ec8e8f77a704ed6db5ddb5ee808e3990adf1567",
+      "decode_status": "ok",
+      "byte_size": 2299,
+      "width": 192,
+      "height": 144,
+      "dhash": "6e9a9632b1b3360e",
+      "canonical_pixel_sha256": "e7eeaafa30836ca7c61ca0cf1cbb4b51b6fa0f06e3b489ebf4fadc4309b3025a",
+      "thumbnail": "evidence/693f459b14f397e114164a87.jpg"
+    },
+    {
+      "asset_id": "f13_jpeg",
+      "path": "media/f13_jpeg.jpg",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "蓝帽厨师正在厨房揉面团",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "蓝帽厨师正在厨房揉面团",
+      "normalized_text_sha256": "31c4a6cc037a9aae7e07de55dd3d6cbed6d847ee2b5207cf1fcea35660416fcf",
+      "text_ngrams": [
+        "厨师正",
+        "厨房揉",
+        "在厨房",
+        "师正在",
+        "帽厨师",
+        "房揉面",
+        "揉面团",
+        "正在厨",
+        "蓝帽厨"
+      ],
+      "sha256": "532fdac531327d88201583974a0af2787e580d35279c279c7b0ede842837c407",
+      "decode_status": "ok",
+      "byte_size": 3151,
+      "width": 192,
+      "height": 144,
+      "dhash": "6e9a9632b1b3360e",
+      "canonical_pixel_sha256": "c6563c02618c7ce8b963c3f33538dc9effbb4990e2f752b66c8fbe6c9b695dea",
+      "thumbnail": "evidence/357dced8af386ac5d0ff28d6.jpg"
+    },
+    {
+      "asset_id": "f13_resize",
+      "path": "media/f13_resize.png",
+      "split": "calibration",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "蓝帽厨师正在厨房揉面团",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "蓝帽厨师正在厨房揉面团",
+      "normalized_text_sha256": "31c4a6cc037a9aae7e07de55dd3d6cbed6d847ee2b5207cf1fcea35660416fcf",
+      "text_ngrams": [
+        "厨师正",
+        "厨房揉",
+        "在厨房",
+        "师正在",
+        "帽厨师",
+        "房揉面",
+        "揉面团",
+        "正在厨",
+        "蓝帽厨"
+      ],
+      "sha256": "0edf6df242ce81b9d9766536667898f168ab65a70a056dc969e5e78d9004721f",
+      "decode_status": "ok",
+      "byte_size": 4259,
+      "width": 96,
+      "height": 72,
+      "dhash": "6e929632b1b3360e",
+      "canonical_pixel_sha256": "2ec1f4d8d0f8eb5de9469832786975fe6cfe46acce9b04975ff0dcd31dc76428",
+      "thumbnail": "evidence/7e1ab0d9a0456d4c9783fdc6.jpg"
+    },
+    {
+      "asset_id": "f13_crop",
+      "path": "media/f13_crop.png",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "蓝帽厨师正在厨房揉面团",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "蓝帽厨师正在厨房揉面团",
+      "normalized_text_sha256": "31c4a6cc037a9aae7e07de55dd3d6cbed6d847ee2b5207cf1fcea35660416fcf",
+      "text_ngrams": [
+        "厨师正",
+        "厨房揉",
+        "在厨房",
+        "师正在",
+        "帽厨师",
+        "房揉面",
+        "揉面团",
+        "正在厨",
+        "蓝帽厨"
+      ],
+      "sha256": "4cdfb6cb5e8e33d14864df6a22cfa745ea7ca72b0610978e24379326a2c02dab",
+      "decode_status": "ok",
+      "byte_size": 2149,
+      "width": 168,
+      "height": 128,
+      "dhash": "6e939f73b1b5324e",
+      "canonical_pixel_sha256": "57640eb4f02c3949b145be7d18c2b60167a711beb77e740f7110f20ed4fbcedc",
+      "thumbnail": "evidence/a77747626b5f0f0231da8105.jpg"
+    },
+    {
+      "asset_id": "f14_original",
+      "path": "media/f14_original.png",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "黄色挖掘机停在碎石路口",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "黄色挖掘机停在碎石路口",
+      "normalized_text_sha256": "2c26e4f2f005345a537a0c1feb0b31a1fb77c0cc907d77efc45826e0a35d1284",
+      "text_ngrams": [
+        "停在碎",
+        "在碎石",
+        "挖掘机",
+        "掘机停",
+        "机停在",
+        "石路口",
+        "碎石路",
+        "色挖掘",
+        "黄色挖"
+      ],
+      "sha256": "b47bec89ce662867cd75938d6b3a1e14778575cd5620775b9590622efbf8eabc",
+      "decode_status": "ok",
+      "byte_size": 2300,
+      "width": 192,
+      "height": 144,
+      "dhash": "0c2a56b6b43ab2b6",
+      "canonical_pixel_sha256": "b68d061d9773393e489899c5a8b526ef61bca3d9de4f7bd437ac291aeaae4132",
+      "thumbnail": "evidence/a128c41633540c193cf27556.jpg"
+    },
+    {
+      "asset_id": "f14_renamed",
+      "path": "media/f14_renamed.png",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "黄色挖掘机停在碎石路口",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "黄色挖掘机停在碎石路口",
+      "normalized_text_sha256": "2c26e4f2f005345a537a0c1feb0b31a1fb77c0cc907d77efc45826e0a35d1284",
+      "text_ngrams": [
+        "停在碎",
+        "在碎石",
+        "挖掘机",
+        "掘机停",
+        "机停在",
+        "石路口",
+        "碎石路",
+        "色挖掘",
+        "黄色挖"
+      ],
+      "sha256": "b47bec89ce662867cd75938d6b3a1e14778575cd5620775b9590622efbf8eabc",
+      "decode_status": "ok",
+      "byte_size": 2300,
+      "width": 192,
+      "height": 144,
+      "dhash": "0c2a56b6b43ab2b6",
+      "canonical_pixel_sha256": "b68d061d9773393e489899c5a8b526ef61bca3d9de4f7bd437ac291aeaae4132",
+      "thumbnail": "evidence/46cc0cdc3d0d7a5a505fa050.jpg"
+    },
+    {
+      "asset_id": "f14_jpeg",
+      "path": "media/f14_jpeg.jpg",
+      "split": "calibration",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "黄色挖掘机停在碎石路口",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "黄色挖掘机停在碎石路口",
+      "normalized_text_sha256": "2c26e4f2f005345a537a0c1feb0b31a1fb77c0cc907d77efc45826e0a35d1284",
+      "text_ngrams": [
+        "停在碎",
+        "在碎石",
+        "挖掘机",
+        "掘机停",
+        "机停在",
+        "石路口",
+        "碎石路",
+        "色挖掘",
+        "黄色挖"
+      ],
+      "sha256": "3b3edb8e3477ea85846e600c566414a81fe977bd78e75d7798cb1a6fcf1ca315",
+      "decode_status": "ok",
+      "byte_size": 3066,
+      "width": 192,
+      "height": 144,
+      "dhash": "2c2a56b6b43ab2b6",
+      "canonical_pixel_sha256": "5533001d826fad8bfcca38d5f88a6b6fde1881e24bea5a1b2ea1a8d43a04797e",
+      "thumbnail": "evidence/07cb8dc044b868fee64043dd.jpg"
+    },
+    {
+      "asset_id": "f14_resize",
+      "path": "media/f14_resize.png",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "黄色挖掘机停在碎石路口",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "黄色挖掘机停在碎石路口",
+      "normalized_text_sha256": "2c26e4f2f005345a537a0c1feb0b31a1fb77c0cc907d77efc45826e0a35d1284",
+      "text_ngrams": [
+        "停在碎",
+        "在碎石",
+        "挖掘机",
+        "掘机停",
+        "机停在",
+        "石路口",
+        "碎石路",
+        "色挖掘",
+        "黄色挖"
+      ],
+      "sha256": "8edebbbdb1819d3a307359510882d2129abf4f0acbac16f4d3c628980ab9c136",
+      "decode_status": "ok",
+      "byte_size": 4273,
+      "width": 96,
+      "height": 72,
+      "dhash": "0c2a56b6b43ab2b6",
+      "canonical_pixel_sha256": "73972b9dace331a9e254e647d095a2b8c6ab89443646589c4883080e50f56b79",
+      "thumbnail": "evidence/40a3ccb9f4e8b0b4e1941a05.jpg"
+    },
+    {
+      "asset_id": "f14_crop",
+      "path": "media/f14_crop.png",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "黄色挖掘机停在碎石路口",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "黄色挖掘机停在碎石路口",
+      "normalized_text_sha256": "2c26e4f2f005345a537a0c1feb0b31a1fb77c0cc907d77efc45826e0a35d1284",
+      "text_ngrams": [
+        "停在碎",
+        "在碎石",
+        "挖掘机",
+        "掘机停",
+        "机停在",
+        "石路口",
+        "碎石路",
+        "色挖掘",
+        "黄色挖"
+      ],
+      "sha256": "d0326810edfd5a3cd72e7f347a9ad2ec48e9240fe6c5d5c93b0bf2340579680f",
+      "decode_status": "ok",
+      "byte_size": 2182,
+      "width": 168,
+      "height": 128,
+      "dhash": "0f2b1fa6a429b3b2",
+      "canonical_pixel_sha256": "dd389f16f00d68b4822a1ab3418623d1ccdd0fcda8417e28e0ab9466af565dbe",
+      "thumbnail": "evidence/ee9a47947f8141acfee0e7d9.jpg"
+    },
+    {
+      "asset_id": "f15_original",
+      "path": "media/f15_original.png",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "几只海鸥围绕红色灯塔飞行",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "几只海鸥围绕红色灯塔飞行",
+      "normalized_text_sha256": "b8a4a20099eab95a2b9433dcfa233c59b9131f372156f572ec2cd98df1dd1d98",
+      "text_ngrams": [
+        "几只海",
+        "只海鸥",
+        "围绕红",
+        "塔飞行",
+        "海鸥围",
+        "灯塔飞",
+        "红色灯",
+        "绕红色",
+        "色灯塔",
+        "鸥围绕"
+      ],
+      "sha256": "67b77dbe2c2bd72559c4d345d2b92ea06d22cd4967ed98687abe3589a64bbb2b",
+      "decode_status": "ok",
+      "byte_size": 2243,
+      "width": 192,
+      "height": 144,
+      "dhash": "6e929c8c8c94c44b",
+      "canonical_pixel_sha256": "8e10ada8661bb8c4246a979c551cf2d5f9d25c4bd774a02e4f86ef6b31daab80",
+      "thumbnail": "evidence/cc70e1f393f8fe02a9d701f1.jpg"
+    },
+    {
+      "asset_id": "f15_renamed",
+      "path": "media/f15_renamed.png",
+      "split": "calibration",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "几只海鸥围绕红色灯塔飞行",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "几只海鸥围绕红色灯塔飞行",
+      "normalized_text_sha256": "b8a4a20099eab95a2b9433dcfa233c59b9131f372156f572ec2cd98df1dd1d98",
+      "text_ngrams": [
+        "几只海",
+        "只海鸥",
+        "围绕红",
+        "塔飞行",
+        "海鸥围",
+        "灯塔飞",
+        "红色灯",
+        "绕红色",
+        "色灯塔",
+        "鸥围绕"
+      ],
+      "sha256": "67b77dbe2c2bd72559c4d345d2b92ea06d22cd4967ed98687abe3589a64bbb2b",
+      "decode_status": "ok",
+      "byte_size": 2243,
+      "width": 192,
+      "height": 144,
+      "dhash": "6e929c8c8c94c44b",
+      "canonical_pixel_sha256": "8e10ada8661bb8c4246a979c551cf2d5f9d25c4bd774a02e4f86ef6b31daab80",
+      "thumbnail": "evidence/6b3d5641b53fe43005e0ea8c.jpg"
+    },
+    {
+      "asset_id": "f15_jpeg",
+      "path": "media/f15_jpeg.jpg",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "几只海鸥围绕红色灯塔飞行",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "几只海鸥围绕红色灯塔飞行",
+      "normalized_text_sha256": "b8a4a20099eab95a2b9433dcfa233c59b9131f372156f572ec2cd98df1dd1d98",
+      "text_ngrams": [
+        "几只海",
+        "只海鸥",
+        "围绕红",
+        "塔飞行",
+        "海鸥围",
+        "灯塔飞",
+        "红色灯",
+        "绕红色",
+        "色灯塔",
+        "鸥围绕"
+      ],
+      "sha256": "21218c2e675e54efbc1b9880191b9d570c44645979b706ee618b0b2d2b4ec455",
+      "decode_status": "ok",
+      "byte_size": 3131,
+      "width": 192,
+      "height": 144,
+      "dhash": "6e929c8c8c94c44b",
+      "canonical_pixel_sha256": "0d6fa00e8edf4431cd47ff28e79b1e42c33980e598e0ff11fdacde96bfaf40e5",
+      "thumbnail": "evidence/380de3abcb74e5ea09056a6b.jpg"
+    },
+    {
+      "asset_id": "f15_resize",
+      "path": "media/f15_resize.png",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "几只海鸥围绕红色灯塔飞行",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "几只海鸥围绕红色灯塔飞行",
+      "normalized_text_sha256": "b8a4a20099eab95a2b9433dcfa233c59b9131f372156f572ec2cd98df1dd1d98",
+      "text_ngrams": [
+        "几只海",
+        "只海鸥",
+        "围绕红",
+        "塔飞行",
+        "海鸥围",
+        "灯塔飞",
+        "红色灯",
+        "绕红色",
+        "色灯塔",
+        "鸥围绕"
+      ],
+      "sha256": "92d5c51ac2d56eabe0730859f8d3f9b72fa31943b4e3e30d499bbd1834a08d40",
+      "decode_status": "ok",
+      "byte_size": 4012,
+      "width": 96,
+      "height": 72,
+      "dhash": "6e929c8c8c94c44b",
+      "canonical_pixel_sha256": "ac63682754df02a2b14e8a3ea2f0d30daa6fed0a9c5e5842d210c46d1cfd1aa9",
+      "thumbnail": "evidence/98da90c303ef1015f2ca2f1d.jpg"
+    },
+    {
+      "asset_id": "f15_crop",
+      "path": "media/f15_crop.png",
+      "split": "calibration",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "几只海鸥围绕红色灯塔飞行",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "几只海鸥围绕红色灯塔飞行",
+      "normalized_text_sha256": "b8a4a20099eab95a2b9433dcfa233c59b9131f372156f572ec2cd98df1dd1d98",
+      "text_ngrams": [
+        "几只海",
+        "只海鸥",
+        "围绕红",
+        "塔飞行",
+        "海鸥围",
+        "灯塔飞",
+        "红色灯",
+        "绕红色",
+        "色灯塔",
+        "鸥围绕"
+      ],
+      "sha256": "8234c2fa2894169c5e59c5a79e92c23b5f6b7865086bb3aa5b452b69b8ef9ea4",
+      "decode_status": "ok",
+      "byte_size": 2089,
+      "width": 168,
+      "height": 128,
+      "dhash": "6e9394948496d6c9",
+      "canonical_pixel_sha256": "e67ec3d39c85502a72aa880b8ca11126e1afff7dd5dc0d31e5099dbeae81e116",
+      "thumbnail": "evidence/1c1f5da9941eb3ed16949596.jpg"
+    },
+    {
+      "asset_id": "f16_original",
+      "path": "media/f16_original.png",
+      "split": "calibration",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "雪地里的松树挂满金色铃铛",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "雪地里的松树挂满金色铃铛",
+      "normalized_text_sha256": "09f5529f0070be2ba3b0661a426536de7257590554c4ca5df7acba9c244a4b15",
+      "text_ngrams": [
+        "地里的",
+        "挂满金",
+        "松树挂",
+        "树挂满",
+        "满金色",
+        "的松树",
+        "色铃铛",
+        "里的松",
+        "金色铃",
+        "雪地里"
+      ],
+      "sha256": "563d2b7f7ae1824475b141533efa734615d1fe99eed0a149a2a8738ae2db77bf",
+      "decode_status": "ok",
+      "byte_size": 2406,
+      "width": 192,
+      "height": 144,
+      "dhash": "0e268c7996965a92",
+      "canonical_pixel_sha256": "55deb9aaba5424ff567adce39bfff457e494a2b440f6e0f60c26554cabc1c3a9",
+      "thumbnail": "evidence/296c6647da2a8556276d3a74.jpg"
+    },
+    {
+      "asset_id": "f16_renamed",
+      "path": "media/f16_renamed.png",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "雪地里的松树挂满金色铃铛",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "雪地里的松树挂满金色铃铛",
+      "normalized_text_sha256": "09f5529f0070be2ba3b0661a426536de7257590554c4ca5df7acba9c244a4b15",
+      "text_ngrams": [
+        "地里的",
+        "挂满金",
+        "松树挂",
+        "树挂满",
+        "满金色",
+        "的松树",
+        "色铃铛",
+        "里的松",
+        "金色铃",
+        "雪地里"
+      ],
+      "sha256": "563d2b7f7ae1824475b141533efa734615d1fe99eed0a149a2a8738ae2db77bf",
+      "decode_status": "ok",
+      "byte_size": 2406,
+      "width": 192,
+      "height": 144,
+      "dhash": "0e268c7996965a92",
+      "canonical_pixel_sha256": "55deb9aaba5424ff567adce39bfff457e494a2b440f6e0f60c26554cabc1c3a9",
+      "thumbnail": "evidence/4800d266770d9dc8a3e4a64e.jpg"
+    },
+    {
+      "asset_id": "f16_jpeg",
+      "path": "media/f16_jpeg.jpg",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "雪地里的松树挂满金色铃铛",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "雪地里的松树挂满金色铃铛",
+      "normalized_text_sha256": "09f5529f0070be2ba3b0661a426536de7257590554c4ca5df7acba9c244a4b15",
+      "text_ngrams": [
+        "地里的",
+        "挂满金",
+        "松树挂",
+        "树挂满",
+        "满金色",
+        "的松树",
+        "色铃铛",
+        "里的松",
+        "金色铃",
+        "雪地里"
+      ],
+      "sha256": "4fd731a3f5d0a69f80c0ef95ee7dcc14591b706c29136259ce139a840dfffedd",
+      "decode_status": "ok",
+      "byte_size": 3199,
+      "width": 192,
+      "height": 144,
+      "dhash": "0e068c7996965a92",
+      "canonical_pixel_sha256": "9479679363c577ad8a981d2e454aedf3be0a454b40efe97049048015303469ee",
+      "thumbnail": "evidence/25db2ed5b48e1abf72ef546d.jpg"
+    },
+    {
+      "asset_id": "f16_resize",
+      "path": "media/f16_resize.png",
+      "split": "calibration",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "雪地里的松树挂满金色铃铛",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "雪地里的松树挂满金色铃铛",
+      "normalized_text_sha256": "09f5529f0070be2ba3b0661a426536de7257590554c4ca5df7acba9c244a4b15",
+      "text_ngrams": [
+        "地里的",
+        "挂满金",
+        "松树挂",
+        "树挂满",
+        "满金色",
+        "的松树",
+        "色铃铛",
+        "里的松",
+        "金色铃",
+        "雪地里"
+      ],
+      "sha256": "c3e087dcdab3aeb7f9c1ddd86140af292938cb73fedb495dab80c179e89593c6",
+      "decode_status": "ok",
+      "byte_size": 4597,
+      "width": 96,
+      "height": 72,
+      "dhash": "0e268c7996965a92",
+      "canonical_pixel_sha256": "c98df1b6b362e3acc8a1afe9aff96b55cd126878e6c380b3af1135472fae812f",
+      "thumbnail": "evidence/f9fff485d1444d06c3344554.jpg"
+    },
+    {
+      "asset_id": "f16_crop",
+      "path": "media/f16_crop.png",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "雪地里的松树挂满金色铃铛",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "雪地里的松树挂满金色铃铛",
+      "normalized_text_sha256": "09f5529f0070be2ba3b0661a426536de7257590554c4ca5df7acba9c244a4b15",
+      "text_ngrams": [
+        "地里的",
+        "挂满金",
+        "松树挂",
+        "树挂满",
+        "满金色",
+        "的松树",
+        "色铃铛",
+        "里的松",
+        "金色铃",
+        "雪地里"
+      ],
+      "sha256": "9e240cb36557663059ea9cb2244d42e3356ada26cd89f43b479438cf9e71d153",
+      "decode_status": "ok",
+      "byte_size": 2275,
+      "width": 168,
+      "height": 128,
+      "dhash": "062fac7c92969a5a",
+      "canonical_pixel_sha256": "fbc14fc15a3e984f8bf027ae140fbf3f09144c30ba8c76ec7240832b7d6bc3aa",
+      "thumbnail": "evidence/143649e292db2f58b0160298.jpg"
+    },
+    {
+      "asset_id": "f17_original",
+      "path": "media/f17_original.png",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "水底乌龟游过深绿色水草",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "水底乌龟游过深绿色水草",
+      "normalized_text_sha256": "d4cd4a20d3f0379c4544754c2a6f66ff6c138cc679bfa9d6fdd9d19dda35c16c",
+      "text_ngrams": [
+        "乌龟游",
+        "底乌龟",
+        "水底乌",
+        "深绿色",
+        "游过深",
+        "绿色水",
+        "色水草",
+        "过深绿",
+        "龟游过"
+      ],
+      "sha256": "21891dbcbf7ddfb51c0f3eccaafdb7031ca234dafcdedd103918a0090f488886",
+      "decode_status": "ok",
+      "byte_size": 2272,
+      "width": 192,
+      "height": 144,
+      "dhash": "463cccc8dcd6d32c",
+      "canonical_pixel_sha256": "902c9a76ee6fb01b242630283f6001acbba457099361de9d311dc21fb0e109ca",
+      "thumbnail": "evidence/1695e302a26ee92b55d671ab.jpg"
+    },
+    {
+      "asset_id": "f17_renamed",
+      "path": "media/f17_renamed.png",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "水底乌龟游过深绿色水草",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "水底乌龟游过深绿色水草",
+      "normalized_text_sha256": "d4cd4a20d3f0379c4544754c2a6f66ff6c138cc679bfa9d6fdd9d19dda35c16c",
+      "text_ngrams": [
+        "乌龟游",
+        "底乌龟",
+        "水底乌",
+        "深绿色",
+        "游过深",
+        "绿色水",
+        "色水草",
+        "过深绿",
+        "龟游过"
+      ],
+      "sha256": "21891dbcbf7ddfb51c0f3eccaafdb7031ca234dafcdedd103918a0090f488886",
+      "decode_status": "ok",
+      "byte_size": 2272,
+      "width": 192,
+      "height": 144,
+      "dhash": "463cccc8dcd6d32c",
+      "canonical_pixel_sha256": "902c9a76ee6fb01b242630283f6001acbba457099361de9d311dc21fb0e109ca",
+      "thumbnail": "evidence/4798c10870a4418d37c10964.jpg"
+    },
+    {
+      "asset_id": "f17_jpeg",
+      "path": "media/f17_jpeg.jpg",
+      "split": "calibration",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "水底乌龟游过深绿色水草",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "水底乌龟游过深绿色水草",
+      "normalized_text_sha256": "d4cd4a20d3f0379c4544754c2a6f66ff6c138cc679bfa9d6fdd9d19dda35c16c",
+      "text_ngrams": [
+        "乌龟游",
+        "底乌龟",
+        "水底乌",
+        "深绿色",
+        "游过深",
+        "绿色水",
+        "色水草",
+        "过深绿",
+        "龟游过"
+      ],
+      "sha256": "b1d0447782047a089611122f1e96355f2a64b386a77892ceeb074ace9113beea",
+      "decode_status": "ok",
+      "byte_size": 3063,
+      "width": 192,
+      "height": 144,
+      "dhash": "4e3cccc8dcd6d32c",
+      "canonical_pixel_sha256": "57bcb6b5ab18952b320025e937e2c316bba2fe35241d689dfe774947508dc44f",
+      "thumbnail": "evidence/71811a0514357acccfa8d647.jpg"
+    },
+    {
+      "asset_id": "f17_resize",
+      "path": "media/f17_resize.png",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "水底乌龟游过深绿色水草",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "水底乌龟游过深绿色水草",
+      "normalized_text_sha256": "d4cd4a20d3f0379c4544754c2a6f66ff6c138cc679bfa9d6fdd9d19dda35c16c",
+      "text_ngrams": [
+        "乌龟游",
+        "底乌龟",
+        "水底乌",
+        "深绿色",
+        "游过深",
+        "绿色水",
+        "色水草",
+        "过深绿",
+        "龟游过"
+      ],
+      "sha256": "6c70462fc6d5d0e6a1c67fdf3fea6913c0aebc197a489ae4ea92527e580bf4e1",
+      "decode_status": "ok",
+      "byte_size": 4161,
+      "width": 96,
+      "height": 72,
+      "dhash": "463cccccdcd6d32c",
+      "canonical_pixel_sha256": "389a948bfc5799183d3bb6145967731a24da2f4f8c81267eb023b7966e625925",
+      "thumbnail": "evidence/5f4d661465d22484fda3a211.jpg"
+    },
+    {
+      "asset_id": "f17_crop",
+      "path": "media/f17_crop.png",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "水底乌龟游过深绿色水草",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "水底乌龟游过深绿色水草",
+      "normalized_text_sha256": "d4cd4a20d3f0379c4544754c2a6f66ff6c138cc679bfa9d6fdd9d19dda35c16c",
+      "text_ngrams": [
+        "乌龟游",
+        "底乌龟",
+        "水底乌",
+        "深绿色",
+        "游过深",
+        "绿色水",
+        "色水草",
+        "过深绿",
+        "龟游过"
+      ],
+      "sha256": "5bff1ada1ab3a9f115d32af81c4bf4f1a67a2634afb540c371ea84f7312da4a6",
+      "decode_status": "ok",
+      "byte_size": 2133,
+      "width": 168,
+      "height": 128,
+      "dhash": "c72cccccdcd6d32c",
+      "canonical_pixel_sha256": "86e6e8f2a466bb3709832c90f2d48faf736821ffbff9da7afcb591a8c62560d5",
+      "thumbnail": "evidence/f0ba12823dc2fcfd04f1f754.jpg"
+    },
+    {
+      "asset_id": "f18_original",
+      "path": "media/f18_original.png",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "木桌上的三个陶罐大小不同",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "木桌上的三个陶罐大小不同",
+      "normalized_text_sha256": "3aeb36f2d1fd41c51c2c48ae8db31e665540d440b548cc214ce8c0a092172b93",
+      "text_ngrams": [
+        "三个陶",
+        "上的三",
+        "个陶罐",
+        "大小不",
+        "小不同",
+        "木桌上",
+        "桌上的",
+        "的三个",
+        "罐大小",
+        "陶罐大"
+      ],
+      "sha256": "dbb60737ddc9316566b8aaaafb48c6dc88bca5d77e898fc6f64910def635e50e",
+      "decode_status": "ok",
+      "byte_size": 2207,
+      "width": 192,
+      "height": 144,
+      "dhash": "0eb2b2b129b9b159",
+      "canonical_pixel_sha256": "750fbcd7516e88517596d8dcacb5d36ca7f11b3055bb0e3adb0a170a661acc2f",
+      "thumbnail": "evidence/40e2b058fcb7aefeed2b6508.jpg"
+    },
+    {
+      "asset_id": "f18_renamed",
+      "path": "media/f18_renamed.png",
+      "split": "calibration",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "木桌上的三个陶罐大小不同",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "木桌上的三个陶罐大小不同",
+      "normalized_text_sha256": "3aeb36f2d1fd41c51c2c48ae8db31e665540d440b548cc214ce8c0a092172b93",
+      "text_ngrams": [
+        "三个陶",
+        "上的三",
+        "个陶罐",
+        "大小不",
+        "小不同",
+        "木桌上",
+        "桌上的",
+        "的三个",
+        "罐大小",
+        "陶罐大"
+      ],
+      "sha256": "dbb60737ddc9316566b8aaaafb48c6dc88bca5d77e898fc6f64910def635e50e",
+      "decode_status": "ok",
+      "byte_size": 2207,
+      "width": 192,
+      "height": 144,
+      "dhash": "0eb2b2b129b9b159",
+      "canonical_pixel_sha256": "750fbcd7516e88517596d8dcacb5d36ca7f11b3055bb0e3adb0a170a661acc2f",
+      "thumbnail": "evidence/18db8d24c1fb1c4b9afc538c.jpg"
+    },
+    {
+      "asset_id": "f18_jpeg",
+      "path": "media/f18_jpeg.jpg",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "木桌上的三个陶罐大小不同",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "木桌上的三个陶罐大小不同",
+      "normalized_text_sha256": "3aeb36f2d1fd41c51c2c48ae8db31e665540d440b548cc214ce8c0a092172b93",
+      "text_ngrams": [
+        "三个陶",
+        "上的三",
+        "个陶罐",
+        "大小不",
+        "小不同",
+        "木桌上",
+        "桌上的",
+        "的三个",
+        "罐大小",
+        "陶罐大"
+      ],
+      "sha256": "db6e3ecd5bc0610df52766a70415f369e86a1582a7f40b4f09bb4dcd00aedcf7",
+      "decode_status": "ok",
+      "byte_size": 2767,
+      "width": 192,
+      "height": 144,
+      "dhash": "0eb2b2b129b9b159",
+      "canonical_pixel_sha256": "190c31abad647cb7d89e71a0e01373a821fc0597b6f440680023310288fb27ef",
+      "thumbnail": "evidence/dad8db161ebcfce5461b293f.jpg"
+    },
+    {
+      "asset_id": "f18_resize",
+      "path": "media/f18_resize.png",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "木桌上的三个陶罐大小不同",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "木桌上的三个陶罐大小不同",
+      "normalized_text_sha256": "3aeb36f2d1fd41c51c2c48ae8db31e665540d440b548cc214ce8c0a092172b93",
+      "text_ngrams": [
+        "三个陶",
+        "上的三",
+        "个陶罐",
+        "大小不",
+        "小不同",
+        "木桌上",
+        "桌上的",
+        "的三个",
+        "罐大小",
+        "陶罐大"
+      ],
+      "sha256": "1d121498ec63418ca81b659f17e45b83f17785b77018f8eb62c2373ae063d7d7",
+      "decode_status": "ok",
+      "byte_size": 3681,
+      "width": 96,
+      "height": 72,
+      "dhash": "0eb2b2b129b9b159",
+      "canonical_pixel_sha256": "e5ffaa35357a4694049f9c183c55c680b715b4789dd4d96c902a87ab537e1059",
+      "thumbnail": "evidence/1f46b92aaf56ed317f9b5c70.jpg"
+    },
+    {
+      "asset_id": "f18_crop",
+      "path": "media/f18_crop.png",
+      "split": "calibration",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "木桌上的三个陶罐大小不同",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "木桌上的三个陶罐大小不同",
+      "normalized_text_sha256": "3aeb36f2d1fd41c51c2c48ae8db31e665540d440b548cc214ce8c0a092172b93",
+      "text_ngrams": [
+        "三个陶",
+        "上的三",
+        "个陶罐",
+        "大小不",
+        "小不同",
+        "木桌上",
+        "桌上的",
+        "的三个",
+        "罐大小",
+        "陶罐大"
+      ],
+      "sha256": "e1d33c6fe707704c5ccf9c801b7c7c9923467d8ec51cb9985207533ef5bea9aa",
+      "decode_status": "ok",
+      "byte_size": 2072,
+      "width": 168,
+      "height": 128,
+      "dhash": "37b2b2b12d39b1b9",
+      "canonical_pixel_sha256": "98c077da410deb0ad160ba36192f2c60af6611372888c235d4e4cc6c35c2e5e9",
+      "thumbnail": "evidence/a66d3cb589300412d2cdc6e7.jpg"
+    },
+    {
+      "asset_id": "f19_original",
+      "path": "media/f19_original.png",
+      "split": "calibration",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "穿着雨靴的孩子站在池塘边",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "穿着雨靴的孩子站在池塘边",
+      "normalized_text_sha256": "0d1e62b962ecf4dd47e696df3d2678990a73ab89f62b9070d8bd533db1127d96",
+      "text_ngrams": [
+        "在池塘",
+        "子站在",
+        "孩子站",
+        "池塘边",
+        "的孩子",
+        "着雨靴",
+        "穿着雨",
+        "站在池",
+        "雨靴的",
+        "靴的孩"
+      ],
+      "sha256": "8dc91b12d97c4356dad0f4ce87e4bc91d974716f06ae92bb4aaea511e6d373bc",
+      "decode_status": "ok",
+      "byte_size": 2188,
+      "width": 192,
+      "height": 144,
+      "dhash": "3fcbcb4cb332f2c6",
+      "canonical_pixel_sha256": "539c7c129e954e5b25d2a89b71fe0ab5eb2697c57846ebcc2a0dd284bc7a731d",
+      "thumbnail": "evidence/539891292ff2f1a1202a35ad.jpg"
+    },
+    {
+      "asset_id": "f19_renamed",
+      "path": "media/f19_renamed.png",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "穿着雨靴的孩子站在池塘边",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "穿着雨靴的孩子站在池塘边",
+      "normalized_text_sha256": "0d1e62b962ecf4dd47e696df3d2678990a73ab89f62b9070d8bd533db1127d96",
+      "text_ngrams": [
+        "在池塘",
+        "子站在",
+        "孩子站",
+        "池塘边",
+        "的孩子",
+        "着雨靴",
+        "穿着雨",
+        "站在池",
+        "雨靴的",
+        "靴的孩"
+      ],
+      "sha256": "8dc91b12d97c4356dad0f4ce87e4bc91d974716f06ae92bb4aaea511e6d373bc",
+      "decode_status": "ok",
+      "byte_size": 2188,
+      "width": 192,
+      "height": 144,
+      "dhash": "3fcbcb4cb332f2c6",
+      "canonical_pixel_sha256": "539c7c129e954e5b25d2a89b71fe0ab5eb2697c57846ebcc2a0dd284bc7a731d",
+      "thumbnail": "evidence/cda056667220af9c7c49509a.jpg"
+    },
+    {
+      "asset_id": "f19_jpeg",
+      "path": "media/f19_jpeg.jpg",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "穿着雨靴的孩子站在池塘边",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "穿着雨靴的孩子站在池塘边",
+      "normalized_text_sha256": "0d1e62b962ecf4dd47e696df3d2678990a73ab89f62b9070d8bd533db1127d96",
+      "text_ngrams": [
+        "在池塘",
+        "子站在",
+        "孩子站",
+        "池塘边",
+        "的孩子",
+        "着雨靴",
+        "穿着雨",
+        "站在池",
+        "雨靴的",
+        "靴的孩"
+      ],
+      "sha256": "0f5cf2d4ef1214f5b7842fe44e43ebb49c890f0dbcf64e98d18845a6a2886e83",
+      "decode_status": "ok",
+      "byte_size": 3165,
+      "width": 192,
+      "height": 144,
+      "dhash": "3fcbcb4cb332f2c6",
+      "canonical_pixel_sha256": "bb935eb444fe0e47802c776410bb05b459a6d293580c763029a04d041fd26281",
+      "thumbnail": "evidence/67987396f662f36cfa9fd503.jpg"
+    },
+    {
+      "asset_id": "f19_resize",
+      "path": "media/f19_resize.png",
+      "split": "calibration",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "穿着雨靴的孩子站在池塘边",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "穿着雨靴的孩子站在池塘边",
+      "normalized_text_sha256": "0d1e62b962ecf4dd47e696df3d2678990a73ab89f62b9070d8bd533db1127d96",
+      "text_ngrams": [
+        "在池塘",
+        "子站在",
+        "孩子站",
+        "池塘边",
+        "的孩子",
+        "着雨靴",
+        "穿着雨",
+        "站在池",
+        "雨靴的",
+        "靴的孩"
+      ],
+      "sha256": "b0e445c59d66eb04cc47231f1429dc264fa86b7da3d91c357940961af8cfbe47",
+      "decode_status": "ok",
+      "byte_size": 4118,
+      "width": 96,
+      "height": 72,
+      "dhash": "3fcbcb4cb332f2c6",
+      "canonical_pixel_sha256": "3186642fda0237eb46c3e8ec2594fe6b8652cbc5e065a1411dd433a2fcedbce1",
+      "thumbnail": "evidence/73599f87b58f2aafc1c9f944.jpg"
+    },
+    {
+      "asset_id": "f19_crop",
+      "path": "media/f19_crop.png",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "穿着雨靴的孩子站在池塘边",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "穿着雨靴的孩子站在池塘边",
+      "normalized_text_sha256": "0d1e62b962ecf4dd47e696df3d2678990a73ab89f62b9070d8bd533db1127d96",
+      "text_ngrams": [
+        "在池塘",
+        "子站在",
+        "孩子站",
+        "池塘边",
+        "的孩子",
+        "着雨靴",
+        "穿着雨",
+        "站在池",
+        "雨靴的",
+        "靴的孩"
+      ],
+      "sha256": "79b4366410ed28ac932b017cff0a6cdc901986b069b01bc9d8831822b759c49e",
+      "decode_status": "ok",
+      "byte_size": 2038,
+      "width": 168,
+      "height": 128,
+      "dhash": "4fcbcbcc3132f2e6",
+      "canonical_pixel_sha256": "d5951002df50a775d2fa3eb8dea343d8746e0a3036539c2281004837835af734",
+      "thumbnail": "evidence/c05da5fe3a671dfcdc25488c.jpg"
+    },
+    {
+      "asset_id": "f20_original",
+      "path": "media/f20_original.png",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "黑色钢琴上摆着一束白花",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "黑色钢琴上摆着一束白花",
+      "normalized_text_sha256": "6b7ba6197b1fea822f6fc1dd4e500112a6c3ab22b61f4ee9cca0dc46e90ef71c",
+      "text_ngrams": [
+        "一束白",
+        "上摆着",
+        "摆着一",
+        "束白花",
+        "琴上摆",
+        "着一束",
+        "色钢琴",
+        "钢琴上",
+        "黑色钢"
+      ],
+      "sha256": "143440093a19f82df0b59bc9c882871ec4b00649141747896c0736b0531bed3d",
+      "decode_status": "ok",
+      "byte_size": 2287,
+      "width": 192,
+      "height": 144,
+      "dhash": "2ccccee2a39492d0",
+      "canonical_pixel_sha256": "88cf731f2b6eaeb0570fe258a5b77a531d5e7216749a9c022ee3e96ba4f9bc3f",
+      "thumbnail": "evidence/eba8a4829b82801bfb026674.jpg"
+    },
+    {
+      "asset_id": "f20_renamed",
+      "path": "media/f20_renamed.png",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "黑色钢琴上摆着一束白花",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "黑色钢琴上摆着一束白花",
+      "normalized_text_sha256": "6b7ba6197b1fea822f6fc1dd4e500112a6c3ab22b61f4ee9cca0dc46e90ef71c",
+      "text_ngrams": [
+        "一束白",
+        "上摆着",
+        "摆着一",
+        "束白花",
+        "琴上摆",
+        "着一束",
+        "色钢琴",
+        "钢琴上",
+        "黑色钢"
+      ],
+      "sha256": "143440093a19f82df0b59bc9c882871ec4b00649141747896c0736b0531bed3d",
+      "decode_status": "ok",
+      "byte_size": 2287,
+      "width": 192,
+      "height": 144,
+      "dhash": "2ccccee2a39492d0",
+      "canonical_pixel_sha256": "88cf731f2b6eaeb0570fe258a5b77a531d5e7216749a9c022ee3e96ba4f9bc3f",
+      "thumbnail": "evidence/70084886aa9b6b5781fc297d.jpg"
+    },
+    {
+      "asset_id": "f20_jpeg",
+      "path": "media/f20_jpeg.jpg",
+      "split": "calibration",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "黑色钢琴上摆着一束白花",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "黑色钢琴上摆着一束白花",
+      "normalized_text_sha256": "6b7ba6197b1fea822f6fc1dd4e500112a6c3ab22b61f4ee9cca0dc46e90ef71c",
+      "text_ngrams": [
+        "一束白",
+        "上摆着",
+        "摆着一",
+        "束白花",
+        "琴上摆",
+        "着一束",
+        "色钢琴",
+        "钢琴上",
+        "黑色钢"
+      ],
+      "sha256": "50b14c4299ea0f1836c7c1623184749bf1da479a63e180d920628aed3a5635e1",
+      "decode_status": "ok",
+      "byte_size": 3231,
+      "width": 192,
+      "height": 144,
+      "dhash": "2ccccee2a39492d0",
+      "canonical_pixel_sha256": "1b9473eb8f13a18cd325818f6c2ab6e7ea6497cc736c1041313f6b288a40593c",
+      "thumbnail": "evidence/87cc60812fa3adad4a3f8294.jpg"
+    },
+    {
+      "asset_id": "f20_resize",
+      "path": "media/f20_resize.png",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "黑色钢琴上摆着一束白花",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "黑色钢琴上摆着一束白花",
+      "normalized_text_sha256": "6b7ba6197b1fea822f6fc1dd4e500112a6c3ab22b61f4ee9cca0dc46e90ef71c",
+      "text_ngrams": [
+        "一束白",
+        "上摆着",
+        "摆着一",
+        "束白花",
+        "琴上摆",
+        "着一束",
+        "色钢琴",
+        "钢琴上",
+        "黑色钢"
+      ],
+      "sha256": "7bd88d99e3313a2914d1685aecca57ac2bfe1dd3efc4e752638c736e6c619418",
+      "decode_status": "ok",
+      "byte_size": 4381,
+      "width": 96,
+      "height": 72,
+      "dhash": "2ccccee2a394d2d0",
+      "canonical_pixel_sha256": "4dcd634a993c7e681f9beeb552b220efe3ddc6dea544c31194069e5d21a4313e",
+      "thumbnail": "evidence/32e6bcd93d9889148b9f5ec7.jpg"
+    },
+    {
+      "asset_id": "f20_crop",
+      "path": "media/f20_crop.png",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "黑色钢琴上摆着一束白花",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "黑色钢琴上摆着一束白花",
+      "normalized_text_sha256": "6b7ba6197b1fea822f6fc1dd4e500112a6c3ab22b61f4ee9cca0dc46e90ef71c",
+      "text_ngrams": [
+        "一束白",
+        "上摆着",
+        "摆着一",
+        "束白花",
+        "琴上摆",
+        "着一束",
+        "色钢琴",
+        "钢琴上",
+        "黑色钢"
+      ],
+      "sha256": "bf532410c064153ba390d16cf05a55bebce22fb755b229b8a16eba9e9fb97104",
+      "decode_status": "ok",
+      "byte_size": 2134,
+      "width": 168,
+      "height": 128,
+      "dhash": "c6cecee5a59a9590",
+      "canonical_pixel_sha256": "fe7805a0c5d64a45ea315af5ed19399414d1d1831ef57f9f4e4fd029b969c244",
+      "thumbnail": "evidence/3075a0951d57c87344096e79.jpg"
+    },
+    {
+      "asset_id": "f21_original",
+      "path": "media/f21_original.png",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "长颈鹿从围栏后探出脑袋",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "长颈鹿从围栏后探出脑袋",
+      "normalized_text_sha256": "0a1b5f8d7b0a6ace2183eee5410af434dd964adaa9fac40d492096c42ade5f82",
+      "text_ngrams": [
+        "从围栏",
+        "出脑袋",
+        "后探出",
+        "围栏后",
+        "探出脑",
+        "栏后探",
+        "长颈鹿",
+        "颈鹿从",
+        "鹿从围"
+      ],
+      "sha256": "29ccc23bf630127a8dd93bd05057f14fd17aed8460f5ff262bd9becda87a2fe6",
+      "decode_status": "ok",
+      "byte_size": 2174,
+      "width": 192,
+      "height": 144,
+      "dhash": "4e1af5e4ccd9d929",
+      "canonical_pixel_sha256": "58c273a92592b0531066d44ba912489717839089b1a53c6c4e695cd2e0846b01",
+      "thumbnail": "evidence/610df08b2b9063e06443cae8.jpg"
+    },
+    {
+      "asset_id": "f21_renamed",
+      "path": "media/f21_renamed.png",
+      "split": "calibration",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "长颈鹿从围栏后探出脑袋",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "长颈鹿从围栏后探出脑袋",
+      "normalized_text_sha256": "0a1b5f8d7b0a6ace2183eee5410af434dd964adaa9fac40d492096c42ade5f82",
+      "text_ngrams": [
+        "从围栏",
+        "出脑袋",
+        "后探出",
+        "围栏后",
+        "探出脑",
+        "栏后探",
+        "长颈鹿",
+        "颈鹿从",
+        "鹿从围"
+      ],
+      "sha256": "29ccc23bf630127a8dd93bd05057f14fd17aed8460f5ff262bd9becda87a2fe6",
+      "decode_status": "ok",
+      "byte_size": 2174,
+      "width": 192,
+      "height": 144,
+      "dhash": "4e1af5e4ccd9d929",
+      "canonical_pixel_sha256": "58c273a92592b0531066d44ba912489717839089b1a53c6c4e695cd2e0846b01",
+      "thumbnail": "evidence/c1e8e85ed1483cf9ad462c26.jpg"
+    },
+    {
+      "asset_id": "f21_jpeg",
+      "path": "media/f21_jpeg.jpg",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "长颈鹿从围栏后探出脑袋",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "长颈鹿从围栏后探出脑袋",
+      "normalized_text_sha256": "0a1b5f8d7b0a6ace2183eee5410af434dd964adaa9fac40d492096c42ade5f82",
+      "text_ngrams": [
+        "从围栏",
+        "出脑袋",
+        "后探出",
+        "围栏后",
+        "探出脑",
+        "栏后探",
+        "长颈鹿",
+        "颈鹿从",
+        "鹿从围"
+      ],
+      "sha256": "320e7a5dbd3d228b0c171f67fbad191dd70f42561ec3ae312bf5e1d23dcb3ec2",
+      "decode_status": "ok",
+      "byte_size": 2926,
+      "width": 192,
+      "height": 144,
+      "dhash": "4e1af5e4ccd9d929",
+      "canonical_pixel_sha256": "8118897ed6c9111c3b626a89481b0c30997be2c276ad8add11ffdd3131e3e928",
+      "thumbnail": "evidence/840ee2274abda1299c3895a4.jpg"
+    },
+    {
+      "asset_id": "f21_resize",
+      "path": "media/f21_resize.png",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "长颈鹿从围栏后探出脑袋",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "长颈鹿从围栏后探出脑袋",
+      "normalized_text_sha256": "0a1b5f8d7b0a6ace2183eee5410af434dd964adaa9fac40d492096c42ade5f82",
+      "text_ngrams": [
+        "从围栏",
+        "出脑袋",
+        "后探出",
+        "围栏后",
+        "探出脑",
+        "栏后探",
+        "长颈鹿",
+        "颈鹿从",
+        "鹿从围"
+      ],
+      "sha256": "ded424ad028fddb127820e323c231ac731d11062c0cf18bf0d9834d972842656",
+      "decode_status": "ok",
+      "byte_size": 3841,
+      "width": 96,
+      "height": 72,
+      "dhash": "6e1af5e4ccd9d929",
+      "canonical_pixel_sha256": "ba8ec9ce38a34395e45944852f35a21e4ea1d4c70663b0fc01ccad3d3a34df58",
+      "thumbnail": "evidence/43ee17a27617698c28042dd2.jpg"
+    },
+    {
+      "asset_id": "f21_crop",
+      "path": "media/f21_crop.png",
+      "split": "calibration",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "长颈鹿从围栏后探出脑袋",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "长颈鹿从围栏后探出脑袋",
+      "normalized_text_sha256": "0a1b5f8d7b0a6ace2183eee5410af434dd964adaa9fac40d492096c42ade5f82",
+      "text_ngrams": [
+        "从围栏",
+        "出脑袋",
+        "后探出",
+        "围栏后",
+        "探出脑",
+        "栏后探",
+        "长颈鹿",
+        "颈鹿从",
+        "鹿从围"
+      ],
+      "sha256": "0cea93f7f956ac20f8660a399f2cf11c88ec0187db3046f592dccb75578b9bc1",
+      "decode_status": "ok",
+      "byte_size": 2058,
+      "width": 168,
+      "height": 128,
+      "dhash": "ce3be4e4ccddd939",
+      "canonical_pixel_sha256": "d78cd216b67c06582ea4c27c9ceb8ba231af1a66134a9d008a48ad2600286046",
+      "thumbnail": "evidence/138a266f5acf77cdcdbbf3a7.jpg"
+    },
+    {
+      "asset_id": "f22_original",
+      "path": "media/f22_original.png",
+      "split": "calibration",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "粉色云朵映照着海边船帆",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "粉色云朵映照着海边船帆",
+      "normalized_text_sha256": "9e2c2ee84165eefcf57bc2d08dfe02515d2bd1c322cf3489036d6ecf33bc00b1",
+      "text_ngrams": [
+        "云朵映",
+        "映照着",
+        "朵映照",
+        "海边船",
+        "照着海",
+        "着海边",
+        "粉色云",
+        "色云朵",
+        "边船帆"
+      ],
+      "sha256": "3a115705fef6ce1ab416efd1ae6a205c5bf09752824733988c721a739b188aa4",
+      "decode_status": "ok",
+      "byte_size": 2230,
+      "width": 192,
+      "height": 144,
+      "dhash": "4e32d9c9709c8c8d",
+      "canonical_pixel_sha256": "8b083ba9985af015060bbb3ecbb3448490c4ae8800668bf3daa103f014ec350d",
+      "thumbnail": "evidence/0a4f6446a62c4499d1632e57.jpg"
+    },
+    {
+      "asset_id": "f22_renamed",
+      "path": "media/f22_renamed.png",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "粉色云朵映照着海边船帆",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "粉色云朵映照着海边船帆",
+      "normalized_text_sha256": "9e2c2ee84165eefcf57bc2d08dfe02515d2bd1c322cf3489036d6ecf33bc00b1",
+      "text_ngrams": [
+        "云朵映",
+        "映照着",
+        "朵映照",
+        "海边船",
+        "照着海",
+        "着海边",
+        "粉色云",
+        "色云朵",
+        "边船帆"
+      ],
+      "sha256": "3a115705fef6ce1ab416efd1ae6a205c5bf09752824733988c721a739b188aa4",
+      "decode_status": "ok",
+      "byte_size": 2230,
+      "width": 192,
+      "height": 144,
+      "dhash": "4e32d9c9709c8c8d",
+      "canonical_pixel_sha256": "8b083ba9985af015060bbb3ecbb3448490c4ae8800668bf3daa103f014ec350d",
+      "thumbnail": "evidence/213e24b031730f50ce404df3.jpg"
+    },
+    {
+      "asset_id": "f22_jpeg",
+      "path": "media/f22_jpeg.jpg",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "粉色云朵映照着海边船帆",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "粉色云朵映照着海边船帆",
+      "normalized_text_sha256": "9e2c2ee84165eefcf57bc2d08dfe02515d2bd1c322cf3489036d6ecf33bc00b1",
+      "text_ngrams": [
+        "云朵映",
+        "映照着",
+        "朵映照",
+        "海边船",
+        "照着海",
+        "着海边",
+        "粉色云",
+        "色云朵",
+        "边船帆"
+      ],
+      "sha256": "9bff9f0eba5063d9d6851b2672071cd494ca28a3e47ceee7c68b569f8c424192",
+      "decode_status": "ok",
+      "byte_size": 3128,
+      "width": 192,
+      "height": 144,
+      "dhash": "4e32d9c9709c8c8d",
+      "canonical_pixel_sha256": "caa816b720dede4ebaa2ad5951b0ae7fd891c9f817b2635b6614f5bd3cd18cb3",
+      "thumbnail": "evidence/ef8e4d904b3fa8d11098f2a0.jpg"
+    },
+    {
+      "asset_id": "f22_resize",
+      "path": "media/f22_resize.png",
+      "split": "calibration",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "粉色云朵映照着海边船帆",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "粉色云朵映照着海边船帆",
+      "normalized_text_sha256": "9e2c2ee84165eefcf57bc2d08dfe02515d2bd1c322cf3489036d6ecf33bc00b1",
+      "text_ngrams": [
+        "云朵映",
+        "映照着",
+        "朵映照",
+        "海边船",
+        "照着海",
+        "着海边",
+        "粉色云",
+        "色云朵",
+        "边船帆"
+      ],
+      "sha256": "afe79acc4d18ea1ca7143714dd2fc5c7b3bccef63510577812c079a35f8ae03a",
+      "decode_status": "ok",
+      "byte_size": 4389,
+      "width": 96,
+      "height": 72,
+      "dhash": "4e32d9c9709c8c8d",
+      "canonical_pixel_sha256": "aa3286d404a51aa512edb98b3988dc734a8745733b8ad7e8ce4d2c6e42345145",
+      "thumbnail": "evidence/2bc80e44e4ef33f1a1ec318c.jpg"
+    },
+    {
+      "asset_id": "f22_crop",
+      "path": "media/f22_crop.png",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "粉色云朵映照着海边船帆",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "粉色云朵映照着海边船帆",
+      "normalized_text_sha256": "9e2c2ee84165eefcf57bc2d08dfe02515d2bd1c322cf3489036d6ecf33bc00b1",
+      "text_ngrams": [
+        "云朵映",
+        "映照着",
+        "朵映照",
+        "海边船",
+        "照着海",
+        "着海边",
+        "粉色云",
+        "色云朵",
+        "边船帆"
+      ],
+      "sha256": "daa22fae8d71a56b288c1cc74d8a5da8106c7af85aaa5033c69fb678807b54cf",
+      "decode_status": "ok",
+      "byte_size": 2080,
+      "width": 168,
+      "height": 128,
+      "dhash": "c73ad9c9f0bc8c8c",
+      "canonical_pixel_sha256": "9611295ef8b6fcc2668442bb5c4c0913808969240c2deb135d28fd83d44d20fa",
+      "thumbnail": "evidence/c3f4713b4bdf64aee5de1080.jpg"
+    },
+    {
+      "asset_id": "f23_original",
+      "path": "media/f23_original.png",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "黑白棋子散落在竹制棋盘上",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "黑白棋子散落在竹制棋盘上",
+      "normalized_text_sha256": "d928a5cc92c3379fd83cdbd1b9ac48fe32cecbaa74123fbee5d824eee94c831c",
+      "text_ngrams": [
+        "制棋盘",
+        "在竹制",
+        "子散落",
+        "散落在",
+        "棋子散",
+        "棋盘上",
+        "白棋子",
+        "竹制棋",
+        "落在竹",
+        "黑白棋"
+      ],
+      "sha256": "61db7e82602c223d5e255b2f7574841d6540ebf224b8d62ecbf97ebafeee0e0b",
+      "decode_status": "ok",
+      "byte_size": 2479,
+      "width": 192,
+      "height": 144,
+      "dhash": "ce3cc9c9e6a6cb49",
+      "canonical_pixel_sha256": "3b6cd23f1f7d8e65074dcb33671e214d78871ce01949cab5362e40462b08f22b",
+      "thumbnail": "evidence/7d4f6d87fb067165ec1c4aff.jpg"
+    },
+    {
+      "asset_id": "f23_renamed",
+      "path": "media/f23_renamed.png",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "黑白棋子散落在竹制棋盘上",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:renamed",
+      "normalized_text": "黑白棋子散落在竹制棋盘上",
+      "normalized_text_sha256": "d928a5cc92c3379fd83cdbd1b9ac48fe32cecbaa74123fbee5d824eee94c831c",
+      "text_ngrams": [
+        "制棋盘",
+        "在竹制",
+        "子散落",
+        "散落在",
+        "棋子散",
+        "棋盘上",
+        "白棋子",
+        "竹制棋",
+        "落在竹",
+        "黑白棋"
+      ],
+      "sha256": "61db7e82602c223d5e255b2f7574841d6540ebf224b8d62ecbf97ebafeee0e0b",
+      "decode_status": "ok",
+      "byte_size": 2479,
+      "width": 192,
+      "height": 144,
+      "dhash": "ce3cc9c9e6a6cb49",
+      "canonical_pixel_sha256": "3b6cd23f1f7d8e65074dcb33671e214d78871ce01949cab5362e40462b08f22b",
+      "thumbnail": "evidence/fc1aa6e2ccded9dc0c1a2bbb.jpg"
+    },
+    {
+      "asset_id": "f23_jpeg",
+      "path": "media/f23_jpeg.jpg",
+      "split": "calibration",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "黑白棋子散落在竹制棋盘上",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:jpeg",
+      "normalized_text": "黑白棋子散落在竹制棋盘上",
+      "normalized_text_sha256": "d928a5cc92c3379fd83cdbd1b9ac48fe32cecbaa74123fbee5d824eee94c831c",
+      "text_ngrams": [
+        "制棋盘",
+        "在竹制",
+        "子散落",
+        "散落在",
+        "棋子散",
+        "棋盘上",
+        "白棋子",
+        "竹制棋",
+        "落在竹",
+        "黑白棋"
+      ],
+      "sha256": "d0fa79377e4e455cadf12e4e860364961885612a74c762f85ce5c2d44d09816c",
+      "decode_status": "ok",
+      "byte_size": 3026,
+      "width": 192,
+      "height": 144,
+      "dhash": "ce3cc9c9e6a6cb49",
+      "canonical_pixel_sha256": "d80bf4984e7447090ce4dcc0e8dd3db32ede305c08902f4c0e395cf5f44cf0b5",
+      "thumbnail": "evidence/636f18bed84f3791e1392c05.jpg"
+    },
+    {
+      "asset_id": "f23_resize",
+      "path": "media/f23_resize.png",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "黑白棋子散落在竹制棋盘上",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:resize",
+      "normalized_text": "黑白棋子散落在竹制棋盘上",
+      "normalized_text_sha256": "d928a5cc92c3379fd83cdbd1b9ac48fe32cecbaa74123fbee5d824eee94c831c",
+      "text_ngrams": [
+        "制棋盘",
+        "在竹制",
+        "子散落",
+        "散落在",
+        "棋子散",
+        "棋盘上",
+        "白棋子",
+        "竹制棋",
+        "落在竹",
+        "黑白棋"
+      ],
+      "sha256": "22674775748685758da69bce07b9d65d29ef6e2c8d621839d9efeb16785d5565",
+      "decode_status": "ok",
+      "byte_size": 4393,
+      "width": 96,
+      "height": 72,
+      "dhash": "ce3cc9c9e6a6cb49",
+      "canonical_pixel_sha256": "2e6dbf9a181352bf48ca3b2b36a17a73407847501b4d0f0bfde90d224e56ffbe",
+      "thumbnail": "evidence/8e9b299fd7e1104e36cc10aa.jpg"
+    },
+    {
+      "asset_id": "f23_crop",
+      "path": "media/f23_crop.png",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "image",
+      "text": "黑白棋子散落在竹制棋盘上",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:crop",
+      "normalized_text": "黑白棋子散落在竹制棋盘上",
+      "normalized_text_sha256": "d928a5cc92c3379fd83cdbd1b9ac48fe32cecbaa74123fbee5d824eee94c831c",
+      "text_ngrams": [
+        "制棋盘",
+        "在竹制",
+        "子散落",
+        "散落在",
+        "棋子散",
+        "棋盘上",
+        "白棋子",
+        "竹制棋",
+        "落在竹",
+        "黑白棋"
+      ],
+      "sha256": "b5957724157b8b671d9c4b123cc934b9d149f10c5e1e534ecbcdc96960aa9017",
+      "decode_status": "ok",
+      "byte_size": 2263,
+      "width": 168,
+      "height": 128,
+      "dhash": "c639c9c8936ecbc9",
+      "canonical_pixel_sha256": "2e5134cdf1701c93eb9be74d74c04bc725c6ec105ccf9995b9609ebef50e8ba2",
+      "thumbnail": "evidence/907e0cd82383eb72e0b84ddb.jpg"
+    },
+    {
+      "asset_id": "hard_00",
+      "path": "media/hard_00.png",
+      "split": "train",
+      "source_group": "independent_0",
+      "media_type": "image",
+      "text": "一幅方形画框中有一个圆形装饰，保持相同布局和简洁平面设计。",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:independent_same_style",
+      "normalized_text": "一幅方形画框中有一个圆形装饰保持相同布局和简洁平面设计",
+      "normalized_text_sha256": "321e63277327e1721379abd2dab53d64d98c32a2574fc725440bc2d2366d4134",
+      "text_ngrams": [
+        "一个圆",
+        "一幅方",
+        "个圆形",
+        "中有一",
+        "保持相",
+        "同布局",
+        "和简洁",
+        "圆形装",
+        "局和简",
+        "布局和",
+        "幅方形",
+        "平面设",
+        "形画框",
+        "形装饰",
+        "持相同",
+        "方形画",
+        "有一个",
+        "框中有",
+        "洁平面",
+        "画框中",
+        "相同布",
+        "简洁平",
+        "装饰保",
+        "面设计",
+        "饰保持"
+      ],
+      "sha256": "4383844831203b67d21b60930630809be007ab9742a9f982e91e211c26710779",
+      "decode_status": "ok",
+      "byte_size": 1355,
+      "width": 192,
+      "height": 144,
+      "dhash": "1ef0c8cccce8f006",
+      "canonical_pixel_sha256": "43135d2c9f9d937e2fef7d6ec1f19b2a9a26065d621d8877d44ec6328addbbeb",
+      "thumbnail": "evidence/e908e87d859fb4a49fc63f7a.jpg"
+    },
+    {
+      "asset_id": "hard_01",
+      "path": "media/hard_01.png",
+      "split": "calibration",
+      "source_group": "independent_1",
+      "media_type": "image",
+      "text": "一幅方形画框中有一个圆形装饰，保持相同布局和简洁平面设计。",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:independent_same_style",
+      "normalized_text": "一幅方形画框中有一个圆形装饰保持相同布局和简洁平面设计",
+      "normalized_text_sha256": "321e63277327e1721379abd2dab53d64d98c32a2574fc725440bc2d2366d4134",
+      "text_ngrams": [
+        "一个圆",
+        "一幅方",
+        "个圆形",
+        "中有一",
+        "保持相",
+        "同布局",
+        "和简洁",
+        "圆形装",
+        "局和简",
+        "布局和",
+        "幅方形",
+        "平面设",
+        "形画框",
+        "形装饰",
+        "持相同",
+        "方形画",
+        "有一个",
+        "框中有",
+        "洁平面",
+        "画框中",
+        "相同布",
+        "简洁平",
+        "装饰保",
+        "面设计",
+        "饰保持"
+      ],
+      "sha256": "ffa102a15f8925911bb6253300fe628d3eb2f195a996b89b6b75b048bec82367",
+      "decode_status": "ok",
+      "byte_size": 1393,
+      "width": 192,
+      "height": 144,
+      "dhash": "1ef0c8cccce8f006",
+      "canonical_pixel_sha256": "8dfb5c81012aaba5ee152fe2b703091774cb40405fdc9ecb579c46f0e812e010",
+      "thumbnail": "evidence/ea05b0f7e1c976c16342db28.jpg"
+    },
+    {
+      "asset_id": "hard_02",
+      "path": "media/hard_02.png",
+      "split": "test",
+      "source_group": "independent_2",
+      "media_type": "image",
+      "text": "一幅方形画框中有一个圆形装饰，保持相同布局和简洁平面设计。",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:independent_same_style",
+      "normalized_text": "一幅方形画框中有一个圆形装饰保持相同布局和简洁平面设计",
+      "normalized_text_sha256": "321e63277327e1721379abd2dab53d64d98c32a2574fc725440bc2d2366d4134",
+      "text_ngrams": [
+        "一个圆",
+        "一幅方",
+        "个圆形",
+        "中有一",
+        "保持相",
+        "同布局",
+        "和简洁",
+        "圆形装",
+        "局和简",
+        "布局和",
+        "幅方形",
+        "平面设",
+        "形画框",
+        "形装饰",
+        "持相同",
+        "方形画",
+        "有一个",
+        "框中有",
+        "洁平面",
+        "画框中",
+        "相同布",
+        "简洁平",
+        "装饰保",
+        "面设计",
+        "饰保持"
+      ],
+      "sha256": "36da4a367b14e79574047fca045af338bebbc93683bb0eb94561297bc2be4c9b",
+      "decode_status": "ok",
+      "byte_size": 1506,
+      "width": 192,
+      "height": 144,
+      "dhash": "1ef0c8cccce8f006",
+      "canonical_pixel_sha256": "c81c32d7f837a97b74b84f80c52822e7cd3a2a792471d01ec7c3038413af5ee5",
+      "thumbnail": "evidence/3e1d503b0f5a714116356604.jpg"
+    },
+    {
+      "asset_id": "hard_03",
+      "path": "media/hard_03.png",
+      "split": "train",
+      "source_group": "independent_3",
+      "media_type": "image",
+      "text": "一幅方形画框中有一个圆形装饰，保持相同布局和简洁平面设计。",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:independent_same_style",
+      "normalized_text": "一幅方形画框中有一个圆形装饰保持相同布局和简洁平面设计",
+      "normalized_text_sha256": "321e63277327e1721379abd2dab53d64d98c32a2574fc725440bc2d2366d4134",
+      "text_ngrams": [
+        "一个圆",
+        "一幅方",
+        "个圆形",
+        "中有一",
+        "保持相",
+        "同布局",
+        "和简洁",
+        "圆形装",
+        "局和简",
+        "布局和",
+        "幅方形",
+        "平面设",
+        "形画框",
+        "形装饰",
+        "持相同",
+        "方形画",
+        "有一个",
+        "框中有",
+        "洁平面",
+        "画框中",
+        "相同布",
+        "简洁平",
+        "装饰保",
+        "面设计",
+        "饰保持"
+      ],
+      "sha256": "72968460ec4ae7e01b92f01b80d62487c795a43e2c55f68c1ef07526e446d24a",
+      "decode_status": "ok",
+      "byte_size": 1506,
+      "width": 192,
+      "height": 144,
+      "dhash": "1ef0c8cccce8f00e",
+      "canonical_pixel_sha256": "3b094a3b6365176313c8c8773a0c5247e560c1689596a7205db863e4651f4f75",
+      "thumbnail": "evidence/6aab0315792edf54a2b30984.jpg"
+    },
+    {
+      "asset_id": "hard_04",
+      "path": "media/hard_04.png",
+      "split": "calibration",
+      "source_group": "independent_4",
+      "media_type": "image",
+      "text": "一幅方形画框中有一个圆形装饰，保持相同布局和简洁平面设计。",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:independent_same_style",
+      "normalized_text": "一幅方形画框中有一个圆形装饰保持相同布局和简洁平面设计",
+      "normalized_text_sha256": "321e63277327e1721379abd2dab53d64d98c32a2574fc725440bc2d2366d4134",
+      "text_ngrams": [
+        "一个圆",
+        "一幅方",
+        "个圆形",
+        "中有一",
+        "保持相",
+        "同布局",
+        "和简洁",
+        "圆形装",
+        "局和简",
+        "布局和",
+        "幅方形",
+        "平面设",
+        "形画框",
+        "形装饰",
+        "持相同",
+        "方形画",
+        "有一个",
+        "框中有",
+        "洁平面",
+        "画框中",
+        "相同布",
+        "简洁平",
+        "装饰保",
+        "面设计",
+        "饰保持"
+      ],
+      "sha256": "a6f3aad6a8639df7d87043b88b3ff432b160f42685e2f7dba14195cf7b779ded",
+      "decode_status": "ok",
+      "byte_size": 1465,
+      "width": 192,
+      "height": 144,
+      "dhash": "1ef0c8cccce8f00e",
+      "canonical_pixel_sha256": "d66b54902a9740adc26e7bc890be42526ede67952bb159a33e578112bd86b64c",
+      "thumbnail": "evidence/d22c3f7609bcc62e900d83d5.jpg"
+    },
+    {
+      "asset_id": "hard_05",
+      "path": "media/hard_05.png",
+      "split": "test",
+      "source_group": "independent_5",
+      "media_type": "image",
+      "text": "一幅方形画框中有一个圆形装饰，保持相同布局和简洁平面设计。",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:independent_same_style",
+      "normalized_text": "一幅方形画框中有一个圆形装饰保持相同布局和简洁平面设计",
+      "normalized_text_sha256": "321e63277327e1721379abd2dab53d64d98c32a2574fc725440bc2d2366d4134",
+      "text_ngrams": [
+        "一个圆",
+        "一幅方",
+        "个圆形",
+        "中有一",
+        "保持相",
+        "同布局",
+        "和简洁",
+        "圆形装",
+        "局和简",
+        "布局和",
+        "幅方形",
+        "平面设",
+        "形画框",
+        "形装饰",
+        "持相同",
+        "方形画",
+        "有一个",
+        "框中有",
+        "洁平面",
+        "画框中",
+        "相同布",
+        "简洁平",
+        "装饰保",
+        "面设计",
+        "饰保持"
+      ],
+      "sha256": "10b2259a6f0bee77f519048280ed186c7ca6a7c65d23adabe44bf55825894778",
+      "decode_status": "ok",
+      "byte_size": 1470,
+      "width": 192,
+      "height": 144,
+      "dhash": "1ef0c8cccce8f006",
+      "canonical_pixel_sha256": "b948f7e9aef71b8652ac9a2f55c7451f7fde03bf5b097c6b12c6ac35bde78bfa",
+      "thumbnail": "evidence/e3ffc20881bb22211e818857.jpg"
+    },
+    {
+      "asset_id": "hard_06",
+      "path": "media/hard_06.png",
+      "split": "train",
+      "source_group": "independent_6",
+      "media_type": "image",
+      "text": "一幅方形画框中有一个圆形装饰，保持相同布局和简洁平面设计。",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:independent_same_style",
+      "normalized_text": "一幅方形画框中有一个圆形装饰保持相同布局和简洁平面设计",
+      "normalized_text_sha256": "321e63277327e1721379abd2dab53d64d98c32a2574fc725440bc2d2366d4134",
+      "text_ngrams": [
+        "一个圆",
+        "一幅方",
+        "个圆形",
+        "中有一",
+        "保持相",
+        "同布局",
+        "和简洁",
+        "圆形装",
+        "局和简",
+        "布局和",
+        "幅方形",
+        "平面设",
+        "形画框",
+        "形装饰",
+        "持相同",
+        "方形画",
+        "有一个",
+        "框中有",
+        "洁平面",
+        "画框中",
+        "相同布",
+        "简洁平",
+        "装饰保",
+        "面设计",
+        "饰保持"
+      ],
+      "sha256": "edef843f29932a14f84fa933b9434b56a48b865a7f2ebf68c2f2431b3f6420a3",
+      "decode_status": "ok",
+      "byte_size": 1498,
+      "width": 192,
+      "height": 144,
+      "dhash": "1ef0c8cccce8f00e",
+      "canonical_pixel_sha256": "37648e8066bf4436ee8d579e81d2c8af7e7a6d1a2a39c28e3860c65b631a5d16",
+      "thumbnail": "evidence/440e4eef2ff346d8318dbc4d.jpg"
+    },
+    {
+      "asset_id": "hard_07",
+      "path": "media/hard_07.png",
+      "split": "calibration",
+      "source_group": "independent_7",
+      "media_type": "image",
+      "text": "一幅方形画框中有一个圆形装饰，保持相同布局和简洁平面设计。",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:independent_same_style",
+      "normalized_text": "一幅方形画框中有一个圆形装饰保持相同布局和简洁平面设计",
+      "normalized_text_sha256": "321e63277327e1721379abd2dab53d64d98c32a2574fc725440bc2d2366d4134",
+      "text_ngrams": [
+        "一个圆",
+        "一幅方",
+        "个圆形",
+        "中有一",
+        "保持相",
+        "同布局",
+        "和简洁",
+        "圆形装",
+        "局和简",
+        "布局和",
+        "幅方形",
+        "平面设",
+        "形画框",
+        "形装饰",
+        "持相同",
+        "方形画",
+        "有一个",
+        "框中有",
+        "洁平面",
+        "画框中",
+        "相同布",
+        "简洁平",
+        "装饰保",
+        "面设计",
+        "饰保持"
+      ],
+      "sha256": "3726f9f1a07ea290eeae8b650998da985e0b16e9db6a243b4711efb0fe3f3663",
+      "decode_status": "ok",
+      "byte_size": 1463,
+      "width": 192,
+      "height": 144,
+      "dhash": "1ef0cccccce8f00e",
+      "canonical_pixel_sha256": "0f179c8f4f411a486db8454bafb29432d84e370dc22f14246265e0e77c7277bf",
+      "thumbnail": "evidence/aeba2a32707b0395b9670508.jpg"
+    },
+    {
+      "asset_id": "hard_08",
+      "path": "media/hard_08.png",
+      "split": "test",
+      "source_group": "independent_8",
+      "media_type": "image",
+      "text": "一幅方形画框中有一个圆形装饰，保持相同布局和简洁平面设计。",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:independent_same_style",
+      "normalized_text": "一幅方形画框中有一个圆形装饰保持相同布局和简洁平面设计",
+      "normalized_text_sha256": "321e63277327e1721379abd2dab53d64d98c32a2574fc725440bc2d2366d4134",
+      "text_ngrams": [
+        "一个圆",
+        "一幅方",
+        "个圆形",
+        "中有一",
+        "保持相",
+        "同布局",
+        "和简洁",
+        "圆形装",
+        "局和简",
+        "布局和",
+        "幅方形",
+        "平面设",
+        "形画框",
+        "形装饰",
+        "持相同",
+        "方形画",
+        "有一个",
+        "框中有",
+        "洁平面",
+        "画框中",
+        "相同布",
+        "简洁平",
+        "装饰保",
+        "面设计",
+        "饰保持"
+      ],
+      "sha256": "9aed99b112509ae8458417ba84998426e91b3c9faa88a93449cb6c51d91196ba",
+      "decode_status": "ok",
+      "byte_size": 1494,
+      "width": 192,
+      "height": 144,
+      "dhash": "1ef0ccccccc8f006",
+      "canonical_pixel_sha256": "b7b14ff2b6483ea0507f63705dccfbc15e51fec7283c489d71c024cbe55e2889",
+      "thumbnail": "evidence/2147632a7a925e153d8dd099.jpg"
+    },
+    {
+      "asset_id": "hard_09",
+      "path": "media/hard_09.png",
+      "split": "train",
+      "source_group": "independent_9",
+      "media_type": "image",
+      "text": "一幅方形画框中有一个圆形装饰，保持相同布局和简洁平面设计。",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:independent_same_style",
+      "normalized_text": "一幅方形画框中有一个圆形装饰保持相同布局和简洁平面设计",
+      "normalized_text_sha256": "321e63277327e1721379abd2dab53d64d98c32a2574fc725440bc2d2366d4134",
+      "text_ngrams": [
+        "一个圆",
+        "一幅方",
+        "个圆形",
+        "中有一",
+        "保持相",
+        "同布局",
+        "和简洁",
+        "圆形装",
+        "局和简",
+        "布局和",
+        "幅方形",
+        "平面设",
+        "形画框",
+        "形装饰",
+        "持相同",
+        "方形画",
+        "有一个",
+        "框中有",
+        "洁平面",
+        "画框中",
+        "相同布",
+        "简洁平",
+        "装饰保",
+        "面设计",
+        "饰保持"
+      ],
+      "sha256": "728380427b64f7c948d387bc6642b20bf6b7db281a505891e6cea22ef1d66420",
+      "decode_status": "ok",
+      "byte_size": 1487,
+      "width": 192,
+      "height": 144,
+      "dhash": "1ef0ccccccc8f00e",
+      "canonical_pixel_sha256": "f90101edb7976ae81795c5bec682df66b7d570c2dd6de7c2805baf54b7a352dc",
+      "thumbnail": "evidence/1938ebab56e563b635a18c56.jpg"
+    },
+    {
+      "asset_id": "hard_10",
+      "path": "media/hard_10.png",
+      "split": "calibration",
+      "source_group": "independent_10",
+      "media_type": "image",
+      "text": "一幅方形画框中有一个圆形装饰，保持相同布局和简洁平面设计。",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:independent_same_style",
+      "normalized_text": "一幅方形画框中有一个圆形装饰保持相同布局和简洁平面设计",
+      "normalized_text_sha256": "321e63277327e1721379abd2dab53d64d98c32a2574fc725440bc2d2366d4134",
+      "text_ngrams": [
+        "一个圆",
+        "一幅方",
+        "个圆形",
+        "中有一",
+        "保持相",
+        "同布局",
+        "和简洁",
+        "圆形装",
+        "局和简",
+        "布局和",
+        "幅方形",
+        "平面设",
+        "形画框",
+        "形装饰",
+        "持相同",
+        "方形画",
+        "有一个",
+        "框中有",
+        "洁平面",
+        "画框中",
+        "相同布",
+        "简洁平",
+        "装饰保",
+        "面设计",
+        "饰保持"
+      ],
+      "sha256": "847da97ee43f9083a2bd1622ac57741d07ab2f44838f3ac043ff774c86446849",
+      "decode_status": "ok",
+      "byte_size": 1401,
+      "width": 192,
+      "height": 144,
+      "dhash": "1ef0ccccccc8f007",
+      "canonical_pixel_sha256": "ef606ce9f61823bca8d4c776b7eb48f4741baa49a99f584b5a6d26cb92d76ee2",
+      "thumbnail": "evidence/286c61e4fde86846f77483ea.jpg"
+    },
+    {
+      "asset_id": "hard_11",
+      "path": "media/hard_11.png",
+      "split": "test",
+      "source_group": "independent_11",
+      "media_type": "image",
+      "text": "一幅方形画框中有一个圆形装饰，保持相同布局和简洁平面设计。",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:independent_same_style",
+      "normalized_text": "一幅方形画框中有一个圆形装饰保持相同布局和简洁平面设计",
+      "normalized_text_sha256": "321e63277327e1721379abd2dab53d64d98c32a2574fc725440bc2d2366d4134",
+      "text_ngrams": [
+        "一个圆",
+        "一幅方",
+        "个圆形",
+        "中有一",
+        "保持相",
+        "同布局",
+        "和简洁",
+        "圆形装",
+        "局和简",
+        "布局和",
+        "幅方形",
+        "平面设",
+        "形画框",
+        "形装饰",
+        "持相同",
+        "方形画",
+        "有一个",
+        "框中有",
+        "洁平面",
+        "画框中",
+        "相同布",
+        "简洁平",
+        "装饰保",
+        "面设计",
+        "饰保持"
+      ],
+      "sha256": "4d671383e4c2824582e2119653226af4980c9d7a0e77d63eb99f699cb535f912",
+      "decode_status": "ok",
+      "byte_size": 1259,
+      "width": 192,
+      "height": 144,
+      "dhash": "1ef0ccccccccf00b",
+      "canonical_pixel_sha256": "0dcc097bfdab014c2d5e42e42ec45cbfa14d48a2b54386d875318bbb82c45e60",
+      "thumbnail": "evidence/b1815e2010c994350b172c3d.jpg"
+    },
+    {
+      "asset_id": "hard_12",
+      "path": "media/hard_12.png",
+      "split": "train",
+      "source_group": "independent_12",
+      "media_type": "image",
+      "text": "一幅方形画框中有一个圆形装饰，保持相同布局和简洁平面设计。",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:independent_same_style",
+      "normalized_text": "一幅方形画框中有一个圆形装饰保持相同布局和简洁平面设计",
+      "normalized_text_sha256": "321e63277327e1721379abd2dab53d64d98c32a2574fc725440bc2d2366d4134",
+      "text_ngrams": [
+        "一个圆",
+        "一幅方",
+        "个圆形",
+        "中有一",
+        "保持相",
+        "同布局",
+        "和简洁",
+        "圆形装",
+        "局和简",
+        "布局和",
+        "幅方形",
+        "平面设",
+        "形画框",
+        "形装饰",
+        "持相同",
+        "方形画",
+        "有一个",
+        "框中有",
+        "洁平面",
+        "画框中",
+        "相同布",
+        "简洁平",
+        "装饰保",
+        "面设计",
+        "饰保持"
+      ],
+      "sha256": "64b51bf6a0c8048ee42584a5ab979b777d90fb26ab7e2a5663a5ef53492ab910",
+      "decode_status": "ok",
+      "byte_size": 1425,
+      "width": 192,
+      "height": 144,
+      "dhash": "1ef0ccccccccf00f",
+      "canonical_pixel_sha256": "f3780cbb2dbc30f05b7514cf28f8ecb36a23107bca42acc37e410090f4cea7c1",
+      "thumbnail": "evidence/359c1ceb089377bb6ff47b0b.jpg"
+    },
+    {
+      "asset_id": "hard_13",
+      "path": "media/hard_13.png",
+      "split": "calibration",
+      "source_group": "independent_13",
+      "media_type": "image",
+      "text": "一幅方形画框中有一个圆形装饰，保持相同布局和简洁平面设计。",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:independent_same_style",
+      "normalized_text": "一幅方形画框中有一个圆形装饰保持相同布局和简洁平面设计",
+      "normalized_text_sha256": "321e63277327e1721379abd2dab53d64d98c32a2574fc725440bc2d2366d4134",
+      "text_ngrams": [
+        "一个圆",
+        "一幅方",
+        "个圆形",
+        "中有一",
+        "保持相",
+        "同布局",
+        "和简洁",
+        "圆形装",
+        "局和简",
+        "布局和",
+        "幅方形",
+        "平面设",
+        "形画框",
+        "形装饰",
+        "持相同",
+        "方形画",
+        "有一个",
+        "框中有",
+        "洁平面",
+        "画框中",
+        "相同布",
+        "简洁平",
+        "装饰保",
+        "面设计",
+        "饰保持"
+      ],
+      "sha256": "b2bc8fe5f36435c2ee4c5f6916bc3c38a3d8bf3e369cb5c30e684ff771be0f17",
+      "decode_status": "ok",
+      "byte_size": 1424,
+      "width": 192,
+      "height": 144,
+      "dhash": "1ef0ccccccccf007",
+      "canonical_pixel_sha256": "a3ad940843893a5592fe6cbd09cbccd8668867bc137ea22e9f6c3b8516da459d",
+      "thumbnail": "evidence/7bd8826b994038c093054f16.jpg"
+    },
+    {
+      "asset_id": "hard_14",
+      "path": "media/hard_14.png",
+      "split": "test",
+      "source_group": "independent_14",
+      "media_type": "image",
+      "text": "一幅方形画框中有一个圆形装饰，保持相同布局和简洁平面设计。",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:independent_same_style",
+      "normalized_text": "一幅方形画框中有一个圆形装饰保持相同布局和简洁平面设计",
+      "normalized_text_sha256": "321e63277327e1721379abd2dab53d64d98c32a2574fc725440bc2d2366d4134",
+      "text_ngrams": [
+        "一个圆",
+        "一幅方",
+        "个圆形",
+        "中有一",
+        "保持相",
+        "同布局",
+        "和简洁",
+        "圆形装",
+        "局和简",
+        "布局和",
+        "幅方形",
+        "平面设",
+        "形画框",
+        "形装饰",
+        "持相同",
+        "方形画",
+        "有一个",
+        "框中有",
+        "洁平面",
+        "画框中",
+        "相同布",
+        "简洁平",
+        "装饰保",
+        "面设计",
+        "饰保持"
+      ],
+      "sha256": "d364324db3f0861ba4bc28a461231634743bbf43e0578464fe9b1a68c65ecd25",
+      "decode_status": "ok",
+      "byte_size": 1373,
+      "width": 192,
+      "height": 144,
+      "dhash": "1ef0ccccccccf00b",
+      "canonical_pixel_sha256": "576e5d468f99ba1cdddf5eabfcb95b302290146c42e6705e0e39d4bcc2df3853",
+      "thumbnail": "evidence/d9f2a345f694cbc04fc2c2fb.jpg"
+    },
+    {
+      "asset_id": "hard_15",
+      "path": "media/hard_15.png",
+      "split": "train",
+      "source_group": "independent_15",
+      "media_type": "image",
+      "text": "一幅方形画框中有一个圆形装饰，保持相同布局和简洁平面设计。",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:independent_same_style",
+      "normalized_text": "一幅方形画框中有一个圆形装饰保持相同布局和简洁平面设计",
+      "normalized_text_sha256": "321e63277327e1721379abd2dab53d64d98c32a2574fc725440bc2d2366d4134",
+      "text_ngrams": [
+        "一个圆",
+        "一幅方",
+        "个圆形",
+        "中有一",
+        "保持相",
+        "同布局",
+        "和简洁",
+        "圆形装",
+        "局和简",
+        "布局和",
+        "幅方形",
+        "平面设",
+        "形画框",
+        "形装饰",
+        "持相同",
+        "方形画",
+        "有一个",
+        "框中有",
+        "洁平面",
+        "画框中",
+        "相同布",
+        "简洁平",
+        "装饰保",
+        "面设计",
+        "饰保持"
+      ],
+      "sha256": "fcf50f1c63fe77439794befa75eec97821749fd1f736d91d9fcbd2ae81126a63",
+      "decode_status": "ok",
+      "byte_size": 1396,
+      "width": 192,
+      "height": 144,
+      "dhash": "1ef0ccccccccf003",
+      "canonical_pixel_sha256": "eee3dd2f8975324472f046eff7c96e29491316a49d453808dc6c6399e196a0dd",
+      "thumbnail": "evidence/deef93be4bee5b662c01a2a8.jpg"
+    },
+    {
+      "asset_id": "hard_16",
+      "path": "media/hard_16.png",
+      "split": "calibration",
+      "source_group": "independent_16",
+      "media_type": "image",
+      "text": "一幅方形画框中有一个圆形装饰，保持相同布局和简洁平面设计。",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:independent_same_style",
+      "normalized_text": "一幅方形画框中有一个圆形装饰保持相同布局和简洁平面设计",
+      "normalized_text_sha256": "321e63277327e1721379abd2dab53d64d98c32a2574fc725440bc2d2366d4134",
+      "text_ngrams": [
+        "一个圆",
+        "一幅方",
+        "个圆形",
+        "中有一",
+        "保持相",
+        "同布局",
+        "和简洁",
+        "圆形装",
+        "局和简",
+        "布局和",
+        "幅方形",
+        "平面设",
+        "形画框",
+        "形装饰",
+        "持相同",
+        "方形画",
+        "有一个",
+        "框中有",
+        "洁平面",
+        "画框中",
+        "相同布",
+        "简洁平",
+        "装饰保",
+        "面设计",
+        "饰保持"
+      ],
+      "sha256": "0d473fedb2f2b7cd945430a38cde757ff703b661825c82c526ef82c7b41066a5",
+      "decode_status": "ok",
+      "byte_size": 1414,
+      "width": 192,
+      "height": 144,
+      "dhash": "1ef0ccccccccf00b",
+      "canonical_pixel_sha256": "013d92bc0677880b4a163a52bdb6952e363823dbdcae152ab04a1e51b9fd78b4",
+      "thumbnail": "evidence/91e6acf769cc142c1106156f.jpg"
+    },
+    {
+      "asset_id": "hard_17",
+      "path": "media/hard_17.png",
+      "split": "test",
+      "source_group": "independent_17",
+      "media_type": "image",
+      "text": "一幅方形画框中有一个圆形装饰，保持相同布局和简洁平面设计。",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:independent_same_style",
+      "normalized_text": "一幅方形画框中有一个圆形装饰保持相同布局和简洁平面设计",
+      "normalized_text_sha256": "321e63277327e1721379abd2dab53d64d98c32a2574fc725440bc2d2366d4134",
+      "text_ngrams": [
+        "一个圆",
+        "一幅方",
+        "个圆形",
+        "中有一",
+        "保持相",
+        "同布局",
+        "和简洁",
+        "圆形装",
+        "局和简",
+        "布局和",
+        "幅方形",
+        "平面设",
+        "形画框",
+        "形装饰",
+        "持相同",
+        "方形画",
+        "有一个",
+        "框中有",
+        "洁平面",
+        "画框中",
+        "相同布",
+        "简洁平",
+        "装饰保",
+        "面设计",
+        "饰保持"
+      ],
+      "sha256": "8e2b8872228e7878e40f321fdb7687cf8ab09371444919b80fb0784984297b0f",
+      "decode_status": "ok",
+      "byte_size": 1377,
+      "width": 192,
+      "height": 144,
+      "dhash": "1ed0ccccccccd00b",
+      "canonical_pixel_sha256": "a8ded473f54a95a7e8c944e09c99fb30441fa625fed5e52a9e6770a879ec2c98",
+      "thumbnail": "evidence/ae549b21bd255b7e85202971.jpg"
+    },
+    {
+      "asset_id": "v0_original",
+      "path": "media/v0_original.mp4",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "video",
+      "text": "",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "",
+      "normalized_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_ngrams": [],
+      "sha256": "c641ce12df8be2dbd1d77b972ea58b9a236b897c03435ccf72c0507b74031799",
+      "decode_status": "ok",
+      "byte_size": 12262,
+      "video_samples": [
+        {
+          "frame_index": 0,
+          "time_s": 0.0,
+          "dhash": "81715f41454b4b45"
+        },
+        {
+          "frame_index": 5,
+          "time_s": 0.5,
+          "dhash": "81715f4141445443"
+        },
+        {
+          "frame_index": 10,
+          "time_s": 1.0,
+          "dhash": "81715f4145595947"
+        },
+        {
+          "frame_index": 15,
+          "time_s": 1.5,
+          "dhash": "81715f414d33714d"
+        },
+        {
+          "frame_index": 20,
+          "time_s": 2.0,
+          "dhash": "81717f415d656519"
+        },
+        {
+          "frame_index": 25,
+          "time_s": 2.5,
+          "dhash": "81715f4175d5d521"
+        }
+      ],
+      "decoded_frames": 30,
+      "declared_frames": 30,
+      "duration_s": 3.0,
+      "fps": 10.0,
+      "timestamp_method": [
+        "opencv_pos_msec"
+      ],
+      "width": 160,
+      "height": 120,
+      "thumbnail": "evidence/943244839274613d3a3c68be.jpg"
+    },
+    {
+      "asset_id": "v0_reencoded",
+      "path": "media/v0_reencoded.mp4",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "video",
+      "text": "",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:reencoded",
+      "normalized_text": "",
+      "normalized_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_ngrams": [],
+      "sha256": "d4ad7f2f79e256697772f53ac9a3791848bf1a41553b8869422ed1a8c573b5d9",
+      "decode_status": "ok",
+      "byte_size": 12180,
+      "video_samples": [
+        {
+          "frame_index": 0,
+          "time_s": 0.0,
+          "dhash": "81715f41454b4b45"
+        },
+        {
+          "frame_index": 5,
+          "time_s": 0.5,
+          "dhash": "81715f4141444453"
+        },
+        {
+          "frame_index": 10,
+          "time_s": 1.0,
+          "dhash": "81715f4145595947"
+        },
+        {
+          "frame_index": 15,
+          "time_s": 1.5,
+          "dhash": "81715f414d33714d"
+        },
+        {
+          "frame_index": 20,
+          "time_s": 2.0,
+          "dhash": "81717f415d656519"
+        },
+        {
+          "frame_index": 25,
+          "time_s": 2.5,
+          "dhash": "81715f4175d5d125"
+        }
+      ],
+      "decoded_frames": 30,
+      "declared_frames": 30,
+      "duration_s": 3.0,
+      "fps": 10.0,
+      "timestamp_method": [
+        "opencv_pos_msec"
+      ],
+      "width": 160,
+      "height": 120,
+      "thumbnail": "evidence/a324bbbabd19473808a77d00.jpg"
+    },
+    {
+      "asset_id": "v0_reversed",
+      "path": "media/v0_reversed.mp4",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "video",
+      "text": "",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:reversed",
+      "normalized_text": "",
+      "normalized_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_ngrams": [],
+      "sha256": "39423a99692bbc9fc11d5ec648184e1bfe95fabd380eac8e3d9cdcedb4af30f2",
+      "decode_status": "ok",
+      "byte_size": 12376,
+      "video_samples": [
+        {
+          "frame_index": 0,
+          "time_s": 0.0,
+          "dhash": "81715f4145959561"
+        },
+        {
+          "frame_index": 5,
+          "time_s": 0.5,
+          "dhash": "81715f4175494931"
+        },
+        {
+          "frame_index": 10,
+          "time_s": 1.0,
+          "dhash": "81717f415d656559"
+        },
+        {
+          "frame_index": 15,
+          "time_s": 1.5,
+          "dhash": "81715f414d53534d"
+        },
+        {
+          "frame_index": 20,
+          "time_s": 2.0,
+          "dhash": "81715f4145494957"
+        },
+        {
+          "frame_index": 25,
+          "time_s": 2.5,
+          "dhash": "81715f4141545449"
+        }
+      ],
+      "decoded_frames": 30,
+      "declared_frames": 30,
+      "duration_s": 3.0,
+      "fps": 10.0,
+      "timestamp_method": [
+        "opencv_pos_msec"
+      ],
+      "width": 160,
+      "height": 120,
+      "thumbnail": "evidence/dbffa5c4e1805642b1da2145.jpg"
+    },
+    {
+      "asset_id": "v1_original",
+      "path": "media/v1_original.mp4",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "video",
+      "text": "",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "",
+      "normalized_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_ngrams": [],
+      "sha256": "5574b5e6da0a8923c5de0a93d51a00b3681ee2b840652042c9ebd4a6b716e809",
+      "decode_status": "ok",
+      "byte_size": 12177,
+      "video_samples": [
+        {
+          "frame_index": 0,
+          "time_s": 0.0,
+          "dhash": "0d417d454b4b4541"
+        },
+        {
+          "frame_index": 5,
+          "time_s": 0.5,
+          "dhash": "0d417d4144444345"
+        },
+        {
+          "frame_index": 10,
+          "time_s": 1.0,
+          "dhash": "0d417d4759594549"
+        },
+        {
+          "frame_index": 15,
+          "time_s": 1.5,
+          "dhash": "0d417d4d31714d71"
+        },
+        {
+          "frame_index": 20,
+          "time_s": 2.0,
+          "dhash": "0d417d5d65655d61"
+        },
+        {
+          "frame_index": 25,
+          "time_s": 2.5,
+          "dhash": "0d417d45d5d52541"
+        }
+      ],
+      "decoded_frames": 30,
+      "declared_frames": 30,
+      "duration_s": 3.0,
+      "fps": 10.0,
+      "timestamp_method": [
+        "opencv_pos_msec"
+      ],
+      "width": 160,
+      "height": 120,
+      "thumbnail": "evidence/c10aa486deb1c2fadc9b4105.jpg"
+    },
+    {
+      "asset_id": "v1_reencoded",
+      "path": "media/v1_reencoded.mp4",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "video",
+      "text": "",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:reencoded",
+      "normalized_text": "",
+      "normalized_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_ngrams": [],
+      "sha256": "6706e301d78932364f31967302dfa6eb5e088ace6c98b555206ea3feac9d2636",
+      "decode_status": "ok",
+      "byte_size": 12111,
+      "video_samples": [
+        {
+          "frame_index": 0,
+          "time_s": 0.0,
+          "dhash": "0d417d414b4b4545"
+        },
+        {
+          "frame_index": 5,
+          "time_s": 0.5,
+          "dhash": "0d417f4144444345"
+        },
+        {
+          "frame_index": 10,
+          "time_s": 1.0,
+          "dhash": "0d417d4559594559"
+        },
+        {
+          "frame_index": 15,
+          "time_s": 1.5,
+          "dhash": "0d417d4d31714d51"
+        },
+        {
+          "frame_index": 20,
+          "time_s": 2.0,
+          "dhash": "0d417d5d65655965"
+        },
+        {
+          "frame_index": 25,
+          "time_s": 2.5,
+          "dhash": "0d417d45d5d52545"
+        }
+      ],
+      "decoded_frames": 30,
+      "declared_frames": 30,
+      "duration_s": 3.0,
+      "fps": 10.0,
+      "timestamp_method": [
+        "opencv_pos_msec"
+      ],
+      "width": 160,
+      "height": 120,
+      "thumbnail": "evidence/6f0aa83e2061879fdc9ce7f8.jpg"
+    },
+    {
+      "asset_id": "v1_reversed",
+      "path": "media/v1_reversed.mp4",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "video",
+      "text": "",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:reversed",
+      "normalized_text": "",
+      "normalized_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_ngrams": [],
+      "sha256": "0346e0e379f517bdc51c20835e24697571af64b24383228156ea1122a30cab8e",
+      "decode_status": "ok",
+      "byte_size": 12320,
+      "video_samples": [
+        {
+          "frame_index": 0,
+          "time_s": 0.0,
+          "dhash": "0d417d4595954501"
+        },
+        {
+          "frame_index": 5,
+          "time_s": 0.5,
+          "dhash": "0d417d55494d3541"
+        },
+        {
+          "frame_index": 10,
+          "time_s": 1.0,
+          "dhash": "0d417d4d65655961"
+        },
+        {
+          "frame_index": 15,
+          "time_s": 1.5,
+          "dhash": "0d417d4d53534d51"
+        },
+        {
+          "frame_index": 20,
+          "time_s": 2.0,
+          "dhash": "0d417d4769495749"
+        },
+        {
+          "frame_index": 25,
+          "time_s": 2.5,
+          "dhash": "0d417d4154544945"
+        }
+      ],
+      "decoded_frames": 30,
+      "declared_frames": 30,
+      "duration_s": 3.0,
+      "fps": 10.0,
+      "timestamp_method": [
+        "opencv_pos_msec"
+      ],
+      "width": 160,
+      "height": 120,
+      "thumbnail": "evidence/ae07a2ac0372c50882c44145.jpg"
+    },
+    {
+      "asset_id": "v2_original",
+      "path": "media/v2_original.mp4",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "video",
+      "text": "",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "",
+      "normalized_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_ngrams": [],
+      "sha256": "664df773076536389e9d6e0614bffb2a14a1137ab40c1dff292fbb87e9563db2",
+      "decode_status": "ok",
+      "byte_size": 16404,
+      "video_samples": [
+        {
+          "frame_index": 0,
+          "time_s": 0.0,
+          "dhash": "7d41717a43454541"
+        },
+        {
+          "frame_index": 5,
+          "time_s": 0.5,
+          "dhash": "7d41717c45434541"
+        },
+        {
+          "frame_index": 10,
+          "time_s": 1.0,
+          "dhash": "7d41615959454941"
+        },
+        {
+          "frame_index": 15,
+          "time_s": 1.5,
+          "dhash": "7d414933714d5141"
+        },
+        {
+          "frame_index": 20,
+          "time_s": 2.0,
+          "dhash": "7d417167651d4541"
+        },
+        {
+          "frame_index": 25,
+          "time_s": 2.5,
+          "dhash": "7d4171dfd1254541"
+        }
+      ],
+      "decoded_frames": 30,
+      "declared_frames": 30,
+      "duration_s": 3.0,
+      "fps": 10.0,
+      "timestamp_method": [
+        "opencv_pos_msec"
+      ],
+      "width": 160,
+      "height": 120,
+      "thumbnail": "evidence/50dad208cfcaf91aa6e4e775.jpg"
+    },
+    {
+      "asset_id": "v2_reencoded",
+      "path": "media/v2_reencoded.mp4",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "video",
+      "text": "",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:reencoded",
+      "normalized_text": "",
+      "normalized_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_ngrams": [],
+      "sha256": "a203f95ff64f110e0db3902da15db9d9a9260c7be9c4c6df40a160b39f28c78e",
+      "decode_status": "ok",
+      "byte_size": 16214,
+      "video_samples": [
+        {
+          "frame_index": 0,
+          "time_s": 0.0,
+          "dhash": "7d01717a43454545"
+        },
+        {
+          "frame_index": 5,
+          "time_s": 0.5,
+          "dhash": "7d01717c45434545"
+        },
+        {
+          "frame_index": 10,
+          "time_s": 1.0,
+          "dhash": "7d01615959454945"
+        },
+        {
+          "frame_index": 15,
+          "time_s": 1.5,
+          "dhash": "7d416933714d5145"
+        },
+        {
+          "frame_index": 20,
+          "time_s": 2.0,
+          "dhash": "7d417167611d6545"
+        },
+        {
+          "frame_index": 25,
+          "time_s": 2.5,
+          "dhash": "7d0171df51254545"
+        }
+      ],
+      "decoded_frames": 30,
+      "declared_frames": 30,
+      "duration_s": 3.0,
+      "fps": 10.0,
+      "timestamp_method": [
+        "opencv_pos_msec"
+      ],
+      "width": 160,
+      "height": 120,
+      "thumbnail": "evidence/bad4bb222fd2038a15eaf7c3.jpg"
+    },
+    {
+      "asset_id": "v2_reversed",
+      "path": "media/v2_reversed.mp4",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "video",
+      "text": "",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:reversed",
+      "normalized_text": "",
+      "normalized_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_ngrams": [],
+      "sha256": "014fec407744296e9f5c1cafa16e10ddc245e2054a5d7e99dceebd759635e9d8",
+      "decode_status": "ok",
+      "byte_size": 15951,
+      "video_samples": [
+        {
+          "frame_index": 0,
+          "time_s": 0.0,
+          "dhash": "7d41719f81454541"
+        },
+        {
+          "frame_index": 5,
+          "time_s": 0.5,
+          "dhash": "7d41714f49354541"
+        },
+        {
+          "frame_index": 10,
+          "time_s": 1.0,
+          "dhash": "7d41596765596541"
+        },
+        {
+          "frame_index": 15,
+          "time_s": 1.5,
+          "dhash": "7d416153534d5141"
+        },
+        {
+          "frame_index": 20,
+          "time_s": 2.0,
+          "dhash": "7d41716949474941"
+        },
+        {
+          "frame_index": 25,
+          "time_s": 2.5,
+          "dhash": "7d41717444494541"
+        }
+      ],
+      "decoded_frames": 30,
+      "declared_frames": 30,
+      "duration_s": 3.0,
+      "fps": 10.0,
+      "timestamp_method": [
+        "opencv_pos_msec"
+      ],
+      "width": 160,
+      "height": 120,
+      "thumbnail": "evidence/7426a19e0bed8ddd9fd4e33c.jpg"
+    },
+    {
+      "asset_id": "v3_original",
+      "path": "media/v3_original.mp4",
+      "split": "train",
+      "source_group": "unknown",
+      "media_type": "video",
+      "text": "",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:original",
+      "normalized_text": "",
+      "normalized_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_ngrams": [],
+      "sha256": "e91333c81c60323fdafdf1f837a861b2f3a399238b425d44ee62dfb6d3af29c1",
+      "decode_status": "ok",
+      "byte_size": 21741,
+      "video_samples": [
+        {
+          "frame_index": 0,
+          "time_s": 0.0,
+          "dhash": "414d437e45454541"
+        },
+        {
+          "frame_index": 5,
+          "time_s": 0.5,
+          "dhash": "414d447c43454541"
+        },
+        {
+          "frame_index": 10,
+          "time_s": 1.0,
+          "dhash": "454d497947494541"
+        },
+        {
+          "frame_index": 15,
+          "time_s": 1.5,
+          "dhash": "415571714d514541"
+        },
+        {
+          "frame_index": 20,
+          "time_s": 2.0,
+          "dhash": "514d616d15454541"
+        },
+        {
+          "frame_index": 25,
+          "time_s": 2.5,
+          "dhash": "615dc15d25454541"
+        }
+      ],
+      "decoded_frames": 30,
+      "declared_frames": 30,
+      "duration_s": 3.0,
+      "fps": 10.0,
+      "timestamp_method": [
+        "opencv_pos_msec"
+      ],
+      "width": 160,
+      "height": 120,
+      "thumbnail": "evidence/99a933a07c4d201ad453962d.jpg"
+    },
+    {
+      "asset_id": "v3_reencoded",
+      "path": "media/v3_reencoded.mp4",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "video",
+      "text": "",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:reencoded",
+      "normalized_text": "",
+      "normalized_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_ngrams": [],
+      "sha256": "7b4ee479f5bcc842e837d0e4b0ef0416e6ac7cccec240f83cb848468aba1d6be",
+      "decode_status": "ok",
+      "byte_size": 21090,
+      "video_samples": [
+        {
+          "frame_index": 0,
+          "time_s": 0.0,
+          "dhash": "414d437e45454545"
+        },
+        {
+          "frame_index": 5,
+          "time_s": 0.5,
+          "dhash": "414d447c43454545"
+        },
+        {
+          "frame_index": 10,
+          "time_s": 1.0,
+          "dhash": "454d497947494545"
+        },
+        {
+          "frame_index": 15,
+          "time_s": 1.5,
+          "dhash": "415571714d554545"
+        },
+        {
+          "frame_index": 20,
+          "time_s": 2.0,
+          "dhash": "414d616d1d454545"
+        },
+        {
+          "frame_index": 25,
+          "time_s": 2.5,
+          "dhash": "615dc15d25454545"
+        }
+      ],
+      "decoded_frames": 30,
+      "declared_frames": 30,
+      "duration_s": 3.0,
+      "fps": 10.0,
+      "timestamp_method": [
+        "opencv_pos_msec"
+      ],
+      "width": 160,
+      "height": 120,
+      "thumbnail": "evidence/6394e64b21f35d8fd29fab07.jpg"
+    },
+    {
+      "asset_id": "v3_reversed",
+      "path": "media/v3_reversed.mp4",
+      "split": "test",
+      "source_group": "unknown",
+      "media_type": "video",
+      "text": "",
+      "license_note": "CC0-1.0 self-drawn synthetic fixture",
+      "parent_asset_id": "",
+      "provenance": "constructed_fixture:reversed",
+      "normalized_text": "",
+      "normalized_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_ngrams": [],
+      "sha256": "ca2185be9e49c9f887a657beebb1a1af3c90ca40b8117af6b95f07596b05a9a0",
+      "decode_status": "ok",
+      "byte_size": 21923,
+      "video_samples": [
+        {
+          "frame_index": 0,
+          "time_s": 0.0,
+          "dhash": "414d81bd45454541"
+        },
+        {
+          "frame_index": 5,
+          "time_s": 0.5,
+          "dhash": "615dc14d25454541"
+        },
+        {
+          "frame_index": 10,
+          "time_s": 1.0,
+          "dhash": "414d61655d654541"
+        },
+        {
+          "frame_index": 15,
+          "time_s": 1.5,
+          "dhash": "415551734d514541"
+        },
+        {
+          "frame_index": 20,
+          "time_s": 2.0,
+          "dhash": "414d4979474d4541"
+        },
+        {
+          "frame_index": 25,
+          "time_s": 2.5,
+          "dhash": "415d447c41454541"
+        }
+      ],
+      "decoded_frames": 30,
+      "declared_frames": 30,
+      "duration_s": 3.0,
+      "fps": 10.0,
+      "timestamp_method": [
+        "opencv_pos_msec"
+      ],
+      "width": 160,
+      "height": 120,
+      "thumbnail": "evidence/be41e0696b3e8fff01ce5531.jpg"
+    }
+  ],
+  "candidate_edges": [],
+  "reviews": [],
+  "failure_ledger": [],
+  "warnings": [
+    "72 项来源未知；unknown 不合并成一个来源组",
+    "dHash/文本/有序帧匹配只产生候选；近重复链不生成两两确认标签。",
+    "阈值为预声明教学默认值，未在真实自然数据上校准。"
+  ],
+  "provenance": {
+    "operation": "validate",
+    "manifest_filename": "manifest.jsonl",
+    "pixel_policy": "EXIF transpose then RGBA; dimensions included; no resize for exact pixel hash"
+  },
+  "summary": {
+    "planned_assets": 150,
+    "audited_assets": 150,
+    "decode_failures": 0,
+    "coverage": 1.0,
+    "planned_split_counts": {
+      "train": 50,
+      "calibration": 46,
+      "test": 54
+    },
+    "eligible_split_counts": {
+      "train": 50,
+      "calibration": 46,
+      "test": 54
+    },
+    "all_pair_universe": 11175,
+    "decoded_pair_universe": 11175,
+    "cross_split_pair_universe": {
+      "calibration__test": 2484,
+      "calibration__train": 2300,
+      "test__train": 2700
+    },
+    "eligible_cross_split_pair_universe": {
+      "calibration__test": 2484,
+      "calibration__train": 2300,
+      "test__train": 2700
+    },
+    "text_eligible_assets": 138,
+    "candidate_pairs": 0,
+    "cross_split_candidate_pairs": 0,
+    "reviewed_pairs": 0,
+    "unresolved_candidate_pairs": 0,
+    "precision_on_adjudicated_candidates": null,
+    "precision_denominator": 0,
+    "review_origin_counts": {},
+    "distinct_reviews_conflicting_with_bytes_or_declaration": 0,
+    "confirmed_or_declared_edges": 0,
+    "confirmed_cross_split_edges": 0,
+    "confirmed_train_linked_test_assets": 0,
+    "eligible_test_assets": 54,
+    "test_asset_leakage_lower_bound": 0.0,
+    "confirmed_components": 150,
+    "cross_split_components": 0,
+    "max_component_size": 1,
+    "possible_components": 150
+  },
+  "confirmed_components": [
+    [
+      "f00_crop"
+    ],
+    [
+      "f00_jpeg"
+    ],
+    [
+      "f00_original"
+    ],
+    [
+      "f00_renamed"
+    ],
+    [
+      "f00_resize"
+    ],
+    [
+      "f01_crop"
+    ],
+    [
+      "f01_jpeg"
+    ],
+    [
+      "f01_original"
+    ],
+    [
+      "f01_renamed"
+    ],
+    [
+      "f01_resize"
+    ],
+    [
+      "f02_crop"
+    ],
+    [
+      "f02_jpeg"
+    ],
+    [
+      "f02_original"
+    ],
+    [
+      "f02_renamed"
+    ],
+    [
+      "f02_resize"
+    ],
+    [
+      "f03_crop"
+    ],
+    [
+      "f03_jpeg"
+    ],
+    [
+      "f03_original"
+    ],
+    [
+      "f03_renamed"
+    ],
+    [
+      "f03_resize"
+    ],
+    [
+      "f04_crop"
+    ],
+    [
+      "f04_jpeg"
+    ],
+    [
+      "f04_original"
+    ],
+    [
+      "f04_renamed"
+    ],
+    [
+      "f04_resize"
+    ],
+    [
+      "f05_crop"
+    ],
+    [
+      "f05_jpeg"
+    ],
+    [
+      "f05_original"
+    ],
+    [
+      "f05_renamed"
+    ],
+    [
+      "f05_resize"
+    ],
+    [
+      "f06_crop"
+    ],
+    [
+      "f06_jpeg"
+    ],
+    [
+      "f06_original"
+    ],
+    [
+      "f06_renamed"
+    ],
+    [
+      "f06_resize"
+    ],
+    [
+      "f07_crop"
+    ],
+    [
+      "f07_jpeg"
+    ],
+    [
+      "f07_original"
+    ],
+    [
+      "f07_renamed"
+    ],
+    [
+      "f07_resize"
+    ],
+    [
+      "f08_crop"
+    ],
+    [
+      "f08_jpeg"
+    ],
+    [
+      "f08_original"
+    ],
+    [
+      "f08_renamed"
+    ],
+    [
+      "f08_resize"
+    ],
+    [
+      "f09_crop"
+    ],
+    [
+      "f09_jpeg"
+    ],
+    [
+      "f09_original"
+    ],
+    [
+      "f09_renamed"
+    ],
+    [
+      "f09_resize"
+    ],
+    [
+      "f10_crop"
+    ],
+    [
+      "f10_jpeg"
+    ],
+    [
+      "f10_original"
+    ],
+    [
+      "f10_renamed"
+    ],
+    [
+      "f10_resize"
+    ],
+    [
+      "f11_crop"
+    ],
+    [
+      "f11_jpeg"
+    ],
+    [
+      "f11_original"
+    ],
+    [
+      "f11_renamed"
+    ],
+    [
+      "f11_resize"
+    ],
+    [
+      "f12_crop"
+    ],
+    [
+      "f12_jpeg"
+    ],
+    [
+      "f12_original"
+    ],
+    [
+      "f12_renamed"
+    ],
+    [
+      "f12_resize"
+    ],
+    [
+      "f13_crop"
+    ],
+    [
+      "f13_jpeg"
+    ],
+    [
+      "f13_original"
+    ],
+    [
+      "f13_renamed"
+    ],
+    [
+      "f13_resize"
+    ],
+    [
+      "f14_crop"
+    ],
+    [
+      "f14_jpeg"
+    ],
+    [
+      "f14_original"
+    ],
+    [
+      "f14_renamed"
+    ],
+    [
+      "f14_resize"
+    ],
+    [
+      "f15_crop"
+    ],
+    [
+      "f15_jpeg"
+    ],
+    [
+      "f15_original"
+    ],
+    [
+      "f15_renamed"
+    ],
+    [
+      "f15_resize"
+    ],
+    [
+      "f16_crop"
+    ],
+    [
+      "f16_jpeg"
+    ],
+    [
+      "f16_original"
+    ],
+    [
+      "f16_renamed"
+    ],
+    [
+      "f16_resize"
+    ],
+    [
+      "f17_crop"
+    ],
+    [
+      "f17_jpeg"
+    ],
+    [
+      "f17_original"
+    ],
+    [
+      "f17_renamed"
+    ],
+    [
+      "f17_resize"
+    ],
+    [
+      "f18_crop"
+    ],
+    [
+      "f18_jpeg"
+    ],
+    [
+      "f18_original"
+    ],
+    [
+      "f18_renamed"
+    ],
+    [
+      "f18_resize"
+    ],
+    [
+      "f19_crop"
+    ],
+    [
+      "f19_jpeg"
+    ],
+    [
+      "f19_original"
+    ],
+    [
+      "f19_renamed"
+    ],
+    [
+      "f19_resize"
+    ],
+    [
+      "f20_crop"
+    ],
+    [
+      "f20_jpeg"
+    ],
+    [
+      "f20_original"
+    ],
+    [
+      "f20_renamed"
+    ],
+    [
+      "f20_resize"
+    ],
+    [
+      "f21_crop"
+    ],
+    [
+      "f21_jpeg"
+    ],
+    [
+      "f21_original"
+    ],
+    [
+      "f21_renamed"
+    ],
+    [
+      "f21_resize"
+    ],
+    [
+      "f22_crop"
+    ],
+    [
+      "f22_jpeg"
+    ],
+    [
+      "f22_original"
+    ],
+    [
+      "f22_renamed"
+    ],
+    [
+      "f22_resize"
+    ],
+    [
+      "f23_crop"
+    ],
+    [
+      "f23_jpeg"
+    ],
+    [
+      "f23_original"
+    ],
+    [
+      "f23_renamed"
+    ],
+    [
+      "f23_resize"
+    ],
+    [
+      "hard_00"
+    ],
+    [
+      "hard_01"
+    ],
+    [
+      "hard_02"
+    ],
+    [
+      "hard_03"
+    ],
+    [
+      "hard_04"
+    ],
+    [
+      "hard_05"
+    ],
+    [
+      "hard_06"
+    ],
+    [
+      "hard_07"
+    ],
+    [
+      "hard_08"
+    ],
+    [
+      "hard_09"
+    ],
+    [
+      "hard_10"
+    ],
+    [
+      "hard_11"
+    ],
+    [
+      "hard_12"
+    ],
+    [
+      "hard_13"
+    ],
+    [
+      "hard_14"
+    ],
+    [
+      "hard_15"
+    ],
+    [
+      "hard_16"
+    ],
+    [
+      "hard_17"
+    ],
+    [
+      "v0_original"
+    ],
+    [
+      "v0_reencoded"
+    ],
+    [
+      "v0_reversed"
+    ],
+    [
+      "v1_original"
+    ],
+    [
+      "v1_reencoded"
+    ],
+    [
+      "v1_reversed"
+    ],
+    [
+      "v2_original"
+    ],
+    [
+      "v2_reencoded"
+    ],
+    [
+      "v2_reversed"
+    ],
+    [
+      "v3_original"
+    ],
+    [
+      "v3_reencoded"
+    ],
+    [
+      "v3_reversed"
+    ]
+  ],
+  "possible_components": [
+    [
+      "f00_crop"
+    ],
+    [
+      "f00_jpeg"
+    ],
+    [
+      "f00_original"
+    ],
+    [
+      "f00_renamed"
+    ],
+    [
+      "f00_resize"
+    ],
+    [
+      "f01_crop"
+    ],
+    [
+      "f01_jpeg"
+    ],
+    [
+      "f01_original"
+    ],
+    [
+      "f01_renamed"
+    ],
+    [
+      "f01_resize"
+    ],
+    [
+      "f02_crop"
+    ],
+    [
+      "f02_jpeg"
+    ],
+    [
+      "f02_original"
+    ],
+    [
+      "f02_renamed"
+    ],
+    [
+      "f02_resize"
+    ],
+    [
+      "f03_crop"
+    ],
+    [
+      "f03_jpeg"
+    ],
+    [
+      "f03_original"
+    ],
+    [
+      "f03_renamed"
+    ],
+    [
+      "f03_resize"
+    ],
+    [
+      "f04_crop"
+    ],
+    [
+      "f04_jpeg"
+    ],
+    [
+      "f04_original"
+    ],
+    [
+      "f04_renamed"
+    ],
+    [
+      "f04_resize"
+    ],
+    [
+      "f05_crop"
+    ],
+    [
+      "f05_jpeg"
+    ],
+    [
+      "f05_original"
+    ],
+    [
+      "f05_renamed"
+    ],
+    [
+      "f05_resize"
+    ],
+    [
+      "f06_crop"
+    ],
+    [
+      "f06_jpeg"
+    ],
+    [
+      "f06_original"
+    ],
+    [
+      "f06_renamed"
+    ],
+    [
+      "f06_resize"
+    ],
+    [
+      "f07_crop"
+    ],
+    [
+      "f07_jpeg"
+    ],
+    [
+      "f07_original"
+    ],
+    [
+      "f07_renamed"
+    ],
+    [
+      "f07_resize"
+    ],
+    [
+      "f08_crop"
+    ],
+    [
+      "f08_jpeg"
+    ],
+    [
+      "f08_original"
+    ],
+    [
+      "f08_renamed"
+    ],
+    [
+      "f08_resize"
+    ],
+    [
+      "f09_crop"
+    ],
+    [
+      "f09_jpeg"
+    ],
+    [
+      "f09_original"
+    ],
+    [
+      "f09_renamed"
+    ],
+    [
+      "f09_resize"
+    ],
+    [
+      "f10_crop"
+    ],
+    [
+      "f10_jpeg"
+    ],
+    [
+      "f10_original"
+    ],
+    [
+      "f10_renamed"
+    ],
+    [
+      "f10_resize"
+    ],
+    [
+      "f11_crop"
+    ],
+    [
+      "f11_jpeg"
+    ],
+    [
+      "f11_original"
+    ],
+    [
+      "f11_renamed"
+    ],
+    [
+      "f11_resize"
+    ],
+    [
+      "f12_crop"
+    ],
+    [
+      "f12_jpeg"
+    ],
+    [
+      "f12_original"
+    ],
+    [
+      "f12_renamed"
+    ],
+    [
+      "f12_resize"
+    ],
+    [
+      "f13_crop"
+    ],
+    [
+      "f13_jpeg"
+    ],
+    [
+      "f13_original"
+    ],
+    [
+      "f13_renamed"
+    ],
+    [
+      "f13_resize"
+    ],
+    [
+      "f14_crop"
+    ],
+    [
+      "f14_jpeg"
+    ],
+    [
+      "f14_original"
+    ],
+    [
+      "f14_renamed"
+    ],
+    [
+      "f14_resize"
+    ],
+    [
+      "f15_crop"
+    ],
+    [
+      "f15_jpeg"
+    ],
+    [
+      "f15_original"
+    ],
+    [
+      "f15_renamed"
+    ],
+    [
+      "f15_resize"
+    ],
+    [
+      "f16_crop"
+    ],
+    [
+      "f16_jpeg"
+    ],
+    [
+      "f16_original"
+    ],
+    [
+      "f16_renamed"
+    ],
+    [
+      "f16_resize"
+    ],
+    [
+      "f17_crop"
+    ],
+    [
+      "f17_jpeg"
+    ],
+    [
+      "f17_original"
+    ],
+    [
+      "f17_renamed"
+    ],
+    [
+      "f17_resize"
+    ],
+    [
+      "f18_crop"
+    ],
+    [
+      "f18_jpeg"
+    ],
+    [
+      "f18_original"
+    ],
+    [
+      "f18_renamed"
+    ],
+    [
+      "f18_resize"
+    ],
+    [
+      "f19_crop"
+    ],
+    [
+      "f19_jpeg"
+    ],
+    [
+      "f19_original"
+    ],
+    [
+      "f19_renamed"
+    ],
+    [
+      "f19_resize"
+    ],
+    [
+      "f20_crop"
+    ],
+    [
+      "f20_jpeg"
+    ],
+    [
+      "f20_original"
+    ],
+    [
+      "f20_renamed"
+    ],
+    [
+      "f20_resize"
+    ],
+    [
+      "f21_crop"
+    ],
+    [
+      "f21_jpeg"
+    ],
+    [
+      "f21_original"
+    ],
+    [
+      "f21_renamed"
+    ],
+    [
+      "f21_resize"
+    ],
+    [
+      "f22_crop"
+    ],
+    [
+      "f22_jpeg"
+    ],
+    [
+      "f22_original"
+    ],
+    [
+      "f22_renamed"
+    ],
+    [
+      "f22_resize"
+    ],
+    [
+      "f23_crop"
+    ],
+    [
+      "f23_jpeg"
+    ],
+    [
+      "f23_original"
+    ],
+    [
+      "f23_renamed"
+    ],
+    [
+      "f23_resize"
+    ],
+    [
+      "hard_00"
+    ],
+    [
+      "hard_01"
+    ],
+    [
+      "hard_02"
+    ],
+    [
+      "hard_03"
+    ],
+    [
+      "hard_04"
+    ],
+    [
+      "hard_05"
+    ],
+    [
+      "hard_06"
+    ],
+    [
+      "hard_07"
+    ],
+    [
+      "hard_08"
+    ],
+    [
+      "hard_09"
+    ],
+    [
+      "hard_10"
+    ],
+    [
+      "hard_11"
+    ],
+    [
+      "hard_12"
+    ],
+    [
+      "hard_13"
+    ],
+    [
+      "hard_14"
+    ],
+    [
+      "hard_15"
+    ],
+    [
+      "hard_16"
+    ],
+    [
+      "hard_17"
+    ],
+    [
+      "v0_original"
+    ],
+    [
+      "v0_reencoded"
+    ],
+    [
+      "v0_reversed"
+    ],
+    [
+      "v1_original"
+    ],
+    [
+      "v1_reencoded"
+    ],
+    [
+      "v1_reversed"
+    ],
+    [
+      "v2_original"
+    ],
+    [
+      "v2_reencoded"
+    ],
+    [
+      "v2_reversed"
+    ],
+    [
+      "v3_original"
+    ],
+    [
+      "v3_reencoded"
+    ],
+    [
+      "v3_reversed"
+    ]
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "2.0",
+  "project_id": "dataset-leakage-audit",
+  "operation": "propose-split",
+  "status": "completed",
+  "quality": {
+    "verdict": "confirmed_or_declared_cross_split",
+    "meaning": "扫描执行状态与来源风险分开；未发现不证明独立性"
+  },
+  "input_digest": "3ccd857b78c3a7fe0e591b2ae48703c77d83fc4cad057ef3b700723eebf6fc6f",
+  "manifest_digest": "9b85b2a66afbd8edf371aafc222a0fcaf24b3cad33c7fc9874d78177f90ca363",
+  "config_digest": "7d6dab0a1dab91047b501cc2a4c392cdca28f80df3799613d774e58d232318a7",
+  "evaluator_version": "2.0.0",
+  "artifacts": [
+    {
+      "path": "split_proposal.csv",
+      "sha256": "b5dde14d7a059ddb09a2c6a3b6da95f3fd8908673a7df483803ce6d37f82ac2e",
+      "type": "csv"
+    },
+    {
+      "path": "split_proposal.json",
+      "sha256": "d976d6ec4f98a5f91a03276f48a8f06ea81b7fa857974d54c3c3b9bdb5c08888",
+      "type": "json"
+    }
+  ],
+  "counts": {
+    "planned_assets": 150,
+    "audited_assets": 150,
+    "decode_failures": 0,
+    "coverage": 1.0,
+    "planned_split_counts": {
+      "train": 50,
+      "calibration": 46,
+      "test": 54
+    },
+    "eligible_split_counts": {
+      "train": 50,
+      "calibration": 46,
+      "test": 54
+    },
+    "all_pair_universe": 11175,
+    "decoded_pair_universe": 11175,
+    "cross_split_pair_universe": {
+      "calibration__test": 2484,
+      "calibration__train": 2300,
+      "test__train": 2700
+    },
+    "eligible_cross_split_pair_universe": {
+      "calibration__test": 2484,
+      "calibration__train": 2300,
+      "test__train": 2700
+    },
+    "text_eligible_assets": 138,
+    "candidate_pairs": 397,
+    "cross_split_candidate_pairs": 304,
+    "reviewed_pairs": 2,
+    "unresolved_candidate_pairs": 395,
+    "precision_on_adjudicated_candidates": 0.5,
+    "precision_denominator": 2,
+    "review_origin_counts": {
+      "construction_truth_fixture": 2
+    },
+    "distinct_reviews_conflicting_with_bytes_or_declaration": 0,
+    "confirmed_or_declared_edges": 132,
+    "confirmed_cross_split_edges": 108,
+    "confirmed_train_linked_test_assets": 24,
+    "eligible_test_assets": 54,
+    "test_asset_leakage_lower_bound": 0.4444444444444444,
+    "confirmed_components": 90,
+    "cross_split_components": 24,
+    "max_component_size": 5,
+    "possible_components": 33
+  },
+  "warnings": [
+    "72 项来源未知；unknown 不合并成一个来源组",
+    "dHash/文本/有序帧匹配只产生候选；近重复链不生成两两确认标签。",
+    "阈值为预声明教学默认值，未在真实自然数据上校准。"
+  ],
+  "elapsed_seconds": 0.12632,
+  "created_utc": "2026-10-23T06:59:38.553015+00:00"
+}

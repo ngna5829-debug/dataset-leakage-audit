@@ -1,0 +1,1382 @@
+{
+  "schema_version": "2.0",
+  "input_digest": "3ccd857b78c3a7fe0e591b2ae48703c77d83fc4cad057ef3b700723eebf6fc6f",
+  "config_digest": "7d6dab0a1dab91047b501cc2a4c392cdca28f80df3799613d774e58d232318a7",
+  "audit_sha256": "90ba3d99616f247e0150ffeda6fcb92d9e255730339b7f3c08f32e1ca5b603e8",
+  "seed": 17,
+  "target_ratios": {
+    "train": 0.7,
+    "calibration": 0.15,
+    "test": 0.15
+  },
+  "actual_asset_counts": {
+    "train": 105,
+    "calibration": 23,
+    "test": 22
+  },
+  "actual_asset_ratios": {
+    "train": 0.7,
+    "calibration": 0.15333333333333332,
+    "test": 0.14666666666666667
+  },
+  "actual_group_counts": {
+    "train": 45,
+    "calibration": 23,
+    "test": 22
+  },
+  "group_count": 90,
+  "changed_assets": 104,
+  "rows": [
+    {
+      "asset_id": "f00_original",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_3221a90121c3698c",
+      "changed": false,
+      "evidence": "declared_source_group;exact_bytes;review_related",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f00_renamed",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_3221a90121c3698c",
+      "changed": true,
+      "evidence": "declared_source_group;exact_bytes;review_related",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f00_jpeg",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_3221a90121c3698c",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f00_resize",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_3221a90121c3698c",
+      "changed": false,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f00_crop",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_3221a90121c3698c",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f01_original",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_3e4e34797fd8336e",
+      "changed": true,
+      "evidence": "declared_source_group;exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f01_renamed",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_3e4e34797fd8336e",
+      "changed": true,
+      "evidence": "declared_source_group;exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f01_jpeg",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_3e4e34797fd8336e",
+      "changed": false,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f01_resize",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_3e4e34797fd8336e",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f01_crop",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_3e4e34797fd8336e",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f02_original",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_0cf01bff598a1851",
+      "changed": true,
+      "evidence": "declared_source_group;exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f02_renamed",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_0cf01bff598a1851",
+      "changed": false,
+      "evidence": "declared_source_group;exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f02_jpeg",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_0cf01bff598a1851",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f02_resize",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_0cf01bff598a1851",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f02_crop",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_0cf01bff598a1851",
+      "changed": false,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f03_original",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_e19ace81b436c2b3",
+      "changed": false,
+      "evidence": "declared_source_group;exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f03_renamed",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_e19ace81b436c2b3",
+      "changed": true,
+      "evidence": "declared_source_group;exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f03_jpeg",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_e19ace81b436c2b3",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f03_resize",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_e19ace81b436c2b3",
+      "changed": false,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f03_crop",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_e19ace81b436c2b3",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f04_original",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_99a3694e78a5cd1f",
+      "changed": true,
+      "evidence": "declared_source_group;exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f04_renamed",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_99a3694e78a5cd1f",
+      "changed": true,
+      "evidence": "declared_source_group;exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f04_jpeg",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_99a3694e78a5cd1f",
+      "changed": false,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f04_resize",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_99a3694e78a5cd1f",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f04_crop",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_99a3694e78a5cd1f",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f05_original",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_decae6517eb11091",
+      "changed": true,
+      "evidence": "declared_source_group;exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f05_renamed",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_decae6517eb11091",
+      "changed": false,
+      "evidence": "declared_source_group;exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f05_jpeg",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_decae6517eb11091",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f05_resize",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_decae6517eb11091",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f05_crop",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_decae6517eb11091",
+      "changed": false,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f06_original",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_6ecdde0be77823ce",
+      "changed": false,
+      "evidence": "declared_source_group;exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f06_renamed",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_6ecdde0be77823ce",
+      "changed": true,
+      "evidence": "declared_source_group;exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f06_jpeg",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_6ecdde0be77823ce",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f06_resize",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_6ecdde0be77823ce",
+      "changed": false,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f06_crop",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_6ecdde0be77823ce",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f07_original",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_64c9f3c64f96942d",
+      "changed": true,
+      "evidence": "declared_source_group;exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f07_renamed",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_64c9f3c64f96942d",
+      "changed": true,
+      "evidence": "declared_source_group;exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f07_jpeg",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_64c9f3c64f96942d",
+      "changed": false,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f07_resize",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_64c9f3c64f96942d",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f07_crop",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_64c9f3c64f96942d",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f08_original",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_ad202aedc4359858",
+      "changed": true,
+      "evidence": "declared_source_group;exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f08_renamed",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_ad202aedc4359858",
+      "changed": false,
+      "evidence": "declared_source_group;exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f08_jpeg",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_ad202aedc4359858",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f08_resize",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_ad202aedc4359858",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f08_crop",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_ad202aedc4359858",
+      "changed": false,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f09_original",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_bb5e020c5b2aca19",
+      "changed": false,
+      "evidence": "declared_source_group;exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f09_renamed",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_bb5e020c5b2aca19",
+      "changed": true,
+      "evidence": "declared_source_group;exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f09_jpeg",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_bb5e020c5b2aca19",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f09_resize",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_bb5e020c5b2aca19",
+      "changed": false,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f09_crop",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_bb5e020c5b2aca19",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f10_original",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_157d9220ad0c1ea3",
+      "changed": true,
+      "evidence": "declared_source_group;exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f10_renamed",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_157d9220ad0c1ea3",
+      "changed": true,
+      "evidence": "declared_source_group;exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f10_jpeg",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_157d9220ad0c1ea3",
+      "changed": false,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f10_resize",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_157d9220ad0c1ea3",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f10_crop",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_157d9220ad0c1ea3",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f11_original",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_d6895c0454541ce6",
+      "changed": true,
+      "evidence": "declared_source_group;exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f11_renamed",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_d6895c0454541ce6",
+      "changed": false,
+      "evidence": "declared_source_group;exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f11_jpeg",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_d6895c0454541ce6",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f11_resize",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_d6895c0454541ce6",
+      "changed": true,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f11_crop",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_d6895c0454541ce6",
+      "changed": false,
+      "evidence": "declared_source_group",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f12_original",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_fd8ac54f4047da6b",
+      "changed": false,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f12_renamed",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_fd8ac54f4047da6b",
+      "changed": true,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f12_jpeg",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_90d6f5c42049208c",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f12_resize",
+      "old_split": "train",
+      "proposed_split": "test",
+      "group_id": "group_2c01b562e868cedc",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f12_crop",
+      "old_split": "calibration",
+      "proposed_split": "test",
+      "group_id": "group_f98e09141710eff7",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f13_original",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_5b938abfde4fa899",
+      "changed": true,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f13_renamed",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_5b938abfde4fa899",
+      "changed": true,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f13_jpeg",
+      "old_split": "train",
+      "proposed_split": "test",
+      "group_id": "group_6ea5ced9fd5f9f14",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f13_resize",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_d7d432564617db19",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f13_crop",
+      "old_split": "test",
+      "proposed_split": "calibration",
+      "group_id": "group_cb8a70d5eeebec21",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f14_original",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_ccb4470bdbc454c6",
+      "changed": true,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f14_renamed",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_ccb4470bdbc454c6",
+      "changed": false,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f14_jpeg",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_e31b1f57cb7e36d9",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f14_resize",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_6f5addc1aed930b2",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f14_crop",
+      "old_split": "train",
+      "proposed_split": "test",
+      "group_id": "group_4e920b6a5b0bceb3",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f15_original",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_f8d7886a12bf06e5",
+      "changed": false,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f15_renamed",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_f8d7886a12bf06e5",
+      "changed": true,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f15_jpeg",
+      "old_split": "test",
+      "proposed_split": "calibration",
+      "group_id": "group_5a24cdbd163ca60e",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f15_resize",
+      "old_split": "train",
+      "proposed_split": "calibration",
+      "group_id": "group_d6b1cd132d84dffb",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f15_crop",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_27d375007bd38e3f",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f16_original",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_6c73a9825c8767c8",
+      "changed": true,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f16_renamed",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_6c73a9825c8767c8",
+      "changed": true,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f16_jpeg",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_8142a86db86ebc2f",
+      "changed": false,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f16_resize",
+      "old_split": "calibration",
+      "proposed_split": "test",
+      "group_id": "group_1090ecb9847843b3",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f16_crop",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_be1fd89fab7989e6",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f17_original",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_d0d3eedadcf78c28",
+      "changed": true,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f17_renamed",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_d0d3eedadcf78c28",
+      "changed": false,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f17_jpeg",
+      "old_split": "calibration",
+      "proposed_split": "calibration",
+      "group_id": "group_4055d9b7850c4da5",
+      "changed": false,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f17_resize",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_104aca93a55a9334",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f17_crop",
+      "old_split": "train",
+      "proposed_split": "calibration",
+      "group_id": "group_77e891e4f4367567",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f18_original",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_5d81990954df0c41",
+      "changed": false,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f18_renamed",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_5d81990954df0c41",
+      "changed": true,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f18_jpeg",
+      "old_split": "test",
+      "proposed_split": "test",
+      "group_id": "group_d0d7831442a04ad0",
+      "changed": false,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f18_resize",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_462f2f9fd256da41",
+      "changed": false,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f18_crop",
+      "old_split": "calibration",
+      "proposed_split": "calibration",
+      "group_id": "group_c7c6ae8717fb39d3",
+      "changed": false,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f19_original",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_39511dab62d6799f",
+      "changed": true,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f19_renamed",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_39511dab62d6799f",
+      "changed": true,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f19_jpeg",
+      "old_split": "train",
+      "proposed_split": "calibration",
+      "group_id": "group_96eb0762df5a10eb",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f19_resize",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_c95065ef1901d636",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f19_crop",
+      "old_split": "test",
+      "proposed_split": "test",
+      "group_id": "group_42469bb90c7ef30b",
+      "changed": false,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f20_original",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_1c7e2aab2f7777a5",
+      "changed": true,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f20_renamed",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_1c7e2aab2f7777a5",
+      "changed": false,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f20_jpeg",
+      "old_split": "calibration",
+      "proposed_split": "test",
+      "group_id": "group_b56d02cf24d95919",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f20_resize",
+      "old_split": "test",
+      "proposed_split": "test",
+      "group_id": "group_ebd879cff5f93782",
+      "changed": false,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f20_crop",
+      "old_split": "train",
+      "proposed_split": "test",
+      "group_id": "group_2bb754f7c9be992f",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f21_original",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_d72fbf8ba270bff6",
+      "changed": false,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f21_renamed",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_d72fbf8ba270bff6",
+      "changed": true,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f21_jpeg",
+      "old_split": "test",
+      "proposed_split": "calibration",
+      "group_id": "group_c3e3303c4ec53996",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f21_resize",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_ff3e6d65ee89628f",
+      "changed": false,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f21_crop",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_6821a369df847f12",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f22_original",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_0c33ade578d395d3",
+      "changed": true,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f22_renamed",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_0c33ade578d395d3",
+      "changed": true,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f22_jpeg",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_91947774af5171f2",
+      "changed": false,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f22_resize",
+      "old_split": "calibration",
+      "proposed_split": "calibration",
+      "group_id": "group_743783c475c5dde9",
+      "changed": false,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f22_crop",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_db70930022d3ea6a",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f23_original",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_e4b4b59638696018",
+      "changed": true,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f23_renamed",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_e4b4b59638696018",
+      "changed": false,
+      "evidence": "exact_bytes",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f23_jpeg",
+      "old_split": "calibration",
+      "proposed_split": "test",
+      "group_id": "group_4aefcde70bb99d04",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f23_resize",
+      "old_split": "test",
+      "proposed_split": "test",
+      "group_id": "group_e16526f3393d4873",
+      "changed": false,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "f23_crop",
+      "old_split": "train",
+      "proposed_split": "test",
+      "group_id": "group_7a7312f3ef63054a",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "hard_00",
+      "old_split": "train",
+      "proposed_split": "calibration",
+      "group_id": "group_7a165a7a4840668d",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "hard_01",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_86d33f8a0c78aca3",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "hard_02",
+      "old_split": "test",
+      "proposed_split": "calibration",
+      "group_id": "group_fc99d6e11060c0ca",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "hard_03",
+      "old_split": "train",
+      "proposed_split": "test",
+      "group_id": "group_768ba0f2f5cb7efd",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "hard_04",
+      "old_split": "calibration",
+      "proposed_split": "test",
+      "group_id": "group_e03d82fc9aae7886",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "hard_05",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_e5ab0ac415fe37c2",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "hard_06",
+      "old_split": "train",
+      "proposed_split": "calibration",
+      "group_id": "group_7e569b394199a78f",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "hard_07",
+      "old_split": "calibration",
+      "proposed_split": "train",
+      "group_id": "group_7e867b5438aee2b6",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "hard_08",
+      "old_split": "test",
+      "proposed_split": "test",
+      "group_id": "group_69a0ba440a6f1d39",
+      "changed": false,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "hard_09",
+      "old_split": "train",
+      "proposed_split": "test",
+      "group_id": "group_485168862c9e876e",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "hard_10",
+      "old_split": "calibration",
+      "proposed_split": "test",
+      "group_id": "group_2c2637b7a20d0d77",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "hard_11",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_3d4cd6304ea8d361",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "hard_12",
+      "old_split": "train",
+      "proposed_split": "calibration",
+      "group_id": "group_4bc48bc300e81c37",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "hard_13",
+      "old_split": "calibration",
+      "proposed_split": "calibration",
+      "group_id": "group_9890864cfd9df789",
+      "changed": false,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "hard_14",
+      "old_split": "test",
+      "proposed_split": "calibration",
+      "group_id": "group_af3726b8389e66dc",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "hard_15",
+      "old_split": "train",
+      "proposed_split": "calibration",
+      "group_id": "group_b8d9937b86769af2",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "hard_16",
+      "old_split": "calibration",
+      "proposed_split": "calibration",
+      "group_id": "group_2769d3104abdb1a6",
+      "changed": false,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "hard_17",
+      "old_split": "test",
+      "proposed_split": "calibration",
+      "group_id": "group_3d060b29c6f07420",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "v0_original",
+      "old_split": "train",
+      "proposed_split": "test",
+      "group_id": "group_a0f97c8b0d78c069",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "v0_reencoded",
+      "old_split": "test",
+      "proposed_split": "calibration",
+      "group_id": "group_f423588d6dc82dd9",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "v0_reversed",
+      "old_split": "test",
+      "proposed_split": "test",
+      "group_id": "group_3f8b1b287e64d7ed",
+      "changed": false,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "v1_original",
+      "old_split": "train",
+      "proposed_split": "calibration",
+      "group_id": "group_a47e50d2b5032888",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "v1_reencoded",
+      "old_split": "test",
+      "proposed_split": "test",
+      "group_id": "group_25decacd1b7584ec",
+      "changed": false,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "v1_reversed",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_9a7f31506ce2c107",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "v2_original",
+      "old_split": "train",
+      "proposed_split": "calibration",
+      "group_id": "group_d2358efb43861d4f",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "v2_reencoded",
+      "old_split": "test",
+      "proposed_split": "train",
+      "group_id": "group_f80ab712b07fbb70",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "v2_reversed",
+      "old_split": "test",
+      "proposed_split": "calibration",
+      "group_id": "group_b2653c268e8c4b37",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "v3_original",
+      "old_split": "train",
+      "proposed_split": "train",
+      "group_id": "group_4cdc67ca610556a9",
+      "changed": false,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "v3_reencoded",
+      "old_split": "test",
+      "proposed_split": "calibration",
+      "group_id": "group_8fc5deeb33e9b14d",
+      "changed": true,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    },
+    {
+      "asset_id": "v3_reversed",
+      "old_split": "test",
+      "proposed_split": "test",
+      "group_id": "group_ca41135767c88606",
+      "changed": false,
+      "evidence": "singleton_no_confirmed_edge",
+      "status": "proposal_only"
+    }
+  ],
+  "limitations": "只约束已确认/精确字节/声明来源边；候选未全部复核。组内不保证两两重复；不保证类别平衡。"
+}

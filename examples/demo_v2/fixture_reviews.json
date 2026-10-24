@@ -1,0 +1,23 @@
+{
+  "schema_version": "2.0",
+  "manifest_digest": "9b85b2a66afbd8edf371aafc222a0fcaf24b3cad33c7fc9874d78177f90ca363",
+  "input_digest": "3ccd857b78c3a7fe0e591b2ae48703c77d83fc4cad057ef3b700723eebf6fc6f",
+  "config_digest": "7d6dab0a1dab91047b501cc2a4c392cdca28f80df3799613d774e58d232318a7",
+  "reviews": [
+    {
+      "pair_id": "d839ae8bce546120740fc56a",
+      "decision": "related",
+      "evidence": "构造脚本记录的同源变换；非真人评分",
+      "reviewer": "fixture_builder",
+      "origin": "construction_truth_fixture"
+    },
+    {
+      "pair_id": "a8375f26a3416212c947d233",
+      "decision": "distinct",
+      "evidence": "构造脚本记录的独立绘制反例；非真人评分",
+      "reviewer": "fixture_builder",
+      "origin": "construction_truth_fixture"
+    }
+  ],
+  "manual_pairs": []
+}
